@@ -78,7 +78,7 @@ export default function Memoriam() {
                 vision of Evolutionary Enlightenment — wedding the timeless
                 recognition of nondual Being to the evolutionary impulse that
                 drives the cosmos forward. He was a catalytic force, a spiritual
-                innovator, and a teacher who challenged countless seekers to
+                innovator, a teacher, and a husband who challenged countless seekers to
                 move beyond the comfort of established doctrines and embrace a
                 more dynamic, world-embracing understanding of awakening.
               </p>
