@@ -8,6 +8,7 @@ import { List, X } from "@phosphor-icons/react";
 const navLinks = [
   { label: "Teaching", href: "/#teaching" },
   { label: "Books", href: "/#books" },
+  { label: "Lineage", href: "/lineage" },
   { label: "Quotes", href: "/#quotes" },
   { label: "About", href: "/#about" },
 ];

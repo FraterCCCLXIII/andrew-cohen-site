@@ -11,10 +11,16 @@ export default function Footer() {
           </p>
         </div>
         <nav className="flex items-center gap-6">
-          {["Teaching", "Books", "Quotes", "About"].map((label) => (
+          {[
+            { label: "Teaching", href: "/#teaching" },
+            { label: "Books", href: "/#books" },
+            { label: "Lineage", href: "/lineage" },
+            { label: "Quotes", href: "/#quotes" },
+            { label: "About", href: "/#about" },
+          ].map(({ label, href }) => (
             <a
               key={label}
-              href={`/#${label.toLowerCase()}`}
+              href={href}
               className="text-xs text-muted hover:text-foreground transition-colors duration-200"
             >
               {label}
