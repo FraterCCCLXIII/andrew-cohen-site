@@ -20,10 +20,22 @@ Cohen met him in 1986: "It was then that I met a little-known teacher named H.W.
 But over time a difficult question emerged. Across a five-year period, Cohen became "gradually more and more confused by the discrepancies" between his teacher's realization and his conduct. This compelled him to confront questions that would shape the rest of his work: "What is the relationship between Love and Truth? What is the relationship between spiritual awakening and human conduct?" The honest pursuit of those questions led him to diverge from his teacher and to seek a teaching "far more comprehensive" than the one he had received.`,
   },
   {
-    title: "From Realization to Evolution",
-    body: `The lineage Cohen inherited is one of timeless realization — the nondual recognition, at the heart of Advaita, that there is only the Self. His distinctive contribution was to carry that realization forward into the domain of time and becoming.
+    title: "Ken Wilber and the Integral Vision",
+    body: `As Cohen's teaching matured, it was profoundly shaped by his engagement with the American philosopher Ken Wilber, the foremost architect of Integral theory. Where the nondual tradition had given Cohen the experience of liberation, Integral thought gave him a framework large enough to hold it — one that situates spiritual realization within the vast arc of cosmic, biological, and cultural evolution, integrating body, mind, soul, and Spirit with self, culture, and nature.
 
-Where his teachers pointed to the changeless ground of Being, Cohen came to insist that liberation is not the end of the path but a foundation for conscious participation in the evolution of consciousness itself. In this way his teaching of Evolutionary Enlightenment stands in continuity with the lineage of Ramana and Poonja, while extending it toward an evolutionary, future-facing vision.`,
+The two became close collaborators and friends, carrying on a sustained public exchange — the Guru and Pandit dialogues — that probed the frontier where enlightenment meets evolution. Cohen dedicated Evolutionary Enlightenment to Wilber, and credited "contemporary evolutionary and integral pioneers, especially Brian Swimme, Don Beck, and Ken Wilber" with helping to deepen and refine his thinking. Wilber, in turn, placed Cohen in a lineage of evolutionary pathfinders reaching back to Sri Aurobindo.`,
+  },
+  {
+    title: "Sri Aurobindo, the Mother, and Integral Yoga",
+    body: `If Integral theory gave Cohen a contemporary map, the early-twentieth-century sage Sri Aurobindo gave him a spiritual ancestor. Aurobindo — together with his collaborator Mirra Alfassa, known as the Mother — taught that the aim of spiritual life is not escape from the world but the descent of a higher consciousness into it: the divinization of matter, life, and mind.
+
+Their Integral Yoga held that evolution itself is a spiritual process, and that humanity stands at the threshold of a new, supramental stage of consciousness. In this evolutionary mysticism Cohen recognized a vision close to his own. By his own account, he finds "more in common with the great evolutionary visionaries of the last century, such as Sri Aurobindo and Pierre Teilhard de Chardin, than he does with the ancient Eastern enlightenment tradition in which his own awakening occurred."`,
+  },
+  {
+    title: "A Synthesis of Realization and Evolution",
+    body: `Out of these streams Cohen forged Evolutionary Enlightenment as a deliberate synthesis. From Ramana Maharshi and Papaji he inherited the bedrock realization of the timeless Self — the direct, liberating recognition that, at the deepest level, one has never been anything other than free. From Aurobindo, the Mother, Teilhard, and the integral pioneers he took the conviction that this realization is not the end of the story: that the same impulse which awakens as the Self in the individual is also driving the evolution of the collective and the cosmos toward ever-greater consciousness.
+
+Cohen's distinctive contribution was to hold these together — the depth of Being and the dynamism of Becoming. Where his own teachers pointed to the changeless ground of Being, he came to insist that liberation is not the destination but the foundation for conscious participation in the evolutionary process. In this way his work remains faithful to the nondual tradition that liberated him, while answering the radical evolutionary potential for the collective and the cosmos that visionaries like Aurobindo had glimpsed.`,
   },
 ];
 
@@ -47,6 +59,14 @@ const quotes = [
   {
     text: "What is the relationship between Love and Truth? What is the relationship between spiritual awakening and human conduct?",
     source: "An Unconditional Relationship to Life",
+  },
+  {
+    text: "Like Sri Aurobindo, the great spiritual and evolutionary pathfinder for the twentieth century, in Andrew Cohen we have just such a pathfinder for our own era.",
+    source: "Ken Wilber, on Evolutionary Enlightenment",
+  },
+  {
+    text: "He finds more in common with the great evolutionary visionaries of the last century, such as Sri Aurobindo and Pierre Teilhard de Chardin, than he does with the ancient Eastern enlightenment tradition in which his own awakening occurred.",
+    source: "Evolutionary Enlightenment",
   },
 ];
 
