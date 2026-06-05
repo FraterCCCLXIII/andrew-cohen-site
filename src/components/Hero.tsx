@@ -1,12 +1,28 @@
 "use client";
 
+import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
 
 export default function Hero() {
   const reduce = useReducedMotion();
 
   return (
-    <section className="relative min-h-[100dvh] flex flex-col justify-center px-6 pt-16">
+    <section className="relative min-h-[100dvh] flex flex-col justify-center px-6 pt-16 overflow-hidden">
+      {/* Background photograph */}
+      <div className="absolute inset-0 -z-10">
+        <Image
+          src="/images/hero-bg.jpg"
+          alt="Andrew Cohen as a young man among goats in the Himalayan foothills"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center"
+        />
+        {/* Legibility scrims — tied to the background token so text stays readable in light and dark modes */}
+        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background/40" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/30" />
+      </div>
+
       <div className="max-w-5xl mx-auto w-full">
         <motion.div
           initial={reduce ? false : { opacity: 0, y: 24 }}
@@ -79,15 +95,6 @@ export default function Hero() {
           </a>
         </motion.div>
       </div>
-
-      {/* Subtle ambient gradient */}
-      <div
-        className="absolute inset-0 -z-10 opacity-[0.03] dark:opacity-[0.04]"
-        style={{
-          background:
-            "radial-gradient(ellipse 80% 60% at 50% 40%, var(--accent), transparent)",
-        }}
-      />
     </section>
   );
 }
