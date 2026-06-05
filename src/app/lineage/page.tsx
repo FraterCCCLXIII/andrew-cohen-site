@@ -58,6 +58,9 @@ export default function LineagePage() {
       intro="Andrew Cohen's spiritual lineage traces through his teacher H.W.L. Poonja to the great Advaita sage Ramana Maharshi — a transmission of nondual realization that Cohen would carry forward into an evolutionary vision."
       sections={sections}
       quotes={quotes}
+      heroImage="/images/lineage-hero.jpg"
+      heroImageAlt="A young Andrew Cohen with his teacher H.W.L. Poonja (Poonjaji)"
+      heroImageCaption="Andrew Cohen with his teacher, H.W.L. Poonja (Poonjaji)."
       bookSource="An Unconditional Relationship to Life (1995); biographical detail on Ramana Maharshi from 11 Days at the Edge by Michael Wombacher."
     />
   );

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
 import { ArrowLeft } from "@phosphor-icons/react";
 
@@ -21,6 +22,9 @@ interface InnerPageLayoutProps {
   sections: PageSection[];
   quotes: Quote[];
   bookSource?: string;
+  heroImage?: string;
+  heroImageAlt?: string;
+  heroImageCaption?: string;
 }
 
 export default function InnerPageLayout({
@@ -30,6 +34,9 @@ export default function InnerPageLayout({
   sections,
   quotes,
   bookSource,
+  heroImage,
+  heroImageAlt,
+  heroImageCaption,
 }: InnerPageLayoutProps) {
   const reduce = useReducedMotion();
 
@@ -49,10 +56,39 @@ export default function InnerPageLayout({
       {/* Hero */}
       <section className="py-16 px-6">
         <div className="max-w-4xl mx-auto">
+          {heroImage && (
+            <motion.figure
+              initial={reduce ? false : { opacity: 0, y: 24 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+              className="mb-12"
+            >
+              <div className="relative aspect-[16/9] w-full overflow-hidden rounded-lg border border-border bg-surface-elevated">
+                <Image
+                  src={heroImage}
+                  alt={heroImageAlt ?? title}
+                  fill
+                  priority
+                  sizes="(max-width: 896px) 100vw, 896px"
+                  className="object-cover"
+                />
+              </div>
+              {heroImageCaption && (
+                <figcaption className="mt-3 text-xs text-muted/70 font-mono">
+                  {heroImageCaption}
+                </figcaption>
+              )}
+            </motion.figure>
+          )}
+
           <motion.div
             initial={reduce ? false : { opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+            transition={{
+              duration: 0.7,
+              delay: reduce || !heroImage ? 0 : 0.1,
+              ease: [0.16, 1, 0.3, 1],
+            }}
           >
             <p className="text-sm uppercase tracking-[0.18em] text-muted font-mono mb-4">
               {subtitle}
