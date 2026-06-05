@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion, useReducedMotion } from "motion/react";
-import { ArrowLeft, ArrowUpRight } from "@phosphor-icons/react";
+import { ArrowUpRight } from "@phosphor-icons/react";
 
 interface TeachingLink {
   title: string;
@@ -104,16 +104,6 @@ export default function TeachingIndexPage() {
 
   return (
     <div className="min-h-screen pt-16">
-      <div className="max-w-5xl mx-auto px-6 pt-10">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 text-sm text-muted hover:text-foreground transition-colors duration-200"
-        >
-          <ArrowLeft size={14} weight="regular" />
-          Back to Home
-        </Link>
-      </div>
-
       <section className="py-16 px-6">
         <div className="max-w-5xl mx-auto">
           <motion.div
@@ -125,7 +115,7 @@ export default function TeachingIndexPage() {
               The Teaching
             </p>
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-serif tracking-tight leading-[1.1] text-foreground mb-6">
-              Conscious Evolution
+              Evolutionary Enlightenment
             </h1>
             <p className="text-lg text-muted leading-relaxed max-w-3xl">
               Andrew Cohen&apos;s teaching bridges the ancient enlightenment
@@ -195,16 +185,6 @@ export default function TeachingIndexPage() {
           ))}
         </div>
       </section>
-
-      <div className="max-w-5xl mx-auto px-6 py-10">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 text-sm text-muted hover:text-foreground transition-colors duration-200"
-        >
-          <ArrowLeft size={14} weight="regular" />
-          Back to Home
-        </Link>
-      </div>
     </div>
   );
 }

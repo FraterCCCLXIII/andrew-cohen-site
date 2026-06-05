@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { ArrowLeft, ArrowUpRight, BookOpen } from "@phosphor-icons/react/dist/ssr";
 import { books, getBookBySlug } from "@/data/books";
+import { getBookContent } from "@/data/bookContent";
 import BookCover from "@/components/BookCover";
 
 export function generateStaticParams() {
@@ -32,6 +33,7 @@ export default async function BookDetailPage({
   const book = getBookBySlug(slug);
   if (!book) notFound();
 
+  const extended = getBookContent(slug);
   const index = books.findIndex((b) => b.slug === slug);
   const prev = index > 0 ? books[index - 1] : undefined;
   const next = index < books.length - 1 ? books[index + 1] : undefined;
@@ -40,7 +42,7 @@ export default async function BookDetailPage({
     <div className="min-h-screen pt-16">
       <div className="max-w-4xl mx-auto px-6 pt-10">
         <Link
-          href="/#books"
+          href="/books"
           className="inline-flex items-center gap-2 text-sm text-muted hover:text-foreground transition-colors duration-200"
         >
           <ArrowLeft size={14} weight="regular" />
@@ -58,12 +60,22 @@ export default async function BookDetailPage({
             <p className="text-sm uppercase tracking-[0.18em] text-muted font-mono mb-4">
               Book · {book.year}
             </p>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif tracking-tight leading-[1.1] text-foreground mb-6">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif tracking-tight leading-[1.1] text-foreground mb-4">
               {book.title}
             </h1>
-            <p className="text-lg text-muted leading-relaxed mb-8">
+            {extended?.subtitle && (
+              <p className="text-lg text-muted leading-relaxed mb-6">
+                {extended.subtitle}
+              </p>
+            )}
+            <p className="text-lg text-muted leading-relaxed mb-4">
               {book.description}
             </p>
+            {extended?.credits && (
+              <p className="text-xs text-muted/70 font-mono mb-8">
+                {extended.credits}
+              </p>
+            )}
 
             {book.teachingHref && (
               <Link
@@ -78,7 +90,53 @@ export default async function BookDetailPage({
         </div>
       </section>
 
-      {/* Prev / Next */}
+      {extended && (
+        <>
+          <section className="py-8 px-6 pb-20">
+            <div className="max-w-4xl mx-auto space-y-16">
+              {extended.sections.map((section) => (
+                <article key={section.title} className="prose-custom">
+                  <h2 className="text-2xl md:text-3xl font-serif tracking-tight leading-[1.2] text-foreground mb-5">
+                    {section.title}
+                  </h2>
+                  <div className="text-base text-muted leading-[1.8] space-y-4">
+                    {section.body.split("\n\n").map((paragraph, j) => (
+                      <p key={j}>{paragraph}</p>
+                    ))}
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          {extended.quotes.length > 0 && (
+            <section className="py-20 px-6 bg-surface-elevated">
+              <div className="max-w-4xl mx-auto">
+                <p className="text-sm uppercase tracking-[0.18em] text-muted font-mono mb-10">
+                  {extended.quotesHeading ?? "Quotes"}
+                </p>
+
+                <div className="space-y-10">
+                  {extended.quotes.map((quote, i) => (
+                    <blockquote
+                      key={i}
+                      className="border-l-2 border-border pl-6"
+                    >
+                      <p className="text-lg md:text-xl font-serif leading-relaxed text-foreground mb-3">
+                        &ldquo;{quote.text}&rdquo;
+                      </p>
+                      <cite className="text-sm text-muted not-italic font-mono">
+                        — {quote.source}
+                      </cite>
+                    </blockquote>
+                  ))}
+                </div>
+              </div>
+            </section>
+          )}
+        </>
+      )}
+
       <section className="px-6 pb-20">
         <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-1 border-t border-border pt-10">
           {prev ? (
@@ -114,7 +172,7 @@ export default async function BookDetailPage({
 
       <div className="max-w-4xl mx-auto px-6 py-10">
         <Link
-          href="/#books"
+          href="/books"
           className="inline-flex items-center gap-2 text-sm text-muted hover:text-foreground transition-colors duration-200"
         >
           <ArrowLeft size={14} weight="regular" />

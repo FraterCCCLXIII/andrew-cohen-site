@@ -6,12 +6,14 @@ import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 import { List, X } from "@phosphor-icons/react";
 
 const navLinks = [
-  { label: "His Life", href: "/his-life" },
-  { label: "Teaching", href: "/#teaching" },
-  { label: "Books", href: "/#books" },
+  { label: "Life", href: "/his-life" },
+  { label: "Teaching", href: "/teaching" },
+  { label: "Books", href: "/books" },
+  { label: "Magazine", href: "/magazine" },
+  { label: "Archive", href: "/archive" },
   { label: "Lineage", href: "/lineage" },
-  { label: "Quotes", href: "/#quotes" },
-  { label: "About", href: "/#about" },
+  { label: "Ashram", href: "/ashram" },
+  { label: "Quotes", href: "/quotes" },
 ];
 
 export default function Nav() {
@@ -20,7 +22,7 @@ export default function Nav() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
-      <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <nav className="px-6 h-16 flex items-center justify-between">
         <Link
           href="/"
           className="text-lg font-medium tracking-tight text-foreground"

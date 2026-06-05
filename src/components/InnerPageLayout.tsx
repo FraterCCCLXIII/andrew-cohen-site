@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
-import { ArrowLeft } from "@phosphor-icons/react";
+import { ArrowUpRight } from "@phosphor-icons/react";
 
 interface PageSection {
   title: string;
@@ -13,6 +13,12 @@ interface PageSection {
 interface Quote {
   text: string;
   source: string;
+}
+
+interface PageLink {
+  label: string;
+  href: string;
+  external?: boolean;
 }
 
 interface InnerPageLayoutProps {
@@ -25,6 +31,7 @@ interface InnerPageLayoutProps {
   heroImage?: string;
   heroImageAlt?: string;
   heroImageCaption?: string;
+  links?: PageLink[];
 }
 
 export default function InnerPageLayout({
@@ -37,22 +44,12 @@ export default function InnerPageLayout({
   heroImage,
   heroImageAlt,
   heroImageCaption,
+  links,
 }: InnerPageLayoutProps) {
   const reduce = useReducedMotion();
 
   return (
     <div className="min-h-screen pt-16">
-      {/* Back link */}
-      <div className="max-w-4xl mx-auto px-6 pt-10">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 text-sm text-muted hover:text-foreground transition-colors duration-200"
-        >
-          <ArrowLeft size={14} weight="regular" />
-          Back to Home
-        </Link>
-      </div>
-
       {/* Hero */}
       <section className="py-16 px-6">
         <div className="max-w-4xl mx-auto">
@@ -103,6 +100,34 @@ export default function InnerPageLayout({
               <p className="text-xs text-muted/60 font-mono mt-4">
                 Source: {bookSource}
               </p>
+            )}
+
+            {links && links.length > 0 && (
+              <div className="mt-8 flex flex-wrap gap-3">
+                {links.map((link) =>
+                  link.external ? (
+                    <a
+                      key={link.href}
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-5 py-3 border border-border text-sm rounded-md hover:bg-surface-elevated transition-colors duration-300 active:scale-[0.98]"
+                    >
+                      {link.label}
+                      <ArrowUpRight size={15} weight="regular" />
+                    </a>
+                  ) : (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className="inline-flex items-center gap-2 px-5 py-3 border border-border text-sm rounded-md hover:bg-surface-elevated transition-colors duration-300 active:scale-[0.98]"
+                    >
+                      {link.label}
+                      <ArrowUpRight size={15} weight="regular" />
+                    </Link>
+                  )
+                )}
+              </div>
             )}
           </motion.div>
         </div>
@@ -177,17 +202,6 @@ export default function InnerPageLayout({
           </div>
         </section>
       )}
-
-      {/* Back to top */}
-      <div className="max-w-4xl mx-auto px-6 py-10">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 text-sm text-muted hover:text-foreground transition-colors duration-200"
-        >
-          <ArrowLeft size={14} weight="regular" />
-          Back to Home
-        </Link>
-      </div>
     </div>
   );
 }

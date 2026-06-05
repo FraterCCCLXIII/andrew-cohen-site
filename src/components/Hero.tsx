@@ -24,20 +24,6 @@ export default function Hero() {
       </div>
 
       <div className="max-w-5xl mx-auto w-full">
-        <motion.div
-          initial={reduce ? false : { opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{
-            duration: 0.8,
-            delay: 0.1,
-            ease: [0.16, 1, 0.3, 1],
-          }}
-        >
-          <p className="text-sm uppercase tracking-[0.18em] text-muted font-mono mb-8">
-            Evolutionary Enlightenment
-          </p>
-        </motion.div>
-
         <motion.h1
           initial={reduce ? false : { opacity: 0, y: 32 }}
           animate={{ opacity: 1, y: 0 }}

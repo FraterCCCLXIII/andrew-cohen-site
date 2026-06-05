@@ -12,12 +12,14 @@ export default function Footer() {
         </div>
         <nav className="flex items-center gap-6">
           {[
-            { label: "His Life", href: "/his-life" },
-            { label: "Teaching", href: "/#teaching" },
-            { label: "Books", href: "/#books" },
+            { label: "Life", href: "/his-life" },
+            { label: "Teaching", href: "/teaching" },
+            { label: "Books", href: "/books" },
+            { label: "Magazine", href: "/magazine" },
+            { label: "Archive", href: "/archive" },
             { label: "Lineage", href: "/lineage" },
-            { label: "Quotes", href: "/#quotes" },
-            { label: "About", href: "/#about" },
+            { label: "Ashram", href: "/ashram" },
+            { label: "Quotes", href: "/quotes" },
           ].map(({ label, href }) => (
             <a
               key={label}

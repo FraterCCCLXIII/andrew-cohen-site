@@ -77,3 +77,175 @@ body {
   background-repeat: repeat;
   background-size: 256px 256px;
 }
+
+/* Archive sidebar scrollbars */
+.archive-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--muted) transparent;
+}
+
+.archive-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.archive-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.archive-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 999px;
+}
+
+.archive-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}
+
+/* Archive dual-thumb year range slider */
+.archive-range-dual {
+  position: relative;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.archive-range-track {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--border);
+  pointer-events: none;
+}
+
+.archive-range-fill {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  border-radius: 999px;
+  background: #ffffff;
+}
+
+.archive-range-thumb {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  pointer-events: none;
+  outline: none;
+}
+
+.archive-range-thumb::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  height: 4px;
+  background: transparent;
+  border: none;
+}
+
+.archive-range-thumb::-moz-range-track {
+  height: 4px;
+  background: transparent;
+  border: none;
+}
+
+.archive-range-thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  pointer-events: auto;
+  width: 14px;
+  height: 14px;
+  margin-top: -5px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: none;
+  box-shadow: none;
+  cursor: grab;
+}
+
+.archive-range-thumb:active::-webkit-slider-thumb {
+  cursor: grabbing;
+}
+
+.archive-range-thumb::-moz-range-thumb {
+  pointer-events: auto;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: none;
+  box-shadow: none;
+  cursor: grab;
+}
+
+.archive-range-thumb:active::-moz-range-thumb {
+  cursor: grabbing;
+}
+
+/* Scraped journal article body */
+.journal-article-body > :first-child {
+  margin-top: 0;
+}
+
+.journal-article-body h1,
+.journal-article-body h2,
+.journal-article-body h3,
+.journal-article-body h4 {
+  color: var(--foreground);
+  font-family: var(--serif);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin: 2rem 0 1rem;
+}
+
+.journal-article-body h1 { font-size: 1.75rem; }
+.journal-article-body h2 { font-size: 1.5rem; }
+.journal-article-body h3 { font-size: 1.25rem; }
+
+.journal-article-body p {
+  margin: 0 0 1.25rem;
+}
+
+.journal-article-body a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.journal-article-body blockquote {
+  border-left: 2px solid var(--border);
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  color: var(--foreground);
+  font-family: var(--serif);
+  font-size: 1.125rem;
+}
+
+.journal-article-body ul,
+.journal-article-body ol {
+  margin: 0 0 1.25rem 1.25rem;
+  padding: 0;
+}
+
+.journal-article-body li {
+  margin-bottom: 0.5rem;
+}
+
+.journal-article-body img {
+  border-radius: 0.375rem;
+  height: auto;
+  margin: 1.5rem 0;
+  max-width: 100%;
+}
+
+.journal-article-body iframe {
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--border);
+  border-radius: 0.375rem;
+  margin: 1.5rem 0;
+  max-width: 100%;
+  width: 100%;
+}

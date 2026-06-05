@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sync:youtube": "python3 scripts/sync-youtube-archive.py",
+    "sync:transcripts": "python3 scripts/sync-youtube-transcripts.py",
+    "sync:journal": "python3 scripts/sync-journal.py",
+    "sync:listen": "python3 scripts/sync-listen.py",
+    "sync:site-videos": "python3 scripts/sync-site-videos.py"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",

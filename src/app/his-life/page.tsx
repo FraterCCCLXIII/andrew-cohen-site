@@ -51,9 +51,9 @@ At the end of 2016, following this period of introspection and deep enquiry, And
   },
   {
     title: "In Memoriam",
-    body: `Andrew Cohen passed away on March 25, 2025, in Tiruvannamalai, India — the town at the foot of Arunachala, the sacred mountain of Ramana Maharshi, the great sage at the root of his own lineage.
+    body: `Andrew Cohen passed away on March 25, 2025, in Tiruvannamalai, India — the town at the foot of Arunachala, the sacred mountain of Ramana Maharshi, the great sage at the root of his own lineage. In a mysterious synchronicity, he left this world exactly thirty-nine years to the day after his awakening upon meeting his own teacher, Sri Poonja.
 
-Over nearly four decades of teaching, he engaged with thousands of seekers worldwide, continuously evolving his teachings through direct dialogue with students, teachers, scholars, and philosophers. He leaves behind a body of work — and a community of those he taught — that continues to grapple with the questions to which he devoted his life.`,
+Over nearly four decades of teaching, he engaged with thousands of seekers worldwide, continuously evolving his teachings through direct dialogue with students, teachers, scholars, and philosophers. He leaves behind a body of work — and a community of those he taught — that continues to grapple with the questions to which he devoted his life. A full tribute to his life and work can be read in his obituary.`,
   },
 ];
 
@@ -67,7 +67,7 @@ const quotes = [
 export default function HisLifePage() {
   return (
     <InnerPageLayout
-      title="His Life"
+      title="Life"
       subtitle="Andrew Cohen · 1955 – 2025"
       intro="Andrew Cohen was an internationally respected spiritual teacher and the founder of Evolutionary Enlightenment — a vision that called not for transcendence of the world, but for a heroic responsibility toward its evolution. This is the story of his life, and of the community that rose and fell around him."
       sections={sections}
@@ -75,6 +75,7 @@ export default function HisLifePage() {
       heroImage="/images/lineage-hero.jpg"
       heroImageAlt="A young Andrew Cohen with his teacher H.W.L. Poonja in Lucknow, India"
       heroImageCaption="Andrew Cohen with H.W.L. Poonja in Lucknow, India, 1986 — where it began."
+      links={[{ label: "Read his obituary", href: "/obituary" }]}
     />
   );
 }

@@ -1,0 +1,205 @@
+{
+  "scrapedAt": "2026-06-05T04:45:15Z",
+  "source": "https://andrewcohen.com/listen/",
+  "count": 7,
+  "items": [
+    {
+      "id": "media-thoughts-about-meditation",
+      "slug": "thoughts-about-meditation",
+      "title": "Thoughts about meditation",
+      "author": "Daniela Bomatter",
+      "postedAt": "2020-02-06T08:46:29",
+      "date": "06/02/2020",
+      "sourceUrl": "https://andrewcohen.com/thoughts-about-meditation/",
+      "description": "Audio recording from a Wednesday Conversation in Bangalore.",
+      "thumbnail": "https://andrewcohen.com/wp-content/uploads/2019/05/meditation-grid-1200x675.jpg",
+      "media": [
+        {
+          "format": "audio",
+          "provider": "soundcloud",
+          "trackId": "755922247",
+          "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/755922247&color=%23ff5500",
+          "href": "https://soundcloud.com/andrewzcohen"
+        }
+      ],
+      "tags": [
+        "media",
+        "listen",
+        "audio",
+        "soundcloud"
+      ]
+    },
+    {
+      "id": "media-death-is-not-an-escape-soundcloud",
+      "slug": "death-is-not-an-escape-soundcloud",
+      "title": "Death is not an escape",
+      "author": "Daniela Bomatter",
+      "postedAt": "2020-01-20T12:32:05",
+      "date": "20/01/2020",
+      "sourceUrl": "https://andrewcohen.com/death-is-not-an-escape-soundcloud/",
+      "description": "Audio recording from a January 2020 talk given during a seven day retreat in Bangalore, India.",
+      "thumbnail": "https://andrewcohen.com/wp-content/uploads/2018/07/online-course-part-2-hero-v2-1200x554.jpg",
+      "media": [
+        {
+          "format": "audio",
+          "provider": "soundcloud",
+          "trackId": "743199478",
+          "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/743199478&color=%23ff5500",
+          "href": "https://soundcloud.com/andrewzcohen"
+        }
+      ],
+      "tags": [
+        "media",
+        "listen",
+        "audio",
+        "soundcloud"
+      ]
+    },
+    {
+      "id": "media-intersubjective-nonduality-soundcloud",
+      "slug": "intersubjective-nonduality-soundcloud",
+      "title": "Intersubjective Nonduality",
+      "author": "Daniela Bomatter",
+      "postedAt": "2020-01-18T19:31:28",
+      "date": "18/01/2020",
+      "sourceUrl": "https://andrewcohen.com/intersubjective-nonduality-soundcloud/",
+      "description": "Andrew speaks about the theory and practice of Intersubjective Nonduality, the ultimate goal of Evolutionary Enlightenment.",
+      "thumbnail": "https://andrewcohen.com/wp-content/uploads/2018/07/online-course-part-2-hero-1200x554.jpg",
+      "media": [
+        {
+          "format": "audio",
+          "provider": "soundcloud",
+          "trackId": "735355135",
+          "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/735355135&color=%23ff5500",
+          "href": "https://soundcloud.com/andrewzcohen"
+        }
+      ],
+      "tags": [
+        "media",
+        "listen",
+        "audio",
+        "soundcloud"
+      ]
+    },
+    {
+      "id": "media-evolution-enlightenment-stamford-june-2018",
+      "slug": "evolution-enlightenment-stamford-june-2018",
+      "title": "The Evolution of Enlightenment: Teaching in Stamford CT, June 2018",
+      "author": "Daniela Bomatter",
+      "postedAt": "2018-06-13T20:24:55",
+      "date": "13/06/2018",
+      "sourceUrl": "https://andrewcohen.com/evolution-enlightenment-stamford-june-2018/",
+      "description": "Andrew speaks about Evolutionary Enlightenment with an emphasis on intersubjective non-duality.",
+      "thumbnail": "https://andrewcohen.com/wp-content/uploads/2018/04/ee-stamford-hero-v3-1200x554.jpg",
+      "media": [
+        {
+          "format": "audio",
+          "provider": "soundcloud",
+          "trackId": "457896963",
+          "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/457896963&color=%23ff5500",
+          "href": "https://soundcloud.com/andrewzcohen"
+        },
+        {
+          "format": "audio",
+          "provider": "soundcloud",
+          "trackId": "468823371",
+          "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/468823371&color=%23ff5500",
+          "href": "https://soundcloud.com/andrewzcohen"
+        }
+      ],
+      "tags": [
+        "media",
+        "listen",
+        "audio",
+        "soundcloud"
+      ]
+    },
+    {
+      "id": "media-jen-mavros-cosmic-consciousness",
+      "slug": "jen-mavros-cosmic-consciousness",
+      "title": "Jen Mavros & Andrew Cohen: Evolutionary Enlightenment & Cosmic Consciousness",
+      "author": "Daniela Bomatter",
+      "postedAt": "2018-05-08T15:47:21",
+      "date": "08/05/2018",
+      "sourceUrl": "https://andrewcohen.com/jen-mavros-cosmic-consciousness/",
+      "description": "Andrew Cohen talks with Jen Mavros on the Jen Mavros Show Podcast.",
+      "thumbnail": "https://andrewcohen.com/wp-content/uploads/2018/05/jen-mavros-hero-v3-1200x728.jpg",
+      "media": [
+        {
+          "format": "audio",
+          "provider": "libsyn",
+          "episodeId": "6343243",
+          "embedUrl": "https://html5-player.libsyn.com/embed/episode/id/6343243/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/460069/",
+          "href": "https://www.jenmavros.com/podcastepisodes/2018/3/5/ep-57-andrew-cohen"
+        }
+      ],
+      "tags": [
+        "media",
+        "listen",
+        "audio",
+        "libsyn"
+      ]
+    },
+    {
+      "id": "media-doshin-andrew-cohen-2016-09-20",
+      "slug": "doshin-andrew-cohen-2016-09-20",
+      "title": "Dialogue with Zen Master Doshin, Sept 20th 2016",
+      "author": "Andrew Cohen",
+      "postedAt": "2016-11-08T09:02:02",
+      "date": "08/11/2016",
+      "sourceUrl": "https://andrewcohen.com/doshin-andrew-cohen-2016-09-20/",
+      "description": "Video and audio recording of my meeting with Zen Master Doshin.",
+      "thumbnail": "https://andrewcohen.com/wp-content/uploads/2016/11/doshin-1200x675.jpg",
+      "media": [
+        {
+          "format": "video",
+          "provider": "vimeo",
+          "vimeoId": "209421101",
+          "embedUrl": "https://player.vimeo.com/video/209421101",
+          "href": "https://vimeo.com/209421101"
+        },
+        {
+          "format": "audio",
+          "provider": "soundcloud",
+          "trackId": "292045641",
+          "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/292045641&color=%23ff5500",
+          "href": "https://soundcloud.com/andrewzcohen"
+        }
+      ],
+      "tags": [
+        "media",
+        "listen",
+        "audio",
+        "video",
+        "soundcloud",
+        "vimeo"
+      ]
+    },
+    {
+      "id": "media-teaching-anahata-akademie-august-2016",
+      "slug": "teaching-anahata-akademie-august-2016",
+      "title": "Teaching at Anahata Akademie August 2016",
+      "author": "Andrew Cohen",
+      "postedAt": "2016-10-21T10:13:42",
+      "date": "21/10/2016",
+      "sourceUrl": "https://andrewcohen.com/teaching-anahata-akademie-august-2016/",
+      "description": "A 30 minute excerpt from a teaching at the Anahata Ashram in August 2016.",
+      "thumbnail": "https://andrewcohen.com/wp-content/uploads/2016/10/AC_8-CD_Cover_no-text_aqvt2w-1200x671.jpg",
+      "media": [
+        {
+          "format": "audio",
+          "provider": "soundcloud",
+          "trackId": "288961550",
+          "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/288961550&color=%23ff5500",
+          "href": "https://soundcloud.com/andrewzcohen"
+        }
+      ],
+      "tags": [
+        "media",
+        "listen",
+        "audio",
+        "soundcloud"
+      ]
+    }
+  ]
+}

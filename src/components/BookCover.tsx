@@ -1,13 +1,30 @@
+import Image from "next/image";
 import type { Book } from "@/data/books";
 
 interface BookCoverProps {
-  book: Pick<Book, "title" | "year">;
+  book: Pick<Book, "title" | "year" | "cover">;
   className?: string;
 }
 
-// Placeholder cover rendered from design tokens. Swap for real artwork later
-// by replacing this component's internals (e.g. with next/image).
+// Renders real cover artwork when available, otherwise a placeholder generated
+// from design tokens.
 export default function BookCover({ book, className = "" }: BookCoverProps) {
+  if (book.cover) {
+    return (
+      <div
+        className={`relative aspect-[2/3] w-full overflow-hidden rounded-md border border-border bg-surface-elevated ${className}`}
+      >
+        <Image
+          src={book.cover}
+          alt={`Cover of ${book.title} (${book.year}) by Andrew Cohen`}
+          fill
+          sizes="(max-width: 640px) 50vw, 220px"
+          className="object-contain"
+        />
+      </div>
+    );
+  }
+
   return (
     <div
       className={`relative aspect-[2/3] w-full overflow-hidden rounded-md border border-border bg-surface-elevated ${className}`}
