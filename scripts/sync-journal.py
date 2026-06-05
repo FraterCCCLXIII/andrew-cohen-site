@@ -21,6 +21,14 @@ INDEX_OUT = ROOT / "src/data/journal/index.json"
 CONTENT_DIR = ROOT / "src/data/journal/content"
 API = "https://andrewcohen.com/wp-json/wp/v2"
 SOURCE = "https://andrewcohen.com/journal/"
+WP_ADMIN_AUTHORS = {"Daniela Bomatter"}
+
+
+def normalize_author(name: str) -> str:
+    stripped = name.strip()
+    if stripped in WP_ADMIN_AUTHORS:
+        return "Andrew Cohen"
+    return name
 
 ALLOWED_TAGS = {
     "p",
@@ -240,7 +248,9 @@ def main() -> int:
         author_id = post["author"]
         if author_id not in authors:
             try:
-                authors[author_id] = fetch_json(f"{API}/users/{author_id}")["name"]
+                authors[author_id] = normalize_author(
+                    fetch_json(f"{API}/users/{author_id}")["name"]
+                )
             except urllib.error.URLError:
                 authors[author_id] = "Andrew Cohen"
 

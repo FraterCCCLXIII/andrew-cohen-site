@@ -1,4 +1,5 @@
 import listenData from "@/data/listen.json";
+import { normalizeAuthor } from "@/lib/authors";
 
 export type MediaFormat = "audio" | "video";
 export type MediaProvider = "soundcloud" | "vimeo" | "libsyn" | "file" | "youtube";
@@ -32,9 +33,9 @@ const { items, source: listenSource } = listenData as {
   items: ListenItem[];
 };
 
-export const listenItems: ListenItem[] = [...items].sort(
-  (a, b) => Date.parse(b.postedAt) - Date.parse(a.postedAt)
-);
+export const listenItems: ListenItem[] = [...items]
+  .map((item) => ({ ...item, author: normalizeAuthor(item.author) }))
+  .sort((a, b) => Date.parse(b.postedAt) - Date.parse(a.postedAt));
 
 export const listenSourceUrl = listenSource;
 

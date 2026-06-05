@@ -189,6 +189,10 @@ body {
   margin-top: 0;
 }
 
+.journal-article-body hr {
+  display: none;
+}
+
 .journal-article-body h1,
 .journal-article-body h2,
 .journal-article-body h3,

@@ -17,6 +17,8 @@ import {
   getArchiveTags,
   getArchiveYearBounds,
   isYearFilterActive,
+  sortArchive,
+  type ArchiveSort,
   type ArchiveType,
 } from "@/data/archive";
 
@@ -29,6 +31,7 @@ function ArchivePageContent() {
   const searchParams = useSearchParams();
   const [query, setQuery] = useState("");
   const [view, setView] = useState<ArchiveViewMode>("grid");
+  const [sort, setSort] = useState<ArchiveSort>("newest");
   const [type, setType] = useState<ArchiveType | "all">("all");
   const [tag, setTag] = useState("all");
 
@@ -43,15 +46,18 @@ function ArchivePageContent() {
 
   const filtered = useMemo(
     () =>
-      filterArchive(catalog, {
-        query,
-        type,
-        tag,
-        yearMin,
-        yearMax,
-        yearBounds,
-      }),
-    [query, type, tag, yearMin, yearMax]
+      sortArchive(
+        filterArchive(catalog, {
+          query,
+          type,
+          tag,
+          yearMin,
+          yearMax,
+          yearBounds,
+        }),
+        sort
+      ),
+    [query, type, tag, yearMin, yearMax, sort]
   );
 
   const counts = useMemo(() => getArchiveCounts(catalog), []);
@@ -94,6 +100,7 @@ function ArchivePageContent() {
           <aside className="flex shrink-0 flex-col lg:w-56 xl:w-64 lg:sticky lg:top-16 lg:h-[calc(100vh-4rem)] lg:pt-8 lg:self-start">
             <ArchiveSidebar
               view={view}
+              sort={sort}
               type={type}
               tag={tag}
               tags={allTags}
@@ -103,6 +110,7 @@ function ArchivePageContent() {
               yearMax={yearMax}
               yearBounds={yearBounds}
               onViewChange={setView}
+              onSortChange={setSort}
               onTypeChange={setType}
               onTagChange={setTag}
               onYearMinChange={setYearMin}

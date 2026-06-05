@@ -7,6 +7,22 @@ import youtubeVideos from "@/data/youtube-videos.json";
 
 export type ArchiveType = "video" | "book" | "magazine" | "article" | "media";
 
+export type ArchiveSort = "newest" | "oldest" | "title-asc" | "title-desc";
+
+export const archiveSortLabels: Record<ArchiveSort, string> = {
+  newest: "Newest first",
+  oldest: "Oldest first",
+  "title-asc": "Title A–Z",
+  "title-desc": "Title Z–A",
+};
+
+export const archiveSortOptions: ArchiveSort[] = [
+  "newest",
+  "oldest",
+  "title-asc",
+  "title-desc",
+];
+
 export interface ArchiveItem {
   id: string;
   type: ArchiveType;
@@ -243,6 +259,45 @@ export function formatDuration(seconds?: number): string | undefined {
     return `${h}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
   }
   return `${m}:${String(s).padStart(2, "0")}`;
+}
+
+function compareByYear(
+  a: ArchiveItem,
+  b: ArchiveItem,
+  direction: "asc" | "desc"
+): number {
+  const yearA = parseItemYear(a);
+  const yearB = parseItemYear(b);
+
+  if (yearA !== yearB) {
+    if (yearA === null) return 1;
+    if (yearB === null) return -1;
+    return direction === "desc" ? yearB - yearA : yearA - yearB;
+  }
+
+  return a.title.localeCompare(b.title);
+}
+
+export function sortArchive(
+  items: ArchiveItem[],
+  sort: ArchiveSort = "newest"
+): ArchiveItem[] {
+  const sorted = [...items];
+
+  sorted.sort((a, b) => {
+    switch (sort) {
+      case "newest":
+        return compareByYear(a, b, "desc");
+      case "oldest":
+        return compareByYear(a, b, "asc");
+      case "title-asc":
+        return a.title.localeCompare(b.title);
+      case "title-desc":
+        return b.title.localeCompare(a.title);
+    }
+  });
+
+  return sorted;
 }
 
 export function filterArchive(

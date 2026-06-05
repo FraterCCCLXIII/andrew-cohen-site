@@ -3,9 +3,12 @@
 import type { ReactNode } from "react";
 import ArchiveYearSlider from "@/components/ArchiveYearSlider";
 import {
+  archiveSortLabels,
+  archiveSortOptions,
   archiveTypeLabels,
   archiveTypes,
   isYearFilterActive,
+  type ArchiveSort,
   type ArchiveType,
 } from "@/data/archive";
 
@@ -13,6 +16,7 @@ export type ArchiveViewMode = "grid" | "list";
 
 interface ArchiveSidebarProps {
   view: ArchiveViewMode;
+  sort: ArchiveSort;
   type: ArchiveType | "all";
   tag: string;
   tags: string[];
@@ -22,6 +26,7 @@ interface ArchiveSidebarProps {
   yearMax: number;
   yearBounds: { min: number; max: number };
   onViewChange: (view: ArchiveViewMode) => void;
+  onSortChange: (sort: ArchiveSort) => void;
   onTypeChange: (type: ArchiveType | "all") => void;
   onTagChange: (tag: string) => void;
   onYearMinChange: (year: number) => void;
@@ -58,6 +63,7 @@ function NavButton({
 
 export default function ArchiveSidebar({
   view,
+  sort,
   type,
   tag,
   tags,
@@ -67,6 +73,7 @@ export default function ArchiveSidebar({
   yearMax,
   yearBounds,
   onViewChange,
+  onSortChange,
   onTypeChange,
   onTagChange,
   onYearMinChange,
@@ -103,6 +110,24 @@ export default function ArchiveSidebar({
             List
           </NavButton>
         </div>
+      </div>
+
+      <div className="mt-8 shrink-0">
+        <p className="mb-3 font-mono text-[10px] uppercase tracking-[0.18em] text-muted">
+          Sort by
+        </p>
+        <ul className="space-y-0.5">
+          {archiveSortOptions.map((option) => (
+            <li key={option}>
+              <NavButton
+                active={sort === option}
+                onClick={() => onSortChange(option)}
+              >
+                {archiveSortLabels[option]}
+              </NavButton>
+            </li>
+          ))}
+        </ul>
       </div>
 
       <div className="mt-8 shrink-0">

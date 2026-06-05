@@ -1,6 +1,7 @@
 import journalData from "@/data/journal/index.json";
 import { listenItems } from "@/data/listen";
 import { siteVideoSlugs } from "@/data/site-videos";
+import { normalizeAuthor } from "@/lib/authors";
 
 export interface JournalArticle {
   slug: string;
@@ -42,8 +43,13 @@ function isJournalArticle(article: JournalArticle): boolean {
   return true;
 }
 
+function withNormalizedAuthor(article: JournalArticle): JournalArticle {
+  return { ...article, author: normalizeAuthor(article.author) };
+}
+
 export const journalArticles: JournalArticle[] = [...articles]
   .filter(isJournalArticle)
+  .map(withNormalizedAuthor)
   .sort((a, b) => Date.parse(b.postedAt) - Date.parse(a.postedAt));
 
 export const journalRedirectSlugs = [

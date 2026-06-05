@@ -18,6 +18,15 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "src/data/listen.json"
 API = "https://andrewcohen.com/wp-json/wp/v2"
 SOURCE = "https://andrewcohen.com/listen/"
+WP_ADMIN_AUTHORS = {"Daniela Bomatter"}
+
+
+def normalize_author(name: str) -> str:
+    stripped = name.strip()
+    if stripped in WP_ADMIN_AUTHORS:
+        return "Andrew Cohen"
+    return name
+
 
 LISTEN_DESCRIPTIONS = {
     "teaching-anahata-akademie-august-2016": (
@@ -227,7 +236,9 @@ def main() -> int:
         author_id = post["author"]
         if author_id not in authors:
             try:
-                authors[author_id] = fetch_json(f"{API}/users/{author_id}")["name"]
+                authors[author_id] = normalize_author(
+                    fetch_json(f"{API}/users/{author_id}")["name"]
+                )
             except urllib.error.URLError:
                 authors[author_id] = "Andrew Cohen"
 
