@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { motion, useReducedMotion } from "motion/react";
 import { ArrowUpRight } from "@phosphor-icons/react";
@@ -109,32 +110,45 @@ export default function TeachingIndexPage() {
   const reduce = useReducedMotion();
 
   return (
-    <div className="min-h-screen pt-16">
-      <section className="py-16 px-6">
-        <div className="max-w-5xl mx-auto">
+    <div className="min-h-screen">
+      <section className="relative min-h-[85dvh] flex flex-col justify-center px-6 pt-16 overflow-hidden">
+        <div className="absolute inset-0 -z-10">
+          <Image
+            src="/images/teaching-aurora-hero.png"
+            alt="The northern lights and a starry night sky"
+            fill
+            priority
+            unoptimized
+            sizes="100vw"
+            className="object-cover object-[center_40%]"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/45 to-background/10" />
+          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
+        </div>
+
+        <div className="max-w-5xl mx-auto w-full">
           <motion.div
             initial={reduce ? false : { opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
             <p className="text-sm uppercase tracking-[0.18em] text-muted font-mono mb-4">
               The Teaching
             </p>
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-serif tracking-tight leading-[1.1] text-foreground mb-6">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif tracking-tight leading-[1.1] text-foreground mb-6 max-w-4xl">
               Evolutionary Enlightenment
             </h1>
-            <p className="text-lg text-muted leading-relaxed max-w-3xl">
+            <p className="text-lg md:text-xl text-muted leading-relaxed max-w-2xl">
               Andrew Cohen&apos;s teaching bridges the ancient enlightenment
               tradition with the recognition that consciousness is evolving — and
               that each individual is uniquely called to participate. Explore the
-              core ideas, the practice, and the themes drawn from his books. Every
-              page is grounded in his published work.
+              core ideas, the practice, and the themes drawn from his books.
             </p>
           </motion.div>
         </div>
       </section>
 
-      <section className="px-6 pb-24">
+      <section className="px-6 pb-24 pt-16">
         <div className="max-w-5xl mx-auto space-y-16">
           {groups.map((group, gi) => (
             <div key={group.label}>
