@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "@/components/FadeInImage";
 import { motion, useReducedMotion } from "motion/react";
 
 export default function Hero() {

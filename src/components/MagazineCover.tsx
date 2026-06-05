@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/FadeInImage";
 import type { MagazineIssue } from "@/data/magazine";
 
 interface MagazineCoverProps {

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/FadeInImage";
 import Link from "next/link";
 import { ArrowUpRight, BookOpen, FileText, Play, Radio } from "@phosphor-icons/react";
 import type { ArchiveItem } from "@/data/archive";
