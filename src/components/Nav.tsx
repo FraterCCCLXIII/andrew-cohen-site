@@ -6,10 +6,10 @@ import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 import { List, X } from "@phosphor-icons/react";
 
 const navLinks = [
-  { label: "Teaching", href: "#teaching" },
-  { label: "Books", href: "#books" },
-  { label: "Quotes", href: "#quotes" },
-  { label: "About", href: "#about" },
+  { label: "Teaching", href: "/#teaching" },
+  { label: "Books", href: "/#books" },
+  { label: "Quotes", href: "/#quotes" },
+  { label: "About", href: "/#about" },
 ];
 
 export default function Nav() {

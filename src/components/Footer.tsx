@@ -14,7 +14,7 @@ export default function Footer() {
           {["Teaching", "Books", "Quotes", "About"].map((label) => (
             <a
               key={label}
-              href={`#${label.toLowerCase()}`}
+              href={`/#${label.toLowerCase()}`}
               className="text-xs text-muted hover:text-foreground transition-colors duration-200"
             >
               {label}
