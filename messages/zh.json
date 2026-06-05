@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "title": "安德鲁·科恩 |进化论的启蒙",
+    "description": "安德鲁·科恩的教学：进化启蒙，人类作为意识进化的载体的愿景。"
+  },
+  "hero": {
+    "titleLine1": "该禁令将成为",
+    "titleLine2": "的生动表达",
+    "titleLine3": "未来。",
+    "subtitle": "一种精神愿景植根于认识到进化冲动和精神冲动是同一种力量，呼吁每个人在人类出现的边缘进行真实的自我表达。",
+    "exploreTeaching": "探索教学",
+    "readBooks": "阅读书籍",
+    "imageAlt": "繁星点点的夜空中的银河"
+  },
+  "memoriam": {
+    "label": "悼念",
+    "title": "纪念安德鲁",
+    "years": "1955 – 2025",
+    "body": "安德鲁·科恩于 2025 年 3 月 25 日去世，在印度蒂鲁瓦纳马莱宁静的怀抱中，留下了永远改变的精神景观。四十多年来，他阐述了进化启蒙运动的愿景——将对非二元存在的永恒认识与推动宇宙前进的进化冲动结合起来。他是一股催化力量、一位精神创新者、一位老师和一位丈夫，他挑战无数的寻求者超越既定教义的舒适感，接受一种更有活力、更包容世界的觉醒理解。",
+    "readObituary": "阅读讣告",
+    "imageAlt": "Andrew Cohen"
+  },
+  "teaching": {
+    "label": "教学",
+    "title": "Evolutionary Enlightenment",
+    "intro": "安德鲁·科恩的教学将古代启蒙传统与意识正在进化的认识联系起来，并且每个人都被独特地召唤来参与这种进化。",
+    "exploreAll": "探索所有教义",
+    "principles": {
+      "fiveTenets": {
+        "title": "五项原则",
+        "body": "清晰的意图、意志的力量、面对一切、避免任何事情、过程视角和宇宙良心——有意识进化的实践，其中路径和目标合一。"
+      },
+      "sixPrinciples": {
+        "title": "六项原则",
+        "body": "进化的张力、自主性、交流、动机的纯洁性、行动的完整性和自然的等级制度——当遵循这些信条的个体聚集在一起时，人与人之间就会出现什么。"
+      },
+      "authenticSelf": {
+        "title": "真实的自我",
+        "body": "进化的冲动——宇宙的创造力——在个体内部觉醒，并被认为是一个人最深层的身份，超越了单独的自我。"
+      },
+      "ego": {
+        "title": "自我",
+        "body": "抵制进化的依恋和认同结构：既是个体化的载体，又是启蒙道路上的最大障碍。"
+      }
+    }
+  },
+  "books": {
+    "label": "图书",
+    "title": "书面作品",
+    "intro": "三十多年的教学生涯，从他第一次觉醒到他最近的反思——每一本书都记录了一个不断发展的精神愿景。"
+  },
+  "quotes": {
+    "label": "引号",
+    "title": "携带的话",
+    "items": [
+      {
+        "text": "精神冲动和进化冲动是一回事。",
+        "source": "Evolutionary Enlightenment"
+      },
+      {
+        "text": "启蒙并不是要超越人类的处境。这是关于完全拥抱它。",
+        "source": "An Unconditional Relationship to Life"
+      },
+      {
+        "text": "真正的真实并不是你认为自己是谁的表达。它是通过你出现的事物的表达。",
+        "source": "The Challenge of Enlightenment"
+      },
+      {
+        "text": "创造星系的同一股力量正在创造你，而且它还没有完成。",
+        "source": "Embracing Heaven and Earth"
+      }
+    ]
+  },
+  "about": {
+    "label": "关于",
+    "title": "教学背后的人",
+    "paragraphs": [
+      "安德鲁·科恩是一位精神导师和作家，他花了三十多年的时间阐述了与进化过程本身密不可分的启蒙愿景。他1954年出生于纽约市，年轻时就开始了自己的精神之旅，深受印度圣人H.W.L.的影响。 Poonja，拉玛那·马哈希的直系弟子。",
+      "科恩的教学被他称为“进化启蒙运动”，代表着与传统启蒙叙事的重大背离。他设想的不是从世界中解放出来，而是通过个人来改变世界，这些个人已经觉醒，意识到自己作为宇宙不断创造的有意识参与者的角色。",
+      "通过他的书籍、静修会和在线出版物《什么是启蒙？》 （后来的“EnlightenNext”），科恩影响了全球寻求者社区，他们与他一样坚信精神实践必须与与世界的创造性接触密不可分。"
+    ],
+    "keyFacts": "主要事实",
+    "facts": {
+      "born": {
+        "label": "出生",
+        "value": "1954, New York City"
+      },
+      "teaching": {
+        "label": "教学",
+        "value": "Evolutionary Enlightenment"
+      },
+      "lineage": {
+        "label": "血统",
+        "value": "H.W.L. Poonja (Papaji)"
+      },
+      "books": {
+        "label": "图书",
+        "value": "已发表作品12件"
+      },
+      "publication": {
+        "label": "发布",
+        "value": "What is Enlightenment?"
+      }
+    }
+  },
+  "languageSwitcher": {
+    "label": "语言",
+    "homepageOnly": "主页提供此语言版本。其他页面均为英文。"
+  }
+}

@@ -13,12 +13,14 @@
     "sync:listen": "python3 scripts/sync-listen.py",
     "sync:site-videos": "python3 scripts/sync-site-videos.py",
     "extract:book:secret": "python3 scripts/extract-enlightenment-is-a-secret.py",
-    "extract:books": "python3 scripts/extract-books.py"
+    "extract:books": "python3 scripts/extract-books.py",
+    "i18n:seed": "python3 scripts/generate-home-translations.py"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",
     "motion": "^12.40.0",
     "next": "16.2.7",
+    "next-intl": "^4.13.0",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },

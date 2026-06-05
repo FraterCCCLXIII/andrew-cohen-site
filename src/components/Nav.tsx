@@ -4,6 +4,8 @@ import { useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 import { List, X } from "@phosphor-icons/react";
+import LanguageSwitcher, { localeHref } from "@/components/LanguageSwitcher";
+import { useLocale } from "@/i18n/locale-provider";
 
 const navLinks = [
   { label: "Life", href: "/life" },
@@ -19,12 +21,13 @@ const navLinks = [
 export default function Nav() {
   const [open, setOpen] = useState(false);
   const reduce = useReducedMotion();
+  const locale = useLocale();
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <nav className="px-6 h-16 flex items-center justify-between">
         <Link
-          href="/"
+          href={localeHref(locale)}
           className="flex items-baseline gap-2 md:gap-3 min-w-0"
         >
           <span className="text-xl md:text-2xl font-sans font-medium tracking-tight text-foreground shrink-0">
@@ -36,7 +39,8 @@ export default function Nav() {
         </Link>
 
         {/* Desktop nav + contribute */}
-        <div className="hidden md:flex items-center gap-6">
+        <div className="hidden md:flex items-center gap-4">
+          <LanguageSwitcher />
           <ul className="flex items-center gap-8">
             {navLinks.map((link) => (
               <li key={link.href}>
@@ -59,6 +63,7 @@ export default function Nav() {
 
         {/* Mobile: contribute + menu toggle */}
         <div className="md:hidden flex items-center gap-2">
+          <LanguageSwitcher />
           <Link
             href="/contribute"
             className="inline-flex items-center px-3 py-1.5 bg-foreground text-background text-xs rounded-md hover:bg-foreground/85 transition-colors duration-300 active:scale-[0.98]"

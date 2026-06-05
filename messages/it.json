@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "title": "Andrew Cohen | Illuminismo evolutivo",
+    "description": "L'insegnamento di Andrew Cohen: Illuminismo evolutivo, una visione dell'essere umano come veicolo per l'evoluzione della coscienza."
+  },
+  "hero": {
+    "titleLine1": "L'ingiunzione è divenire",
+    "titleLine2": "un'espressione vivente di",
+    "titleLine3": "il futuro.",
+    "subtitle": "Una visione spirituale radicata nel riconoscimento che l’impulso evolutivo e l’impulso spirituale sono la stessa forza, che chiama ogni individuo all’autentica espressione di sé ai margini dell’emergenza umana.",
+    "exploreTeaching": "Esplora l'insegnamento",
+    "readBooks": "Leggi i libri",
+    "imageAlt": "La Via Lattea in un cielo notturno stellato"
+  },
+  "memoriam": {
+    "label": "In memoria",
+    "title": "Ricordando Andrea",
+    "years": "1955 – 2025",
+    "body": "Con la sua scomparsa, avvenuta il 25 marzo 2025, nel sereno abbraccio di Tiruvannamalai, in India, Andrew Cohen ha lasciato un panorama spirituale cambiato per sempre. Per più di quattro decenni ha articolato una visione dell’Illuminazione Evoluzionistica, che unisce il riconoscimento senza tempo dell’Essere non duale all’impulso evolutivo che spinge in avanti il ​​cosmo. Era una forza catalizzatrice, un innovatore spirituale, un insegnante e un marito che ha sfidato innumerevoli ricercatori ad andare oltre il conforto delle dottrine consolidate e ad abbracciare una comprensione del risveglio più dinamica e che abbraccia il mondo.",
+    "readObituary": "Leggi il necrologio",
+    "imageAlt": "Andrew Cohen"
+  },
+  "teaching": {
+    "label": "L'insegnamento",
+    "title": "Evolutionary Enlightenment",
+    "intro": "L'insegnamento di Andrew Cohen collega l'antica tradizione illuminista con il riconoscimento che la coscienza si sta evolvendo e che ogni individuo è chiamato in modo unico a partecipare a tale evoluzione.",
+    "exploreAll": "Esplora tutti gli insegnamenti",
+    "principles": {
+      "fiveTenets": {
+        "title": "I cinque principi",
+        "body": "Chiarezza di intenzione, potere della volontà, affrontare tutto ed evitare nulla, prospettiva del processo e coscienza cosmica: la pratica dell'evoluzione cosciente, dove il percorso e l'obiettivo sono uno."
+      },
+      "sixPrinciples": {
+        "title": "I sei principi",
+        "body": "Tensione evolutiva, autonomia, comunione, purezza di motivazione, integrità dell'azione e gerarchia naturale: ciò che emerge tra le persone quando gli individui che vivono i principi si uniscono."
+      },
+      "authenticSelf": {
+        "title": "Il Sé autentico",
+        "body": "L'impulso evolutivo – l'energia creativa del cosmo – si risveglia a se stesso all'interno di un individuo e viene riconosciuto come la propria identità più profonda, al di là dell'ego separato."
+      },
+      "ego": {
+        "title": "L'Io",
+        "body": "La struttura di attaccamento e identificazione che resiste all'evoluzione: allo stesso tempo il veicolo dell'individuazione e il più grande ostacolo sul cammino verso l'illuminazione."
+      }
+    }
+  },
+  "books": {
+    "label": "Libri",
+    "title": "L'opera scritta",
+    "intro": "Oltre tre decenni di insegnamento, dal primo resoconto del suo risveglio alle sue riflessioni più recenti: ogni libro è la testimonianza di una visione spirituale in evoluzione."
+  },
+  "quotes": {
+    "label": "Citazioni",
+    "title": "Parole da portare con sé",
+    "items": [
+      {
+        "text": "L'impulso spirituale e l'impulso evolutivo sono la stessa cosa.",
+        "source": "Evolutionary Enlightenment"
+      },
+      {
+        "text": "L’illuminazione non significa trascendere la condizione umana. Si tratta di abbracciarlo pienamente.",
+        "source": "An Unconditional Relationship to Life"
+      },
+      {
+        "text": "La vera autenticità non è l’espressione di chi pensi di essere. È l'espressione di ciò che sta emergendo attraverso di te.",
+        "source": "The Challenge of Enlightenment"
+      },
+      {
+        "text": "La stessa forza che ha creato le galassie sta creando voi, e non è ancora finita.",
+        "source": "Embracing Heaven and Earth"
+      }
+    ]
+  },
+  "about": {
+    "label": "Di",
+    "title": "L'uomo dietro l'insegnamento",
+    "paragraphs": [
+      "Andrew Cohen è un insegnante spirituale e autore che ha trascorso oltre tre decenni ad articolare una visione dell'illuminazione che è inseparabile dal processo evolutivo stesso. Nato nel 1954 a New York City, iniziò il suo viaggio spirituale da giovane e fu profondamente influenzato dal saggio indiano H.W.L. Poonja, un discepolo diretto di Ramana Maharshi.",
+      "L'insegnamento di Cohen, che lui chiama \"Illuminismo evolutivo\", rappresenta un significativo allontanamento dalle tradizionali narrazioni sull'illuminismo. Piuttosto che la liberazione dal mondo, immagina il mondo trasformato attraverso individui che si sono risvegliati al loro ruolo di partecipanti coscienti nella continua creazione del cosmo.",
+      "Attraverso i suoi libri, ritiri e la pubblicazione online \"Cos'è l'Illuminazione?\" (in seguito \"EnlightenNext\"), Cohen ha influenzato una comunità globale di ricercatori che condividono la sua convinzione che la pratica spirituale deve essere inseparabile dall'impegno creativo con il mondo."
+    ],
+    "keyFacts": "Fatti chiave",
+    "facts": {
+      "born": {
+        "label": "Nato",
+        "value": "1954, New York City"
+      },
+      "teaching": {
+        "label": "Insegnamento",
+        "value": "Evolutionary Enlightenment"
+      },
+      "lineage": {
+        "label": "Lignaggio",
+        "value": "H.W.L. Poonja (Papaji)"
+      },
+      "books": {
+        "label": "Libri",
+        "value": "12 opere pubblicate"
+      },
+      "publication": {
+        "label": "Pubblicazione",
+        "value": "What is Enlightenment?"
+      }
+    }
+  },
+  "languageSwitcher": {
+    "label": "Lingua",
+    "homepageOnly": "Homepage disponibile in questa lingua. Le altre pagine sono in inglese."
+  }
+}

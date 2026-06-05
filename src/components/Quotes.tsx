@@ -2,30 +2,14 @@
 
 import { motion, useReducedMotion, useInView } from "motion/react";
 import { useRef } from "react";
-
-const quotes = [
-  {
-    text: "The spiritual impulse and the evolutionary impulse are one and the same.",
-    source: "Evolutionary Enlightenment",
-  },
-  {
-    text: "Enlightenment is not about transcending the human condition. It is about fully embracing it.",
-    source: "An Unconditional Relationship to Life",
-  },
-  {
-    text: "True authenticity is not the expression of who you think you are. It is the expression of what is emerging through you.",
-    source: "The Challenge of Enlightenment",
-  },
-  {
-    text: "The same force that created the galaxies is creating you, and it is not finished yet.",
-    source: "Embracing Heaven and Earth",
-  },
-];
+import { useTranslations } from "@/i18n/locale-provider";
 
 export default function Quotes() {
   const reduce = useReducedMotion();
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, amount: 0.1 });
+  const t = useTranslations("quotes");
+  const quotes = t.raw("items") as Array<{ text: string; source: string }>;
 
   return (
     <section id="quotes" className="py-32 px-6">
@@ -37,10 +21,10 @@ export default function Quotes() {
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
         >
           <p className="text-sm uppercase tracking-[0.18em] text-muted font-mono mb-3">
-            Quotes
+            {t("label")}
           </p>
           <h2 className="text-3xl md:text-5xl font-serif tracking-tight leading-[1.15] mb-16">
-            Words to Carry
+            {t("title")}
           </h2>
         </motion.div>
 

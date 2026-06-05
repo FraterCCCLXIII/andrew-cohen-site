@@ -1,12 +1,18 @@
+"use client";
+
 import Link from "next/link";
+import { localeHref } from "@/components/LanguageSwitcher";
+import { useLocale } from "@/i18n/locale-provider";
 
 export default function Footer() {
+  const locale = useLocale();
+
   return (
     <footer className="border-t border-border px-6 py-12 bg-background">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div>
           <Link
-            href="/"
+            href={localeHref(locale)}
             className="text-xl font-sans font-medium tracking-tight text-foreground"
           >
             Andrew Cohen

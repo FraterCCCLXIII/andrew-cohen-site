@@ -3,11 +3,13 @@
 import { motion, useReducedMotion, useInView } from "motion/react";
 import { useRef } from "react";
 import BookCarousel from "@/components/BookCarousel";
+import { useTranslations } from "@/i18n/locale-provider";
 
 export default function Books() {
   const reduce = useReducedMotion();
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, amount: 0.1 });
+  const t = useTranslations("books");
 
   return (
     <section id="books" className="py-32 px-6 bg-surface-elevated">
@@ -19,15 +21,13 @@ export default function Books() {
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
         >
           <p className="text-sm uppercase tracking-[0.18em] text-muted font-mono mb-3">
-            Books
+            {t("label")}
           </p>
           <h2 className="text-3xl md:text-5xl font-serif tracking-tight leading-[1.15] mb-6">
-            The Written Work
+            {t("title")}
           </h2>
           <p className="text-lg text-muted leading-relaxed max-w-2xl mb-16">
-            More than three decades of teaching, from the first account of his
-            awakening to his most recent reflections — each book a record of an
-            evolving spiritual vision.
+            {t("intro")}
           </p>
         </motion.div>
 

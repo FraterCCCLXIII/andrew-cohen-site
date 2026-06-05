@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "title": "Andrew Cohen | Evolutionary Enlightenment",
+    "description": "The teaching of Andrew Cohen: Evolutionary Enlightenment, a vision of the human being as a vehicle for the evolution of consciousness."
+  },
+  "hero": {
+    "titleLine1": "The injunction is to become",
+    "titleLine2": "a living expression of",
+    "titleLine3": "the future.",
+    "subtitle": "A spiritual vision rooted in the recognition that the evolutionary impulse and the spiritual impulse are one and the same force, calling each individual to authentic self-expression at the edge of human emergence.",
+    "exploreTeaching": "Explore the Teaching",
+    "readBooks": "Read the Books",
+    "imageAlt": "The Milky Way in a starry night sky"
+  },
+  "memoriam": {
+    "label": "In Memoriam",
+    "title": "Remembering Andrew",
+    "years": "1955 – 2025",
+    "body": "With his passing on March 25, 2025, in the serene embrace of Tiruvannamalai, India, Andrew Cohen left a spiritual landscape forever changed. For more than four decades he articulated a vision of Evolutionary Enlightenment — wedding the timeless recognition of nondual Being to the evolutionary impulse that drives the cosmos forward. He was a catalytic force, a spiritual innovator, a teacher, and a husband who challenged countless seekers to move beyond the comfort of established doctrines and embrace a more dynamic, world-embracing understanding of awakening.",
+    "readObituary": "Read the obituary",
+    "imageAlt": "Andrew Cohen"
+  },
+  "teaching": {
+    "label": "The Teaching",
+    "title": "Evolutionary Enlightenment",
+    "intro": "Andrew Cohen's teaching bridges the ancient enlightenment tradition with the recognition that consciousness is evolving — and that each individual is uniquely called to participate in that evolution.",
+    "exploreAll": "Explore all teachings",
+    "principles": {
+      "fiveTenets": {
+        "title": "The Five Tenets",
+        "body": "Clarity of Intention, The Power of Volition, Face Everything and Avoid Nothing, The Process Perspective, and Cosmic Conscience — the practice of conscious evolution, where the path and the goal are one."
+      },
+      "sixPrinciples": {
+        "title": "The Six Principles",
+        "body": "Evolutionary Tension, Autonomy, Communion, Purity of Motive, Integrity of Action, and Natural Hierarchy — what emerges between people when individuals living the tenets come together."
+      },
+      "authenticSelf": {
+        "title": "The Authentic Self",
+        "body": "The evolutionary impulse — the creative energy of the cosmos — awakening to itself within an individual and recognized as one's own deepest identity, beyond the separate ego."
+      },
+      "ego": {
+        "title": "The Ego",
+        "body": "The structure of attachment and identification that resists evolution: at once the vehicle of individuation and the greatest obstacle on the path to enlightenment."
+      }
+    }
+  },
+  "books": {
+    "label": "Books",
+    "title": "The Written Work",
+    "intro": "More than three decades of teaching, from the first account of his awakening to his most recent reflections — each book a record of an evolving spiritual vision."
+  },
+  "quotes": {
+    "label": "Quotes",
+    "title": "Words to Carry",
+    "items": [
+      {
+        "text": "The spiritual impulse and the evolutionary impulse are one and the same.",
+        "source": "Evolutionary Enlightenment"
+      },
+      {
+        "text": "Enlightenment is not about transcending the human condition. It is about fully embracing it.",
+        "source": "An Unconditional Relationship to Life"
+      },
+      {
+        "text": "True authenticity is not the expression of who you think you are. It is the expression of what is emerging through you.",
+        "source": "The Challenge of Enlightenment"
+      },
+      {
+        "text": "The same force that created the galaxies is creating you, and it is not finished yet.",
+        "source": "Embracing Heaven and Earth"
+      }
+    ]
+  },
+  "about": {
+    "label": "About",
+    "title": "The Man Behind the Teaching",
+    "paragraphs": [
+      "Andrew Cohen is a spiritual teacher and author who has spent over three decades articulating a vision of enlightenment that is inseparable from the evolutionary process itself. Born in 1954 in New York City, he began his spiritual journey as a young man and was deeply influenced by the Indian sage H.W.L. Poonja, a direct disciple of Ramana Maharshi.",
+      "Cohen's teaching, which he calls \"Evolutionary Enlightenment,\" represents a significant departure from traditional enlightenment narratives. Rather than liberation from the world, he envisions the world transformed through individuals who have awakened to their role as conscious participants in the ongoing creation of the cosmos.",
+      "Through his books, retreats, and the online publication \"What is Enlightenment?\" (later \"EnlightenNext\"), Cohen has influenced a global community of seekers who share his conviction that spiritual practice must be inseparable from creative engagement with the world."
+    ],
+    "keyFacts": "Key Facts",
+    "facts": {
+      "born": { "label": "Born", "value": "1954, New York City" },
+      "teaching": { "label": "Teaching", "value": "Evolutionary Enlightenment" },
+      "lineage": { "label": "Lineage", "value": "H.W.L. Poonja (Papaji)" },
+      "books": { "label": "Books", "value": "12 published works" },
+      "publication": { "label": "Publication", "value": "What is Enlightenment?" }
+    }
+  },
+  "languageSwitcher": {
+    "label": "Language",
+    "homepageOnly": "Homepage available in this language. Other pages are in English."
+  }
+}
