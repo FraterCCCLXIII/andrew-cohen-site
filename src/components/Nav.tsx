@@ -9,7 +9,6 @@ const navLinks = [
   { label: "Life", href: "/life" },
   { label: "Lineage", href: "/lineage" },
   { label: "Teaching", href: "/teaching" },
-  { label: "Practice", href: "/practice" },
   { label: "Books", href: "/books" },
   { label: "Magazine", href: "/magazine" },
   { label: "Archive", href: "/archive" },

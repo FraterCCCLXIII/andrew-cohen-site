@@ -36,9 +36,27 @@ const groups: TeachingGroup[] = [
         href: "/teaching/the-authentic-self",
       },
       {
+        title: "The Absolute: The True Self",
+        description:
+          "The non-relative dimension of self — experienced as the timeless ground of Being and as Eros, the evolutionary impulse.",
+        href: "/teaching/the-absolute-the-true-self",
+      },
+      {
+        title: "Eros: The Evolutionary Impulse",
+        description:
+          "The burning intelligence and driving force of the cosmos — the Absolute as Becoming.",
+        href: "/teaching/eros-the-evolutionary-impulse",
+      },
+      {
+        title: "The New Being",
+        description:
+          "The emergent cosmocentric potential that arises when evolutionarily enlightened individuals create the conditions for collective emergence.",
+        href: "/teaching/the-new-being",
+      },
+      {
         title: "The Ego",
         description:
-          "The structure of attachment and identification that resists evolution — the obstacle within.",
+          "The structure of attachment and identification — positive individuation and the negative ego that resists evolution.",
         href: "/teaching/the-ego",
       },
       {
@@ -47,18 +65,36 @@ const groups: TeachingGroup[] = [
           "Being and Becoming, the art of stillness, and why the path and the goal are one.",
         href: "/teaching/the-spiritual-path",
       },
+      {
+        title: "The Triple Gem",
+        description:
+          "Buddha, Dharma, and Sangha — exemplar, cosmic law, and community as the ultimate vehicle for staying awake.",
+        href: "/teaching/the-triple-gem",
+      },
     ],
   },
   {
     label: "The Practice",
     blurb:
-      "The architecture of the teaching — the individual practice and the collective field it makes possible.",
+      "The architecture of the teaching — individual disciplines and the collective field they make possible.",
     items: [
       {
-        title: "Practice",
+        title: "Meditation",
         description:
-          "Meditation, contemplation, the Five Tenets, Enlightened Communication, daily discipline, retreat, sangha, and the Triple Gem.",
-        href: "/practice",
+          "The art and science of stillness — assuming no relationship to the content of consciousness.",
+        href: "/teaching/meditation",
+      },
+      {
+        title: "Inquiry",
+        description:
+          "Directed cognition and the practice of not knowing — illuminating intention and revealing the ego's resistance.",
+        href: "/teaching/inquiry",
+      },
+      {
+        title: "Enlightened Communication",
+        description:
+          "Collective inquiry and intersubjective nonduality — creating the future together beyond ego.",
+        href: "/teaching/enlightened-communication",
       },
       {
         title: "The Five Tenets",
