@@ -10,8 +10,8 @@
   --accent: #3B6B4F;
   --accent-soft: #EDF3EC;
   --accent-soft-text: #346538;
-  --serif: var(--font-instrument-serif), "Lyon Text", "Georgia", serif;
-  --sans: "Geist Sans", "SF Pro Display", system-ui, sans-serif;
+  --serif: var(--font-geist-sans), "Geist Sans", "SF Pro Display", system-ui, sans-serif;
+  --sans: var(--font-geist-sans), "Geist Sans", "SF Pro Display", system-ui, sans-serif;
   --mono: "Geist Mono", "SF Mono", monospace;
 }
 
@@ -76,6 +76,70 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
   background-repeat: repeat;
   background-size: 256px 256px;
+}
+
+/* Memoriam portrait — feather image edge + wide color blend */
+.memoriam-portrait-mask {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(0, 0, 0, 0.04) 10%,
+    rgba(0, 0, 0, 0.12) 20%,
+    rgba(0, 0, 0, 0.24) 30%,
+    rgba(0, 0, 0, 0.38) 40%,
+    rgba(0, 0, 0, 0.52) 50%,
+    rgba(0, 0, 0, 0.66) 60%,
+    rgba(0, 0, 0, 0.78) 70%,
+    rgba(0, 0, 0, 0.88) 80%,
+    rgba(0, 0, 0, 0.96) 90%,
+    black 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(0, 0, 0, 0.04) 10%,
+    rgba(0, 0, 0, 0.12) 20%,
+    rgba(0, 0, 0, 0.24) 30%,
+    rgba(0, 0, 0, 0.38) 40%,
+    rgba(0, 0, 0, 0.52) 50%,
+    rgba(0, 0, 0, 0.66) 60%,
+    rgba(0, 0, 0, 0.78) 70%,
+    rgba(0, 0, 0, 0.88) 80%,
+    rgba(0, 0, 0, 0.96) 90%,
+    black 100%
+  );
+}
+
+.memoriam-portrait-fade {
+  background: linear-gradient(
+    to right,
+    var(--surface-elevated) 0%,
+    var(--surface-elevated) 28%,
+    color-mix(in srgb, var(--surface-elevated) 98%, transparent) 34%,
+    color-mix(in srgb, var(--surface-elevated) 94%, transparent) 40%,
+    color-mix(in srgb, var(--surface-elevated) 86%, transparent) 46%,
+    color-mix(in srgb, var(--surface-elevated) 76%, transparent) 52%,
+    color-mix(in srgb, var(--surface-elevated) 64%, transparent) 58%,
+    color-mix(in srgb, var(--surface-elevated) 50%, transparent) 64%,
+    color-mix(in srgb, var(--surface-elevated) 36%, transparent) 70%,
+    color-mix(in srgb, var(--surface-elevated) 22%, transparent) 76%,
+    color-mix(in srgb, var(--surface-elevated) 12%, transparent) 82%,
+    color-mix(in srgb, var(--surface-elevated) 5%, transparent) 88%,
+    transparent 98%
+  );
+}
+
+.memoriam-portrait-fade--mobile {
+  background: linear-gradient(
+    to right,
+    var(--surface-elevated) 0%,
+    color-mix(in srgb, var(--surface-elevated) 88%, transparent) 18%,
+    color-mix(in srgb, var(--surface-elevated) 68%, transparent) 32%,
+    color-mix(in srgb, var(--surface-elevated) 45%, transparent) 48%,
+    color-mix(in srgb, var(--surface-elevated) 24%, transparent) 64%,
+    color-mix(in srgb, var(--surface-elevated) 10%, transparent) 78%,
+    transparent 94%
+  );
 }
 
 /* Archive sidebar scrollbars */

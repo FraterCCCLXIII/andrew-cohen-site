@@ -11,16 +11,16 @@ export default function Hero() {
       {/* Background photograph */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/images/hero-bg.jpg"
-          alt="Andrew Cohen as a young man among goats in the Himalayan foothills"
+          src="/images/hero-stars.jpg"
+          alt="The Milky Way in a starry night sky"
           fill
           priority
           sizes="100vw"
           className="object-cover object-center"
         />
-        {/* Legibility scrims — tied to the background token so text stays readable in light and dark modes */}
-        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background/40" />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/30" />
+        {/* Legibility scrims — text sits on the left */}
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/60 to-background/20" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-background/25" />
       </div>
 
       <div className="max-w-5xl mx-auto w-full">

@@ -26,12 +26,6 @@ At its core is the insight of Evolutionary Enlightenment: that the spiritual imp
 This practice shapes everything at Manifest Nirvana: weekly silent meditations, live dialogues, the Co-Creating the Third Attractor conversation series, and the ongoing work of building a transpersonal culture — one in which empowered souls are compelled by a call from the future to create an awakened way of life.`,
   },
   {
-    title: "The Third Attractor",
-    body: `A living inquiry at Manifest Nirvana asks how a new civilizational possibility can emerge — beyond collapse and control, through coherence, consciousness, and co-creation. The Third Attractor dialogue series brings together thinkers, practitioners, system designers, and cultural pioneers to explore what Daniela Bomatter calls the movement from meta-crisis to meta-coherence.
-
-It is a vision Cohen held throughout his final years: that spirituality must engage the world, not retreat from it. That the world's crises are signs of something new struggling to be born. And that our own spiritual transformation is inextricably linked to the collective awakening of humanity.`,
-  },
-  {
     title: "Carrying the Work Forward",
     body: `Since Andrew Cohen's passing in March 2025, the community at Manifest Nirvana — led by Daniela Bomatter, Vincent Drouot, Annick Macher, Sara Topsoe, and others who studied with Cohen for nearly two decades — continues to carry this work forward. Daniela lives at the ashram in Tiruvannamalai, hosting retreats and events while extending the teaching through online gatherings, the Third Attractor series, and her own writing.
 
@@ -39,36 +33,18 @@ The ashram remains what it was always meant to be: not a monument to a teacher, 
   },
 ];
 
-const quotes = [
-  {
-    text: "Spiritual awakening is not only the recognition of the stillness and freedom at the heart of existence. It is also a sensitivity to the movement of life as it unfolds through us, as us.",
-    source: "Manifest Nirvana",
-  },
-  {
-    text: "We are not here to transcend life, but to become conscious instruments of its evolution.",
-    source: "Manifest Nirvana — About",
-  },
-  {
-    text: "In 2019, Andrew founded Manifest Nirvana, an innovative online spiritual community dedicated to intersubjective awakening and collective evolution.",
-    source: "Obituary, March 2025",
-  },
-  {
-    text: "Imagine an emerging world of empowered souls compelled by a call from the future to create an awakened culture.",
-    source: "Manifest Nirvana",
-  },
-];
-
 export default function AshramPage() {
   return (
     <InnerPageLayout
       title="Manifest Nirvana"
-      subtitle="Manifest Nirvana · Tiruvannamalai"
+      subtitle="Tiruvannamalai • India"
       intro="At the foot of the sacred mountain Arunachala, Andrew Cohen founded Manifest Nirvana — an ashram and online community dedicated to Evolutionary Enlightenment, intersubjective awakening, and the creation of an awakened culture for the twenty-first century."
       sections={sections}
-      quotes={quotes}
+      quotes={[]}
       heroImage="/images/ashram-hero.jpg"
       heroImageAlt="Manifest Nirvana ashram at sunrise, Tiruvannamalai"
       heroImageCaption="Manifest Nirvana, Tiruvannamalai — at the foot of Arunachala."
+      heroVariant="full"
       links={[
         {
           label: "Visit Manifest Nirvana",

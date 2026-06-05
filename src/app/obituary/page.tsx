@@ -103,7 +103,7 @@ export default function ObituaryPage() {
     <div className="min-h-screen pt-16">
       <div className="max-w-3xl mx-auto px-6 pt-10">
         <Link
-          href="/his-life"
+          href="/life"
           className="inline-flex items-center gap-2 text-sm text-muted hover:text-foreground transition-colors duration-200"
         >
           <ArrowLeft size={14} weight="regular" />
@@ -165,7 +165,7 @@ export default function ObituaryPage() {
 
       <div className="max-w-3xl mx-auto px-6 py-10">
         <Link
-          href="/his-life"
+          href="/life"
           className="inline-flex items-center gap-2 text-sm text-muted hover:text-foreground transition-colors duration-200"
         >
           <ArrowLeft size={14} weight="regular" />

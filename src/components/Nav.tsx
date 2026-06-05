@@ -6,12 +6,13 @@ import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 import { List, X } from "@phosphor-icons/react";
 
 const navLinks = [
-  { label: "Life", href: "/his-life" },
+  { label: "Life", href: "/life" },
+  { label: "Lineage", href: "/lineage" },
   { label: "Teaching", href: "/teaching" },
+  { label: "Practice", href: "/practice" },
   { label: "Books", href: "/books" },
   { label: "Magazine", href: "/magazine" },
   { label: "Archive", href: "/archive" },
-  { label: "Lineage", href: "/lineage" },
   { label: "Ashram", href: "/ashram" },
   { label: "Quotes", href: "/quotes" },
 ];
@@ -25,34 +26,55 @@ export default function Nav() {
       <nav className="px-6 h-16 flex items-center justify-between">
         <Link
           href="/"
-          className="text-lg font-medium tracking-tight text-foreground"
+          className="flex items-baseline gap-2 md:gap-3 min-w-0"
         >
-          Andrew Cohen
+          <span className="text-xl md:text-2xl font-sans font-medium tracking-tight text-foreground shrink-0">
+            Andrew Cohen
+          </span>
+          <span className="text-xs md:text-sm text-muted font-sans tracking-wide">
+            Nonduality Evolved
+          </span>
         </Link>
 
-        {/* Desktop nav */}
-        <ul className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
-            <li key={link.href}>
-              <Link
-                href={link.href}
-                className="text-sm text-muted hover:text-foreground transition-colors duration-300"
-              >
-                {link.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
+        {/* Desktop nav + contribute */}
+        <div className="hidden md:flex items-center gap-6">
+          <ul className="flex items-center gap-8">
+            {navLinks.map((link) => (
+              <li key={link.href}>
+                <Link
+                  href={link.href}
+                  className="text-sm text-muted hover:text-foreground transition-colors duration-300"
+                >
+                  {link.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <Link
+            href="/contribute"
+            className="inline-flex items-center px-4 py-2 bg-foreground text-background text-sm rounded-md hover:bg-foreground/85 transition-colors duration-300 active:scale-[0.98] shrink-0"
+          >
+            Contribute
+          </Link>
+        </div>
 
-        {/* Mobile toggle */}
-        <button
-          onClick={() => setOpen(!open)}
-          className="md:hidden flex items-center justify-center w-10 h-10 text-foreground"
-          aria-label="Toggle menu"
-          aria-expanded={open}
-        >
-          {open ? <X size={22} weight="regular" /> : <List size={22} weight="regular" />}
-        </button>
+        {/* Mobile: contribute + menu toggle */}
+        <div className="md:hidden flex items-center gap-2">
+          <Link
+            href="/contribute"
+            className="inline-flex items-center px-3 py-1.5 bg-foreground text-background text-xs rounded-md hover:bg-foreground/85 transition-colors duration-300 active:scale-[0.98]"
+          >
+            Contribute
+          </Link>
+          <button
+            onClick={() => setOpen(!open)}
+            className="flex items-center justify-center w-10 h-10 text-foreground"
+            aria-label="Toggle menu"
+            aria-expanded={open}
+          >
+            {open ? <X size={22} weight="regular" /> : <List size={22} weight="regular" />}
+          </button>
+        </div>
       </nav>
 
       {/* Mobile menu */}

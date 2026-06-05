@@ -54,6 +54,12 @@ const groups: TeachingGroup[] = [
       "The architecture of the teaching — the individual practice and the collective field it makes possible.",
     items: [
       {
+        title: "Practice",
+        description:
+          "Meditation, contemplation, the Five Tenets, Enlightened Communication, daily discipline, retreat, sangha, and the Triple Gem.",
+        href: "/practice",
+      },
+      {
         title: "The Five Tenets",
         description:
           "Clarity of Intention, The Power of Volition, Face Everything and Avoid Nothing, The Process Perspective, and Cosmic Conscience.",
