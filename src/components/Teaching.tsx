@@ -47,7 +47,7 @@ export default function Teaching() {
             The Teaching
           </p>
           <h2 className="text-3xl md:text-5xl font-serif tracking-tight leading-[1.15] mb-6">
-            Conscious Evolution
+            Evolutionary Enlightenment
           </h2>
           <p className="text-lg text-muted leading-relaxed max-w-2xl mb-16">
             Andrew Cohen&apos;s teaching bridges the ancient enlightenment tradition
