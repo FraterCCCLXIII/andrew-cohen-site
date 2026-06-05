@@ -76,7 +76,7 @@ const quotes = [
   },
   {
     text: "When there is not knowing, there is no fundamental limitation. That means if we already know, everything that we think and feel, everything that occurs that can be measured, inner and outer, gross and subtle, all will occur within this very narrow or very small view.",
-    source": "The Challenge of Enlightenment",
+    source: "The Challenge of Enlightenment",
   },
   {
     text: "Wisdom is the ability to respond perfectly to what is occurring. This ability alone makes all things possible. In that perfect response, heaven can and does become manifest on earth.",
