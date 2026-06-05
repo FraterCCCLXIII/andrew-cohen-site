@@ -6,6 +6,7 @@ import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 import { List, X } from "@phosphor-icons/react";
 
 const navLinks = [
+  { label: "His Life", href: "/his-life" },
   { label: "Teaching", href: "/#teaching" },
   { label: "Books", href: "/#books" },
   { label: "Lineage", href: "/lineage" },

@@ -12,6 +12,7 @@ export default function Footer() {
         </div>
         <nav className="flex items-center gap-6">
           {[
+            { label: "His Life", href: "/his-life" },
             { label: "Teaching", href: "/#teaching" },
             { label: "Books", href: "/#books" },
             { label: "Lineage", href: "/lineage" },
