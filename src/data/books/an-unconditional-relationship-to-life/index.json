@@ -1,0 +1,235 @@
+{
+  "slug": "an-unconditional-relationship-to-life",
+  "title": "An Unconditional Relationship to Life",
+  "subtitle": "The Odyssey of a Young American Spiritual Teacher",
+  "credits": "Copyright © 1995 by Moksha Foundation, Inc. · ISBN 1-883929-12-1",
+  "parts": [
+    {
+      "id": "front-matter",
+      "label": "Front Matter"
+    },
+    {
+      "id": "opening",
+      "label": "What Is It All About?"
+    },
+    {
+      "id": "impersonal",
+      "label": "Impersonal Enlightenment"
+    },
+    {
+      "id": "predicament",
+      "label": "The Modern Spiritual Predicament"
+    },
+    {
+      "id": "discovery",
+      "label": "The Discovery of a Bigger View"
+    },
+    {
+      "id": "visceral",
+      "label": "The Visceral Response"
+    },
+    {
+      "id": "science",
+      "label": "The Science of Enlightenment"
+    },
+    {
+      "id": "unknown",
+      "label": "The Unknown Can Only Be Unknown"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "acknowledgements",
+      "title": "Acknowledgements",
+      "partId": "front-matter",
+      "contentFile": "chapters/acknowledgements.json"
+    },
+    {
+      "id": "preface",
+      "title": "Preface",
+      "partId": "front-matter",
+      "contentFile": "chapters/preface.json"
+    },
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "partId": "front-matter",
+      "contentFile": "chapters/introduction.json"
+    },
+    {
+      "id": "what-is-it-all-about",
+      "title": "What Is It All About?",
+      "printedPage": 3,
+      "partId": "opening",
+      "contentFile": "chapters/what-is-it-all-about.json"
+    },
+    {
+      "id": "odd-encounters",
+      "title": "Odd Encounters",
+      "printedPage": 7,
+      "partId": "opening",
+      "contentFile": "chapters/odd-encounters.json"
+    },
+    {
+      "id": "the-quality-of-attention",
+      "title": "The Quality of Attention",
+      "printedPage": 11,
+      "partId": "opening",
+      "contentFile": "chapters/the-quality-of-attention.json"
+    },
+    {
+      "id": "thought-does-not-create-karma",
+      "title": "Thought Does Not Create Karma",
+      "printedPage": 17,
+      "partId": "opening",
+      "contentFile": "chapters/thought-does-not-create-karma.json"
+    },
+    {
+      "id": "impersonal-enlightenment",
+      "title": "Impersonal Enlightenment",
+      "printedPage": 25,
+      "partId": "impersonal",
+      "contentFile": "chapters/impersonal-enlightenment.json"
+    },
+    {
+      "id": "a-state-of-constant-revolution",
+      "title": "A State of Constant Revolution",
+      "printedPage": 27,
+      "partId": "impersonal",
+      "contentFile": "chapters/a-state-of-constant-revolution.json"
+    },
+    {
+      "id": "fullness-or-emptiness",
+      "title": "Fullness or Emptiness?",
+      "printedPage": 33,
+      "partId": "impersonal",
+      "contentFile": "chapters/fullness-or-emptiness.json"
+    },
+    {
+      "id": "diverging-paths",
+      "title": "Diverging Paths",
+      "printedPage": 39,
+      "partId": "impersonal",
+      "contentFile": "chapters/diverging-paths.json"
+    },
+    {
+      "id": "a-crisis-of-trust",
+      "title": "A Crisis of Trust",
+      "printedPage": 43,
+      "partId": "impersonal",
+      "contentFile": "chapters/a-crisis-of-trust.json"
+    },
+    {
+      "id": "the-modern-spiritual-predicament",
+      "title": "The Modern Spiritual Predicament",
+      "printedPage": 53,
+      "partId": "predicament",
+      "contentFile": "chapters/the-modern-spiritual-predicament.json"
+    },
+    {
+      "id": "meeting-the-status-quo",
+      "title": "Meeting the Status Quo",
+      "printedPage": 57,
+      "partId": "predicament",
+      "contentFile": "chapters/meeting-the-status-quo.json"
+    },
+    {
+      "id": "it-s-black-or-white",
+      "title": "It's Black or White",
+      "printedPage": 63,
+      "partId": "predicament",
+      "contentFile": "chapters/it-s-black-or-white.json"
+    },
+    {
+      "id": "the-discovery-of-a-bigger-view",
+      "title": "The Discovery of a Bigger View",
+      "printedPage": 67,
+      "partId": "discovery",
+      "contentFile": "chapters/the-discovery-of-a-bigger-view.json"
+    },
+    {
+      "id": "for-the-sake-of-the-whole",
+      "title": "For the Sake of the Whole",
+      "printedPage": 73,
+      "partId": "discovery",
+      "contentFile": "chapters/for-the-sake-of-the-whole.json"
+    },
+    {
+      "id": "right-view-is-the-discovery-of-the-holy-grail",
+      "title": "Right View Is the Discovery of the Holy Grail",
+      "printedPage": 77,
+      "partId": "discovery",
+      "contentFile": "chapters/right-view-is-the-discovery-of-the-holy-grail.json"
+    },
+    {
+      "id": "the-zen-master-and-the-yogi",
+      "title": "The Zen Master and the Yogi",
+      "printedPage": 81,
+      "partId": "visceral",
+      "contentFile": "chapters/the-zen-master-and-the-yogi.json"
+    },
+    {
+      "id": "the-visceral-response",
+      "title": "The Visceral Response",
+      "printedPage": 91,
+      "partId": "visceral",
+      "contentFile": "chapters/the-visceral-response.json"
+    },
+    {
+      "id": "the-law-of-love",
+      "title": "The Law of Love",
+      "printedPage": 99,
+      "partId": "visceral",
+      "contentFile": "chapters/the-law-of-love.json"
+    },
+    {
+      "id": "truth-is-stranger-than-fiction",
+      "title": "Truth Is Stranger Than Fiction",
+      "printedPage": 105,
+      "partId": "visceral",
+      "contentFile": "chapters/truth-is-stranger-than-fiction.json"
+    },
+    {
+      "id": "the-problem-with-advaita",
+      "title": "The Problem with Advaita",
+      "printedPage": 115,
+      "partId": "science",
+      "contentFile": "chapters/the-problem-with-advaita.json"
+    },
+    {
+      "id": "heaven-earth-and-creation",
+      "title": "Heaven, Earth and Creation",
+      "printedPage": 125,
+      "partId": "science",
+      "contentFile": "chapters/heaven-earth-and-creation.json"
+    },
+    {
+      "id": "mother-of-the-universe",
+      "title": "Mother of the Universe",
+      "printedPage": 133,
+      "partId": "science",
+      "contentFile": "chapters/mother-of-the-universe.json"
+    },
+    {
+      "id": "the-science-of-enlightenment",
+      "title": "The Science of Enlightenment",
+      "printedPage": 139,
+      "partId": "science",
+      "contentFile": "chapters/the-science-of-enlightenment.json"
+    },
+    {
+      "id": "the-unknown-can-only-be-unknown",
+      "title": "The Unknown Can Only Be Unknown",
+      "printedPage": 147,
+      "partId": "unknown",
+      "contentFile": "chapters/the-unknown-can-only-be-unknown.json"
+    },
+    {
+      "id": "is-it-possible",
+      "title": "Is It Possible?",
+      "printedPage": 157,
+      "partId": "unknown",
+      "contentFile": "chapters/is-it-possible.json"
+    }
+  ]
+}

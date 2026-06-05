@@ -1,0 +1,1151 @@
+{
+  "slug": "enlightenment-is-a-secret",
+  "title": "Enlightenment Is a Secret",
+  "subtitle": "Teachings of Liberation",
+  "credits": "Copyright © 1991, 1995 by Moksha Foundation, Inc. · ISBN 1-883929-08-3",
+  "parts": [
+    {
+      "id": "front-matter",
+      "label": "Front Matter"
+    },
+    {
+      "id": "i",
+      "label": "I · Enlightenment"
+    },
+    {
+      "id": "ii",
+      "label": "II · Longing for Liberation"
+    },
+    {
+      "id": "iii",
+      "label": "III · Seeking"
+    },
+    {
+      "id": "iv",
+      "label": "IV · Understanding"
+    },
+    {
+      "id": "v",
+      "label": "V · Surrender Is Liberation"
+    },
+    {
+      "id": "vi",
+      "label": "VI · Renunciation"
+    },
+    {
+      "id": "vii",
+      "label": "VII · Vigilance"
+    },
+    {
+      "id": "viii",
+      "label": "VIII · Not a Personal Matter"
+    },
+    {
+      "id": "back-matter",
+      "label": "Back Matter"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "acknowledgements",
+      "title": "Acknowledgements",
+      "partId": "front-matter",
+      "contentFile": "chapters/acknowledgements.json"
+    },
+    {
+      "id": "foreword",
+      "title": "Foreword",
+      "partId": "front-matter",
+      "contentFile": "chapters/foreword.json"
+    },
+    {
+      "id": "preface",
+      "title": "Preface",
+      "partId": "front-matter",
+      "contentFile": "chapters/preface.json"
+    },
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "partId": "front-matter",
+      "contentFile": "chapters/introduction.json"
+    },
+    {
+      "id": "real-contentment-the",
+      "title": "Real Contentment, The",
+      "printedPage": 4,
+      "partId": "i",
+      "contentFile": "chapters/real-contentment-the.json"
+    },
+    {
+      "id": "coming-to-rest",
+      "title": "Coming to Rest",
+      "printedPage": 5,
+      "partId": "i",
+      "contentFile": "chapters/coming-to-rest.json"
+    },
+    {
+      "id": "enlightenment-is-not-far-away",
+      "title": "Enlightenment Is Not Far Away",
+      "printedPage": 6,
+      "partId": "i",
+      "contentFile": "chapters/enlightenment-is-not-far-away.json"
+    },
+    {
+      "id": "enlightenment-is-asecret",
+      "title": "Enlightenment Is aSecret",
+      "printedPage": 7,
+      "partId": "i",
+      "contentFile": "chapters/enlightenment-is-asecret.json"
+    },
+    {
+      "id": "you-have-to-get-out-of-the-way",
+      "title": "You Have to Get Out of the Way",
+      "printedPage": 12,
+      "partId": "ii",
+      "contentFile": "chapters/you-have-to-get-out-of-the-way.json"
+    },
+    {
+      "id": "impossible-possibility-the",
+      "title": "Impossible Possibility, The",
+      "printedPage": 13,
+      "partId": "ii",
+      "contentFile": "chapters/impossible-possibility-the.json"
+    },
+    {
+      "id": "precious-vulnerability",
+      "title": "Precious Vulnerability",
+      "printedPage": 14,
+      "partId": "ii",
+      "contentFile": "chapters/precious-vulnerability.json"
+    },
+    {
+      "id": "that-most-delicate-place",
+      "title": "That Most Delicate Place",
+      "printedPage": 15,
+      "partId": "ii",
+      "contentFile": "chapters/that-most-delicate-place.json"
+    },
+    {
+      "id": "be-ready-to-receive-the-real",
+      "title": "Be Ready to Receive the Real",
+      "printedPage": 16,
+      "partId": "ii",
+      "contentFile": "chapters/be-ready-to-receive-the-real.json"
+    },
+    {
+      "id": "wanting-to-realize-more-than-anything-else",
+      "title": "Wanting to Realize More Than Anything Else",
+      "printedPage": 19,
+      "partId": "ii",
+      "contentFile": "chapters/wanting-to-realize-more-than-anything-else.json"
+    },
+    {
+      "id": "be-obedient-to-the-longing",
+      "title": "Be Obedient to the Longing",
+      "printedPage": 20,
+      "partId": "ii",
+      "contentFile": "chapters/be-obedient-to-the-longing.json"
+    },
+    {
+      "id": "is-it-possible-to-desire-freedom-too-much",
+      "title": "Is It Possible to Desire Freedom Too Much?",
+      "printedPage": 21,
+      "partId": "ii",
+      "contentFile": "chapters/is-it-possible-to-desire-freedom-too-much.json"
+    },
+    {
+      "id": "clarity-of-intention-the-foundation-of-spiritual-life",
+      "title": "Clarity of Intention: The Foundation of Spiritual Life",
+      "printedPage": 24,
+      "partId": "ii",
+      "contentFile": "chapters/clarity-of-intention-the-foundation-of-spiritual-life.json"
+    },
+    {
+      "id": "what-do-ireally-want",
+      "title": "What Do IReally Want?",
+      "printedPage": 25,
+      "partId": "ii",
+      "contentFile": "chapters/what-do-ireally-want.json"
+    },
+    {
+      "id": "in-this-birth",
+      "title": "In This Birth",
+      "printedPage": 26,
+      "partId": "ii",
+      "contentFile": "chapters/in-this-birth.json"
+    },
+    {
+      "id": "choices-are-the-known-and-the-unknown-the",
+      "title": "Choices Are the Known and the Unknown, The",
+      "printedPage": 27,
+      "partId": "ii",
+      "contentFile": "chapters/choices-are-the-known-and-the-unknown-the.json"
+    },
+    {
+      "id": "waking-up-is-not-agame",
+      "title": "Waking Up Is Not aGame",
+      "printedPage": 28,
+      "partId": "ii",
+      "contentFile": "chapters/waking-up-is-not-agame.json"
+    },
+    {
+      "id": "be-deadly-serious",
+      "title": "Be Deadly Serious",
+      "printedPage": 30,
+      "partId": "ii",
+      "contentFile": "chapters/be-deadly-serious.json"
+    },
+    {
+      "id": "people-who-are-serious-succeed",
+      "title": "People Who Are Serious Succeed",
+      "printedPage": 31,
+      "partId": "ii",
+      "contentFile": "chapters/people-who-are-serious-succeed.json"
+    },
+    {
+      "id": "ego-never-sought-enlightenment-the",
+      "title": "Ego Never Sought Enlightenment, The",
+      "printedPage": 32,
+      "partId": "ii",
+      "contentFile": "chapters/ego-never-sought-enlightenment-the.json"
+    },
+    {
+      "id": "whai-does-it-mean-to-be-serious-about-awakening",
+      "title": "Whai Does It Mean to Be Serious about Awakening?",
+      "printedPage": 33,
+      "partId": "ii",
+      "contentFile": "chapters/whai-does-it-mean-to-be-serious-about-awakening.json"
+    },
+    {
+      "id": "what-qualities-insure-the-likelihood-of-success",
+      "title": "What Qualities Insure the Likelihood of Success?",
+      "printedPage": 36,
+      "partId": "ii",
+      "contentFile": "chapters/what-qualities-insure-the-likelihood-of-success.json"
+    },
+    {
+      "id": "readiness-for-enlightenment-is-true-innocence",
+      "title": "Readiness for Enlightenment Is True Innocence",
+      "printedPage": 37,
+      "partId": "ii",
+      "contentFile": "chapters/readiness-for-enlightenment-is-true-innocence.json"
+    },
+    {
+      "id": "teacher-is-an-outward-manifestation-of-your-own-heart-the",
+      "title": "Teacher Is an Outward Manifestation of Your Own Heart, The",
+      "printedPage": 40,
+      "partId": "ii",
+      "contentFile": "chapters/teacher-is-an-outward-manifestation-of-your-own-heart-the.json"
+    },
+    {
+      "id": "what-does-it-mean-to-be-perfect",
+      "title": "What Does It Mean to Be Perfect?",
+      "printedPage": 42,
+      "partId": "ii",
+      "contentFile": "chapters/what-does-it-mean-to-be-perfect.json"
+    },
+    {
+      "id": "god-is-not-an-object-to-be-seen",
+      "title": "God Is Not an Object to Be Seen",
+      "printedPage": 48,
+      "partId": "iii",
+      "contentFile": "chapters/god-is-not-an-object-to-be-seen.json"
+    },
+    {
+      "id": "dont-be-satisfied-with-imitation",
+      "title": "Don’t Be Satisfied with Imitation",
+      "printedPage": 49,
+      "partId": "iii",
+      "contentFile": "chapters/dont-be-satisfied-with-imitation.json"
+    },
+    {
+      "id": "start-again",
+      "title": "Start Again",
+      "printedPage": 53,
+      "partId": "iii",
+      "contentFile": "chapters/start-again.json"
+    },
+    {
+      "id": "spiritual-is-what-you-already-are",
+      "title": "Spiritual Is What You Already Are",
+      "printedPage": 60,
+      "partId": "iii",
+      "contentFile": "chapters/spiritual-is-what-you-already-are.json"
+    },
+    {
+      "id": "you-cannot-prepare-for-where-you-already-are",
+      "title": "You Cannot Prepare for Where You Already Are",
+      "printedPage": 61,
+      "partId": "iii",
+      "contentFile": "chapters/you-cannot-prepare-for-where-you-already-are.json"
+    },
+    {
+      "id": "is-it-necessary-to-meditate-in-order-to-reach-enlightenment",
+      "title": "Is It Necessary to Meditate in Order to Reach Enlightenment?",
+      "printedPage": 62,
+      "partId": "iii",
+      "contentFile": "chapters/is-it-necessary-to-meditate-in-order-to-reach-enlightenment.json"
+    },
+    {
+      "id": "dont-want-time-to-understand",
+      "title": "Don’t Want Time to Understand",
+      "printedPage": 63,
+      "partId": "iii",
+      "contentFile": "chapters/dont-want-time-to-understand.json"
+    },
+    {
+      "id": "true-path-the",
+      "title": "True Path, The",
+      "printedPage": 64,
+      "partId": "iii",
+      "contentFile": "chapters/true-path-the.json"
+    },
+    {
+      "id": "are-you-going-to-jump-or-not",
+      "title": "Are You Going to Jump or Not?",
+      "printedPage": 65,
+      "partId": "iii",
+      "contentFile": "chapters/are-you-going-to-jump-or-not.json"
+    },
+    {
+      "id": "what-kind-of-practice-can-prepare-one-for-enlightenment",
+      "title": "What Kind of Practice Can Prepare One for Enlightenment?",
+      "printedPage": 67,
+      "partId": "iii",
+      "contentFile": "chapters/what-kind-of-practice-can-prepare-one-for-enlightenment.json"
+    },
+    {
+      "id": "enlightenment-is-where-alt-practice-is-supposed-to-lead",
+      "title": "Enlightenment Is Where Alt Practice Is Supposed to Lead",
+      "printedPage": 68,
+      "partId": "iii",
+      "contentFile": "chapters/enlightenment-is-where-alt-practice-is-supposed-to-lead.json"
+    },
+    {
+      "id": "devotion-cannot-be-practiced",
+      "title": "Devotion Cannot Be Practiced",
+      "printedPage": 70,
+      "partId": "iii",
+      "contentFile": "chapters/devotion-cannot-be-practiced.json"
+    },
+    {
+      "id": "spiritual-progress",
+      "title": "Spiritual Progress",
+      "printedPage": 71,
+      "partId": "iii",
+      "contentFile": "chapters/spiritual-progress.json"
+    },
+    {
+      "id": "what-makes-for-asuccessful-student-teacher-relationship",
+      "title": "What Makes for aSuccessful Student-Teacher Relationship?",
+      "printedPage": 74,
+      "partId": "iii",
+      "contentFile": "chapters/what-makes-for-asuccessful-student-teacher-relationship.json"
+    },
+    {
+      "id": "teacher-and-liberation-should-be-one-and-the-same-the",
+      "title": "Teacher and Liberation Should Be One and the Same, The",
+      "printedPage": 76,
+      "partId": "iii",
+      "contentFile": "chapters/teacher-and-liberation-should-be-one-and-the-same-the.json"
+    },
+    {
+      "id": "in-the-beginning-its-up-to-the-teacher",
+      "title": "In the Beginning It’s Up to the Teacher",
+      "printedPage": 77,
+      "partId": "iii",
+      "contentFile": "chapters/in-the-beginning-its-up-to-the-teacher.json"
+    },
+    {
+      "id": "go-beyond-tragedy-and-misery",
+      "title": "Go beyond Tragedy and Misery",
+      "printedPage": 80,
+      "partId": "iii",
+      "contentFile": "chapters/go-beyond-tragedy-and-misery.json"
+    },
+    {
+      "id": "face-the-truth",
+      "title": "Face the Truth",
+      "printedPage": 81,
+      "partId": "iii",
+      "contentFile": "chapters/face-the-truth.json"
+    },
+    {
+      "id": "there-is-no-block",
+      "title": "There Is No Block",
+      "printedPage": 84,
+      "partId": "iii",
+      "contentFile": "chapters/there-is-no-block.json"
+    },
+    {
+      "id": "finishing-means-ending-working-out-means-continuing",
+      "title": "Finishing Means Ending, Working Out Means Continuing",
+      "printedPage": 85,
+      "partId": "iii",
+      "contentFile": "chapters/finishing-means-ending-working-out-means-continuing.json"
+    },
+    {
+      "id": "see-the-way-things-are",
+      "title": "See the Way Things Are",
+      "printedPage": 86,
+      "partId": "iii",
+      "contentFile": "chapters/see-the-way-things-are.json"
+    },
+    {
+      "id": "throw-it-all-away",
+      "title": "Throw It All Away",
+      "printedPage": 88,
+      "partId": "iii",
+      "contentFile": "chapters/throw-it-all-away.json"
+    },
+    {
+      "id": "does-effort-have-any-relationship-to-freedom",
+      "title": "Does Effort Have Any Relationship to Freedom?",
+      "printedPage": 92,
+      "partId": "iii",
+      "contentFile": "chapters/does-effort-have-any-relationship-to-freedom.json"
+    },
+    {
+      "id": "just-stop",
+      "title": "just Stop",
+      "printedPage": 97,
+      "partId": "iii",
+      "contentFile": "chapters/just-stop.json"
+    },
+    {
+      "id": "just-lean-back",
+      "title": "Just Lean Back",
+      "printedPage": 98,
+      "partId": "iii",
+      "contentFile": "chapters/just-lean-back.json"
+    },
+    {
+      "id": "what-does-it-really-mean-to-let-go",
+      "title": "What Does It Really Mean to Let Go?",
+      "printedPage": 99,
+      "partId": "iii",
+      "contentFile": "chapters/what-does-it-really-mean-to-let-go.json"
+    },
+    {
+      "id": "seeing-things-as-they-are-is-letting-go",
+      "title": "Seeing Things as They Are Is Letting Go",
+      "printedPage": 100,
+      "partId": "iii",
+      "contentFile": "chapters/seeing-things-as-they-are-is-letting-go.json"
+    },
+    {
+      "id": "if-you-hide-behind-time",
+      "title": "If You Hide Behind Time",
+      "printedPage": 105,
+      "partId": "iii",
+      "contentFile": "chapters/if-you-hide-behind-time.json"
+    },
+    {
+      "id": "abandon-the-future",
+      "title": "Abandon the Future",
+      "printedPage": 109,
+      "partId": "iii",
+      "contentFile": "chapters/abandon-the-future.json"
+    },
+    {
+      "id": "when-you-meet-your-teacher-seeking-comes-to-an-end",
+      "title": "When You Meet Your Teacher Seeking Comes to an End",
+      "printedPage": 112,
+      "partId": "iii",
+      "contentFile": "chapters/when-you-meet-your-teacher-seeking-comes-to-an-end.json"
+    },
+    {
+      "id": "meeting-the-teacher",
+      "title": "Meeting the Teacher",
+      "printedPage": 113,
+      "partId": "iii",
+      "contentFile": "chapters/meeting-the-teacher.json"
+    },
+    {
+      "id": "if-liberation-wasnt-given-then-move-on",
+      "title": "If Liberation Wasn’t Given, Then Move On",
+      "printedPage": 115,
+      "partId": "iii",
+      "contentFile": "chapters/if-liberation-wasnt-given-then-move-on.json"
+    },
+    {
+      "id": "if-you-are-not-interested-in-finding-your-ow-n-perfect-death-then-there-is-no-point-in-seeking-the-guidance-of-an-enlightened-teacher",
+      "title": "If You Are Not Interested in Finding Your Ow'n Perfect Death Then There Is No Point in Seeking the Guidance of an Enlightened Teacher",
+      "printedPage": 118,
+      "partId": "iii",
+      "contentFile": "chapters/if-you-are-not-interested-in-finding-your-ow-n-perfect-death-then-there-is-no-point-in-seeking-the-guidance-of-an-enlightened-teacher.json"
+    },
+    {
+      "id": "when-you-arc-at-one-with-an-enlightened-teacher-then-time-and-space-cannot-come-between-you",
+      "title": "When You Arc at One with an Enlightened Teacher Then Time and Space Cannot Come between You",
+      "printedPage": 121,
+      "partId": "iii",
+      "contentFile": "chapters/when-you-arc-at-one-with-an-enlightened-teacher-then-time-and-space-cannot-come-between-you.json"
+    },
+    {
+      "id": "seek-understanding",
+      "title": "Seek Understanding",
+      "printedPage": 126,
+      "partId": "iv",
+      "contentFile": "chapters/seek-understanding.json"
+    },
+    {
+      "id": "to-be-free-means-to-understand",
+      "title": "To Be Free Means to Understand",
+      "printedPage": 127,
+      "partId": "iv",
+      "contentFile": "chapters/to-be-free-means-to-understand.json"
+    },
+    {
+      "id": "realize-perfect-innocence",
+      "title": "Realize Perfect Innocence",
+      "printedPage": 130,
+      "partId": "iv",
+      "contentFile": "chapters/realize-perfect-innocence.json"
+    },
+    {
+      "id": "hold-onto-nothing",
+      "title": "Hold onto Nothing",
+      "printedPage": 131,
+      "partId": "iv",
+      "contentFile": "chapters/hold-onto-nothing.json"
+    },
+    {
+      "id": "cling-only-to-freedom-alone",
+      "title": "Cling Only to Freedom Alone",
+      "printedPage": 132,
+      "partId": "iv",
+      "contentFile": "chapters/cling-only-to-freedom-alone.json"
+    },
+    {
+      "id": "realizing-total-insecurity-is-what-the-goal-is",
+      "title": "Realizing Total Insecurity Is What the Goal Is",
+      "printedPage": 133,
+      "partId": "iv",
+      "contentFile": "chapters/realizing-total-insecurity-is-what-the-goal-is.json"
+    },
+    {
+      "id": "there-is-only-one-mind",
+      "title": "There Is Only One Mind",
+      "printedPage": 136,
+      "partId": "iv",
+      "contentFile": "chapters/there-is-only-one-mind.json"
+    },
+    {
+      "id": "corruption-of-god-the",
+      "title": "Corruption of God, The",
+      "printedPage": 137,
+      "partId": "iv",
+      "contentFile": "chapters/corruption-of-god-the.json"
+    },
+    {
+      "id": "mind-is-not-an-obstacle",
+      "title": "Mind Is Not an Obstacle",
+      "printedPage": 139,
+      "partId": "iv",
+      "contentFile": "chapters/mind-is-not-an-obstacle.json"
+    },
+    {
+      "id": "mind-is-aberry-patch-the",
+      "title": "Mind Is aBerry Patch, The",
+      "printedPage": 140,
+      "partId": "iv",
+      "contentFile": "chapters/mind-is-aberry-patch-the.json"
+    },
+    {
+      "id": "question",
+      "title": "Question:",
+      "printedPage": 142,
+      "partId": "iv",
+      "contentFile": "chapters/question.json"
+    },
+    {
+      "id": "realize-objectivity",
+      "title": "Realize Objectivity",
+      "printedPage": 144,
+      "partId": "iv",
+      "contentFile": "chapters/realize-objectivity.json"
+    },
+    {
+      "id": "what-does-it-feel-like-to-be-nowhere",
+      "title": "What Does It Feel Like to Be Nowhere?",
+      "printedPage": 146,
+      "partId": "iv",
+      "contentFile": "chapters/what-does-it-feel-like-to-be-nowhere.json"
+    },
+    {
+      "id": "afraid-of-losing-everything",
+      "title": "Afraid of Losing Everything",
+      "printedPage": 147,
+      "partId": "iv",
+      "contentFile": "chapters/afraid-of-losing-everything.json"
+    },
+    {
+      "id": "if-you-have-no-ideas-about-who-you-are",
+      "title": "If You Have No Ideas about Who You Are",
+      "printedPage": 149,
+      "partId": "iv",
+      "contentFile": "chapters/if-you-have-no-ideas-about-who-you-are.json"
+    },
+    {
+      "id": "where-is-love-in-the-search-for-and-discovery-of-enlightenment",
+      "title": "Where Is Love in the Search for and Discovery of Enlightenment?",
+      "printedPage": 152,
+      "partId": "iv",
+      "contentFile": "chapters/where-is-love-in-the-search-for-and-discovery-of-enlightenment.json"
+    },
+    {
+      "id": "power-of-love-the",
+      "title": "Power of Love, The",
+      "printedPage": 153,
+      "partId": "iv",
+      "contentFile": "chapters/power-of-love-the.json"
+    },
+    {
+      "id": "discovery-of-impersonal-love-is-the-only-way-out-the",
+      "title": "Discovery of Impersonal Love Is the Only Way Out, The",
+      "printedPage": 154,
+      "partId": "iv",
+      "contentFile": "chapters/discovery-of-impersonal-love-is-the-only-way-out-the.json"
+    },
+    {
+      "id": "what-is-loving",
+      "title": "What Is Loving?",
+      "printedPage": 155,
+      "partId": "iv",
+      "contentFile": "chapters/what-is-loving.json"
+    },
+    {
+      "id": "imagine-athrone",
+      "title": "Imagine aThrone",
+      "printedPage": 158,
+      "partId": "iv",
+      "contentFile": "chapters/imagine-athrone.json"
+    },
+    {
+      "id": "discovery-of-the-true-heart-is-the-discovery-of-intuition-the",
+      "title": "Discovery of the True Heart Is the Discovery of Intuition, The",
+      "printedPage": 159,
+      "partId": "iv",
+      "contentFile": "chapters/discovery-of-the-true-heart-is-the-discovery-of-intuition-the.json"
+    },
+    {
+      "id": "finding-the-heart-is-avery-big-event",
+      "title": "Finding the Heart Is aVery Big Event",
+      "printedPage": 160,
+      "partId": "iv",
+      "contentFile": "chapters/finding-the-heart-is-avery-big-event.json"
+    },
+    {
+      "id": "true-heart-the",
+      "title": "True Heart, The",
+      "printedPage": 161,
+      "partId": "iv",
+      "contentFile": "chapters/true-heart-the.json"
+    },
+    {
+      "id": "in-detachment-is-where-the-enlightened-mind-flourishes",
+      "title": "In Detachment Is Where the Enlightened Mind Flourishes",
+      "printedPage": 164,
+      "partId": "iv",
+      "contentFile": "chapters/in-detachment-is-where-the-enlightened-mind-flourishes.json"
+    },
+    {
+      "id": "it-is-detachment-that-allows-us-to-realize-what-love-is",
+      "title": "It Is Detachment That Allows Us to Realize What Love Is",
+      "printedPage": 165,
+      "partId": "iv",
+      "contentFile": "chapters/it-is-detachment-that-allows-us-to-realize-what-love-is.json"
+    },
+    {
+      "id": "detachment-is-afree-gift-of-awareness-itself",
+      "title": "Detachment Is aFree Gift of Awareness Itself",
+      "printedPage": 166,
+      "partId": "iv",
+      "contentFile": "chapters/detachment-is-afree-gift-of-awareness-itself.json"
+    },
+    {
+      "id": "remain-detached-even-from-bliss",
+      "title": "Remain Detached Even from Bliss",
+      "printedPage": 167,
+      "partId": "iv",
+      "contentFile": "chapters/remain-detached-even-from-bliss.json"
+    },
+    {
+      "id": "awareness-is-always-there-the",
+      "title": "Awareness Is Always There, The",
+      "printedPage": 170,
+      "partId": "iv",
+      "contentFile": "chapters/awareness-is-always-there-the.json"
+    },
+    {
+      "id": "what-does-it-mean-to-be-awake",
+      "title": "What Does It Mean to Be Awake?",
+      "printedPage": 171,
+      "partId": "iv",
+      "contentFile": "chapters/what-does-it-mean-to-be-awake.json"
+    },
+    {
+      "id": "quality-of-attention",
+      "title": "Quality of Attention",
+      "printedPage": 172,
+      "partId": "iv",
+      "contentFile": "chapters/quality-of-attention.json"
+    },
+    {
+      "id": "self-realization-is-the-discover-of-pure-consciousness",
+      "title": "Self-Realization Is the Discover}' of Pure Consciousness",
+      "printedPage": 173,
+      "partId": "iv",
+      "contentFile": "chapters/self-realization-is-the-discover-of-pure-consciousness.json"
+    },
+    {
+      "id": "pierce-the-illusion-of-separation",
+      "title": "Pierce the Illusion of Separation",
+      "printedPage": 176,
+      "partId": "iv",
+      "contentFile": "chapters/pierce-the-illusion-of-separation.json"
+    },
+    {
+      "id": "there-is-no-other",
+      "title": "There Is No Other",
+      "printedPage": 177,
+      "partId": "iv",
+      "contentFile": "chapters/there-is-no-other.json"
+    },
+    {
+      "id": "what-does-it-mean-to-no-longer-exist",
+      "title": "What Does It Mean to No Longer Exist?",
+      "printedPage": 178,
+      "partId": "iv",
+      "contentFile": "chapters/what-does-it-mean-to-no-longer-exist.json"
+    },
+    {
+      "id": "penetrating-clarity-destroys-all-illusions",
+      "title": "Penetrating Clarity Destroys All Illusions",
+      "printedPage": 179,
+      "partId": "iv",
+      "contentFile": "chapters/penetrating-clarity-destroys-all-illusions.json"
+    },
+    {
+      "id": "you-have-to-be-willing-to-leave-everyone-else-behind",
+      "title": "You Have to Be Willing to Leave Everyone Else Behind",
+      "printedPage": 180,
+      "partId": "iv",
+      "contentFile": "chapters/you-have-to-be-willing-to-leave-everyone-else-behind.json"
+    },
+    {
+      "id": "you-are-in-the-world-no-matter-where-you-are",
+      "title": "You Are in the World No Matter Where You Are",
+      "printedPage": 182,
+      "partId": "iv",
+      "contentFile": "chapters/you-are-in-the-world-no-matter-where-you-are.json"
+    },
+    {
+      "id": "doing-is-being-as-much-as-not-doing-is-being",
+      "title": "Doing Is Being as Much as Not-Doing Is Being",
+      "printedPage": 183,
+      "partId": "iv",
+      "contentFile": "chapters/doing-is-being-as-much-as-not-doing-is-being.json"
+    },
+    {
+      "id": "truth-is-not-an-object",
+      "title": "Truth Is Not an Object",
+      "printedPage": 184,
+      "partId": "iv",
+      "contentFile": "chapters/truth-is-not-an-object.json"
+    },
+    {
+      "id": "questionless-state-the",
+      "title": "Questionless State, The",
+      "printedPage": 186,
+      "partId": "iv",
+      "contentFile": "chapters/questionless-state-the.json"
+    },
+    {
+      "id": "on-the-other-side-of-freedom-terror-always-lays-in-wait",
+      "title": "On the Other Side of Freedom Terror Always Lays in Wait",
+      "printedPage": 187,
+      "partId": "iv",
+      "contentFile": "chapters/on-the-other-side-of-freedom-terror-always-lays-in-wait.json"
+    },
+    {
+      "id": "limillessness-strikes-fear-in-the-hearts-of-men",
+      "title": "Limillessness Strikes Fear in the Hearts of Men",
+      "printedPage": 188,
+      "partId": "iv",
+      "contentFile": "chapters/limillessness-strikes-fear-in-the-hearts-of-men.json"
+    },
+    {
+      "id": "serious-seekers-cannot-run",
+      "title": "Serious Seekers Cannot Run",
+      "printedPage": 189,
+      "partId": "iv",
+      "contentFile": "chapters/serious-seekers-cannot-run.json"
+    },
+    {
+      "id": "is-there-room-for-fear-in-the-spiritual-life",
+      "title": "Is There Room for Fear in the Spiritual Life?",
+      "printedPage": 191,
+      "partId": "iv",
+      "contentFile": "chapters/is-there-room-for-fear-in-the-spiritual-life.json"
+    },
+    {
+      "id": "surrender-is-liberation",
+      "title": "Surrender Is Liberation",
+      "printedPage": 196,
+      "partId": "v",
+      "contentFile": "chapters/surrender-is-liberation.json"
+    },
+    {
+      "id": "realize-you-were-never-attached",
+      "title": "Realize You Were Never Attached",
+      "printedPage": 197,
+      "partId": "v",
+      "contentFile": "chapters/realize-you-were-never-attached.json"
+    },
+    {
+      "id": "how-do-you-balance-surrender-and-independence",
+      "title": "How Do You Balance Surrender and Independence?",
+      "printedPage": 198,
+      "partId": "v",
+      "contentFile": "chapters/how-do-you-balance-surrender-and-independence.json"
+    },
+    {
+      "id": "surrender-means-no-strategies-whatsoever",
+      "title": "Surrender Means No Strategies Whatsoever",
+      "printedPage": 199,
+      "partId": "v",
+      "contentFile": "chapters/surrender-means-no-strategies-whatsoever.json"
+    },
+    {
+      "id": "two-aspects-of-surrender-the",
+      "title": "Two Aspects of Surrender, The",
+      "printedPage": 200,
+      "partId": "v",
+      "contentFile": "chapters/two-aspects-of-surrender-the.json"
+    },
+    {
+      "id": "surrender-is-choicelessness",
+      "title": "Surrender Is Choicelessness",
+      "printedPage": 201,
+      "partId": "v",
+      "contentFile": "chapters/surrender-is-choicelessness.json"
+    },
+    {
+      "id": "renunciation-is-living-death",
+      "title": "Renunciation Is Living Death",
+      "printedPage": 206,
+      "partId": "vi",
+      "contentFile": "chapters/renunciation-is-living-death.json"
+    },
+    {
+      "id": "when-you-become-agiver",
+      "title": "When You Become aGiver",
+      "printedPage": 207,
+      "partId": "vi",
+      "contentFile": "chapters/when-you-become-agiver.json"
+    },
+    {
+      "id": "fire-of-your-heart-must-burn-brightly-the",
+      "title": "Fire of Your Heart Must Burn Brightly, The",
+      "printedPage": 208,
+      "partId": "vi",
+      "contentFile": "chapters/fire-of-your-heart-must-burn-brightly-the.json"
+    },
+    {
+      "id": "what-is-renunciation",
+      "title": "What Is Renunciation?",
+      "printedPage": 209,
+      "partId": "vi",
+      "contentFile": "chapters/what-is-renunciation.json"
+    },
+    {
+      "id": "deep-experiences-are-not-enough",
+      "title": "Deep Experiences Are Not Enough",
+      "printedPage": 212,
+      "partId": "vi",
+      "contentFile": "chapters/deep-experiences-are-not-enough.json"
+    },
+    {
+      "id": "how-do-irelate-this-experience-to-my-life",
+      "title": "How Do IRelate This Experience to My Life?",
+      "printedPage": 213,
+      "partId": "vi",
+      "contentFile": "chapters/how-do-irelate-this-experience-to-my-life.json"
+    },
+    {
+      "id": "it-is-not-the-experience-of-enlightenment-that-matters",
+      "title": "It Is Not the Experience of Enlightenment That Matters",
+      "printedPage": 214,
+      "partId": "vi",
+      "contentFile": "chapters/it-is-not-the-experience-of-enlightenment-that-matters.json"
+    },
+    {
+      "id": "everybody-wants-to-get-enlightened-but-nobody-wants-to-change",
+      "title": "Everybody Wants to Get Enlightened but Nobody Wants to Change",
+      "printedPage": 215,
+      "partId": "vi",
+      "contentFile": "chapters/everybody-wants-to-get-enlightened-but-nobody-wants-to-change.json"
+    },
+    {
+      "id": "you-will-see-how-delicate-it-all-is",
+      "title": "You Will See How Delicate It All Is",
+      "printedPage": 218,
+      "partId": "vi",
+      "contentFile": "chapters/you-will-see-how-delicate-it-all-is.json"
+    },
+    {
+      "id": "what-does-it-mean-to-be-serious",
+      "title": "what Does It Mean to Be Serious?",
+      "printedPage": 219,
+      "partId": "vi",
+      "contentFile": "chapters/what-does-it-mean-to-be-serious.json"
+    },
+    {
+      "id": "you-have-to-be-willing-to-sacrifice-negative-freedom",
+      "title": "You Have to Be Willing to Sacrifice Negative Freedom",
+      "printedPage": 220,
+      "partId": "vi",
+      "contentFile": "chapters/you-have-to-be-willing-to-sacrifice-negative-freedom.json"
+    },
+    {
+      "id": "you-are-doing-exactly-what-you-want-to-be-doing",
+      "title": "You Are Doing Exactly What You Want to Be Doing",
+      "printedPage": 221,
+      "partId": "vi",
+      "contentFile": "chapters/you-are-doing-exactly-what-you-want-to-be-doing.json"
+    },
+    {
+      "id": "right-action-is-the-end-of-karma",
+      "title": "Right Action Is the End of Karma",
+      "printedPage": 223,
+      "partId": "vi",
+      "contentFile": "chapters/right-action-is-the-end-of-karma.json"
+    },
+    {
+      "id": "does-thought-create-karma",
+      "title": "Does Thought Create Karma?",
+      "printedPage": 226,
+      "partId": "vi",
+      "contentFile": "chapters/does-thought-create-karma.json"
+    },
+    {
+      "id": "when-you-truly-pay-attention-karma-comes-to-an-end",
+      "title": "When You Truly Pay Attention Karma Comes to an End",
+      "printedPage": 227,
+      "partId": "vi",
+      "contentFile": "chapters/when-you-truly-pay-attention-karma-comes-to-an-end.json"
+    },
+    {
+      "id": "where-all-karma-comes-to-an-end",
+      "title": "Where All Karma Comes to an End",
+      "printedPage": 228,
+      "partId": "vi",
+      "contentFile": "chapters/where-all-karma-comes-to-an-end.json"
+    },
+    {
+      "id": "nothing-left",
+      "title": "Nothing Left",
+      "printedPage": 229,
+      "partId": "vi",
+      "contentFile": "chapters/nothing-left.json"
+    },
+    {
+      "id": "how-can-idestroy-karma",
+      "title": "How Can IDestroy Karma?",
+      "printedPage": 231,
+      "partId": "vi",
+      "contentFile": "chapters/how-can-idestroy-karma.json"
+    },
+    {
+      "id": "if-in-the-face-of-revelation-you-allow-yourself-to-doubt",
+      "title": "If in the Face of Revelation You Allow Yourself to Doubt",
+      "printedPage": 236,
+      "partId": "vii",
+      "contentFile": "chapters/if-in-the-face-of-revelation-you-allow-yourself-to-doubt.json"
+    },
+    {
+      "id": "you-can-forget-ever-uhing-in-less-than-one-billionth-of-asecond",
+      "title": "You Can Forget Ever)Uhing in Less Than One-Billionth of aSecond",
+      "printedPage": 238,
+      "partId": "vii",
+      "contentFile": "chapters/you-can-forget-ever-uhing-in-less-than-one-billionth-of-asecond.json"
+    },
+    {
+      "id": "doubt-has-nothing-to-do-with-discrimination",
+      "title": "Doubt Has Nothing to Do with Discrimination",
+      "printedPage": 239,
+      "partId": "vii",
+      "contentFile": "chapters/doubt-has-nothing-to-do-with-discrimination.json"
+    },
+    {
+      "id": "will-you-be-seduced-by-maya",
+      "title": "Will You Be Seduced by Maya?",
+      "printedPage": 241,
+      "partId": "vii",
+      "contentFile": "chapters/will-you-be-seduced-by-maya.json"
+    },
+    {
+      "id": "self-doubt-is-the-most-insidious-form-of-doubt",
+      "title": "Self-Doubt Is the Most Insidious Form of Doubt",
+      "printedPage": 242,
+      "partId": "vii",
+      "contentFile": "chapters/self-doubt-is-the-most-insidious-form-of-doubt.json"
+    },
+    {
+      "id": "only-appropriate-response-to-freedom-is-humility-the",
+      "title": "Only Appropriate Response to Freedom Is Humility, The",
+      "printedPage": 244,
+      "partId": "vii",
+      "contentFile": "chapters/only-appropriate-response-to-freedom-is-humility-the.json"
+    },
+    {
+      "id": "when-profound-humility-is-present",
+      "title": "When Profound Humility Is Present",
+      "printedPage": 245,
+      "partId": "vii",
+      "contentFile": "chapters/when-profound-humility-is-present.json"
+    },
+    {
+      "id": "real-confidence-in-the-truth-only-comes-from-true-knowledge-of-emptiness",
+      "title": "Real Confidence in the Truth Only Comes from True Knowledge of Emptiness",
+      "printedPage": 246,
+      "partId": "vii",
+      "contentFile": "chapters/real-confidence-in-the-truth-only-comes-from-true-knowledge-of-emptiness.json"
+    },
+    {
+      "id": "pride-is-vicious",
+      "title": "Pride Is Vicious",
+      "printedPage": 247,
+      "partId": "vii",
+      "contentFile": "chapters/pride-is-vicious.json"
+    },
+    {
+      "id": "you-have-to-be-willing-to-fight-for-it",
+      "title": "You Have to Be Willing to Fight for It",
+      "printedPage": 252,
+      "partId": "vii",
+      "contentFile": "chapters/you-have-to-be-willing-to-fight-for-it.json"
+    },
+    {
+      "id": "be-like-astrong-tree-that-cant-be-moved",
+      "title": "Be Like aStrong Tree That Can’t Be Moved",
+      "printedPage": 253,
+      "partId": "vii",
+      "contentFile": "chapters/be-like-astrong-tree-that-cant-be-moved.json"
+    },
+    {
+      "id": "it-is-possible-to-be-tempted",
+      "title": "It Is Possible to Be Tempted",
+      "printedPage": 254,
+      "partId": "vii",
+      "contentFile": "chapters/it-is-possible-to-be-tempted.json"
+    },
+    {
+      "id": "it-is-difficult-for-most-people-to-sustain-that-perfect-condition",
+      "title": "It Is Difficult for Most People to Sustain That Perfect Condition",
+      "printedPage": 255,
+      "partId": "vii",
+      "contentFile": "chapters/it-is-difficult-for-most-people-to-sustain-that-perfect-condition.json"
+    },
+    {
+      "id": "how-can-ifind-the-courage-to-live-fully-what-1have-realized",
+      "title": "How Can IFind the Courage to Live Fully What 1Have Realized?",
+      "printedPage": 256,
+      "partId": "vii",
+      "contentFile": "chapters/how-can-ifind-the-courage-to-live-fully-what-1have-realized.json"
+    },
+    {
+      "id": "how-can-not-get-lost-again",
+      "title": "How Can !Not Get Lost Again?",
+      "printedPage": 257,
+      "partId": "vii",
+      "contentFile": "chapters/how-can-not-get-lost-again.json"
+    },
+    {
+      "id": "stay-always-where-your-deepest-understanding-is",
+      "title": "Stay Always Where Your Deepest Understanding Is",
+      "printedPage": 258,
+      "partId": "vii",
+      "contentFile": "chapters/stay-always-where-your-deepest-understanding-is.json"
+    },
+    {
+      "id": "when-your-boat-hits-the-shore",
+      "title": "When Your Boat Hits the Shore",
+      "printedPage": 260,
+      "partId": "vii",
+      "contentFile": "chapters/when-your-boat-hits-the-shore.json"
+    },
+    {
+      "id": "leave-all-experiences-behind",
+      "title": "Leave All Experiences Behind",
+      "printedPage": 261,
+      "partId": "vii",
+      "contentFile": "chapters/leave-all-experiences-behind.json"
+    },
+    {
+      "id": "when-you-wake-up-you-no-longer-feel-that-you-are-moving-an-where",
+      "title": "When You Wake Up You No Longer Feel That You Are Moving An)'where",
+      "printedPage": 262,
+      "partId": "vii",
+      "contentFile": "chapters/when-you-wake-up-you-no-longer-feel-that-you-are-moving-an-where.json"
+    },
+    {
+      "id": "compassion",
+      "title": "Compassion",
+      "printedPage": 266,
+      "partId": "viii",
+      "contentFile": "chapters/compassion.json"
+    },
+    {
+      "id": "enlightenment-is-not-something-you-can-do-anything-with",
+      "title": "Enlightenment Is Not Something You Can Do Anything With",
+      "printedPage": 267,
+      "partId": "viii",
+      "contentFile": "chapters/enlightenment-is-not-something-you-can-do-anything-with.json"
+    },
+    {
+      "id": "self-realization-is-evolution",
+      "title": "Self-Realization Is Evolution",
+      "printedPage": 268,
+      "partId": "viii",
+      "contentFile": "chapters/self-realization-is-evolution.json"
+    },
+    {
+      "id": "enlightenment-is-not-apersonal-matter",
+      "title": "Enlightenment Is Not aPersonal Matter",
+      "printedPage": 270,
+      "partId": "viii",
+      "contentFile": "chapters/enlightenment-is-not-apersonal-matter.json"
+    },
+    {
+      "id": "recognition-of-the-truth-is-the-discovery-of-true-conscience",
+      "title": "Recognition of the Truth Is the Discovery of True Conscience",
+      "printedPage": 271,
+      "partId": "viii",
+      "contentFile": "chapters/recognition-of-the-truth-is-the-discovery-of-true-conscience.json"
+    },
+    {
+      "id": "reason-for-all-spiritual-experience-is-evolution-the",
+      "title": "Reason for All Spiritual Experience Is Evolution, The",
+      "printedPage": 273,
+      "partId": "viii",
+      "contentFile": "chapters/reason-for-all-spiritual-experience-is-evolution-the.json"
+    },
+    {
+      "id": "can-we-take-this-next-step",
+      "title": "Can We Take This Next Step?",
+      "printedPage": 274,
+      "partId": "viii",
+      "contentFile": "chapters/can-we-take-this-next-step.json"
+    },
+    {
+      "id": "glossary",
+      "title": "Glossary",
+      "partId": "back-matter",
+      "contentFile": "chapters/glossary.json"
+    }
+  ]
+}

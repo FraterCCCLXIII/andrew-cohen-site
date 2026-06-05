@@ -1,0 +1,186 @@
+{
+  "slug": "evolutionary-enlightenment",
+  "title": "Evolutionary Enlightenment",
+  "subtitle": "A New Path to Spiritual Awakening",
+  "credits": "Copyright © 2011 by EnlightenNext · ISBN 978-1-59079-229-2",
+  "parts": [
+    {
+      "id": "front-matter",
+      "label": "Front Matter"
+    },
+    {
+      "id": "part-i",
+      "label": "Part I · A Cosmic Journey"
+    },
+    {
+      "id": "part-ii",
+      "label": "Part II · Understanding the Territory"
+    },
+    {
+      "id": "part-iii",
+      "label": "Part III · The Path and the Goal"
+    },
+    {
+      "id": "part-iv",
+      "label": "Part IV · Enlightenment and the Evolution of Culture"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "foreword",
+      "title": "Foreword",
+      "partId": "front-matter",
+      "contentFile": "chapters/foreword.json"
+    },
+    {
+      "id": "acknowledgments",
+      "title": "Acknowledgments",
+      "partId": "front-matter",
+      "contentFile": "chapters/acknowledgments.json"
+    },
+    {
+      "id": "prologue",
+      "title": "Prologue · A Longing to Evolve",
+      "partId": "part-i",
+      "contentFile": "chapters/prologue.json"
+    },
+    {
+      "id": "back-to-before-the-beginning",
+      "title": "Back to Before the Beginning",
+      "partId": "part-i",
+      "contentFile": "chapters/back-to-before-the-beginning.json"
+    },
+    {
+      "id": "nonduality",
+      "title": "Nonduality",
+      "partId": "part-i",
+      "contentFile": "chapters/nonduality.json"
+    },
+    {
+      "id": "we-were-there-when-it-all-began",
+      "title": "We Were There When It All Began",
+      "partId": "part-i",
+      "contentFile": "chapters/we-were-there-when-it-all-began.json"
+    },
+    {
+      "id": "a-big-yes",
+      "title": "A Big Yes",
+      "partId": "part-i",
+      "contentFile": "chapters/a-big-yes.json"
+    },
+    {
+      "id": "awakening-to-evolution",
+      "title": "Awakening to Evolution",
+      "partId": "part-i",
+      "contentFile": "chapters/awakening-to-evolution.json"
+    },
+    {
+      "id": "the-universe-project",
+      "title": "The Universe Project",
+      "partId": "part-i",
+      "contentFile": "chapters/the-universe-project.json"
+    },
+    {
+      "id": "intro-part-ii",
+      "title": "Introduction to Part II",
+      "partId": "part-ii",
+      "contentFile": "chapters/intro-part-ii.json"
+    },
+    {
+      "id": "the-self-relative-and-absolute",
+      "title": "The Self: Relative and Absolute",
+      "partId": "part-ii",
+      "contentFile": "chapters/the-self-relative-and-absolute.json"
+    },
+    {
+      "id": "enlightening-the-choosing-faculty",
+      "title": "Enlightening the Choosing Faculty",
+      "partId": "part-ii",
+      "contentFile": "chapters/enlightening-the-choosing-faculty.json"
+    },
+    {
+      "id": "the-postmodern-predicament",
+      "title": "The Postmodern Predicament",
+      "partId": "part-ii",
+      "contentFile": "chapters/the-postmodern-predicament.json"
+    },
+    {
+      "id": "a-moral-imperative",
+      "title": "A Moral Imperative",
+      "partId": "part-ii",
+      "contentFile": "chapters/a-moral-imperative.json"
+    },
+    {
+      "id": "intro-part-iii",
+      "title": "Introduction to Part III",
+      "partId": "part-iii",
+      "contentFile": "chapters/intro-part-iii.json"
+    },
+    {
+      "id": "the-art-and-science-of-stillness",
+      "title": "The Art and Science of Stillness",
+      "partId": "part-iii",
+      "contentFile": "chapters/the-art-and-science-of-stillness.json"
+    },
+    {
+      "id": "clarity-of-intention",
+      "title": "Clarity of Intention",
+      "partId": "part-iii",
+      "contentFile": "chapters/clarity-of-intention.json"
+    },
+    {
+      "id": "the-power-of-volition",
+      "title": "The Power of Volition",
+      "partId": "part-iii",
+      "contentFile": "chapters/the-power-of-volition.json"
+    },
+    {
+      "id": "face-everything-and-avoid-nothing",
+      "title": "Face Everything and Avoid Nothing",
+      "partId": "part-iii",
+      "contentFile": "chapters/face-everything-and-avoid-nothing.json"
+    },
+    {
+      "id": "the-process-perspective",
+      "title": "The Process Perspective",
+      "partId": "part-iii",
+      "contentFile": "chapters/the-process-perspective.json"
+    },
+    {
+      "id": "cosmic-conscience",
+      "title": "Cosmic Conscience",
+      "partId": "part-iii",
+      "contentFile": "chapters/cosmic-conscience.json"
+    },
+    {
+      "id": "intro-part-iv",
+      "title": "Introduction to Part IV",
+      "partId": "part-iv",
+      "contentFile": "chapters/intro-part-iv.json"
+    },
+    {
+      "id": "a-higher-we",
+      "title": "A Higher We",
+      "partId": "part-iv",
+      "contentFile": "chapters/a-higher-we.json"
+    },
+    {
+      "id": "catalyzing-emergence",
+      "title": "Catalyzing Emergence",
+      "partId": "part-iv",
+      "contentFile": "chapters/catalyzing-emergence.json"
+    },
+    {
+      "id": "creating-the-future",
+      "title": "Creating the Future",
+      "partId": "part-iv",
+      "contentFile": "chapters/creating-the-future.json"
+    },
+    {
+      "id": "the-edge-of-evolution",
+      "title": "The Edge of Evolution",
+      "partId": "part-iv",
+      "contentFile": "chapters/the-edge-of-evolution.json"
+    }
+  ]
+}

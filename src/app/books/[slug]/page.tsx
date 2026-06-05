@@ -1,9 +1,16 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { ArrowLeft, ArrowUpRight, BookOpen } from "@phosphor-icons/react/dist/ssr";
+import {
+  ArrowLeft,
+  ArrowUpRight,
+  BookOpen,
+  DownloadSimple,
+} from "@phosphor-icons/react/dist/ssr";
 import { books, getBookBySlug } from "@/data/books";
 import { getBookContent } from "@/data/bookContent";
+import { getBookDownload } from "@/data/bookDownloads";
+import { getReadableBook } from "@/data/bookReader.server";
 import BookCover from "@/components/BookCover";
 
 export function generateStaticParams() {
@@ -34,6 +41,8 @@ export default async function BookDetailPage({
   if (!book) notFound();
 
   const extended = getBookContent(slug);
+  const readable = getReadableBook(slug);
+  const download = getBookDownload(slug);
   const index = books.findIndex((b) => b.slug === slug);
   const prev = index > 0 ? books[index - 1] : undefined;
   const next = index < books.length - 1 ? books[index + 1] : undefined;
@@ -77,15 +86,40 @@ export default async function BookDetailPage({
               </p>
             )}
 
-            {book.teachingHref && (
-              <Link
-                href={book.teachingHref}
-                className="inline-flex items-center gap-2 px-5 py-3 bg-foreground text-background text-sm rounded-md hover:bg-foreground/85 transition-colors duration-300 active:scale-[0.98]"
-              >
-                <BookOpen size={16} weight="regular" />
-                Explore the teaching
-              </Link>
-            )}
+            <div className="flex flex-wrap gap-3">
+              {readable && (
+                <Link
+                  href={`/books/${slug}/read`}
+                  className="inline-flex items-center gap-2 px-5 py-3 bg-foreground text-background text-sm rounded-md hover:bg-foreground/85 transition-colors duration-300 active:scale-[0.98]"
+                >
+                  <BookOpen size={16} weight="regular" />
+                  Read the book
+                </Link>
+              )}
+              {download && (
+                <a
+                  href={download.href}
+                  download={download.downloadName}
+                  className="inline-flex items-center gap-2 px-5 py-3 border border-border text-sm rounded-md hover:bg-surface-elevated transition-colors duration-300 active:scale-[0.98]"
+                >
+                  <DownloadSimple size={16} weight="regular" />
+                  Download {download.format === "pdf" ? "PDF" : "EPUB"}
+                </a>
+              )}
+              {book.teachingHref && (
+                <Link
+                  href={book.teachingHref}
+                  className={`inline-flex items-center gap-2 px-5 py-3 text-sm rounded-md transition-colors duration-300 active:scale-[0.98] ${
+                    readable
+                      ? "border border-border hover:bg-surface-elevated"
+                      : "bg-foreground text-background hover:bg-foreground/85"
+                  }`}
+                >
+                  <BookOpen size={16} weight="regular" />
+                  Explore the teaching
+                </Link>
+              )}
+            </div>
           </div>
         </div>
       </section>

@@ -1,0 +1,132 @@
+{
+  "slug": "embracing-heaven-and-earth",
+  "title": "Embracing Heaven & Earth",
+  "subtitle": "The Liberation Teachings of Andrew Cohen",
+  "credits": "Copyright © 2000 by Moksha Press · ISBN 0-965-3601-7-4",
+  "parts": [
+    {
+      "id": "front-matter",
+      "label": "Front Matter"
+    },
+    {
+      "id": "tenets",
+      "label": "The Five Fundamental Tenets of Enlightenment"
+    },
+    {
+      "id": "desire",
+      "label": "Desire: The Perennial Obstacle"
+    },
+    {
+      "id": "psychology",
+      "label": "The Psychology of Liberation"
+    },
+    {
+      "id": "essays",
+      "label": "Essays"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "acknowledgements",
+      "title": "Acknowledgements",
+      "partId": "front-matter",
+      "contentFile": "chapters/acknowledgements.json"
+    },
+    {
+      "id": "preface",
+      "title": "Preface",
+      "partId": "front-matter",
+      "contentFile": "chapters/preface.json"
+    },
+    {
+      "id": "foreword",
+      "title": "Foreword",
+      "partId": "front-matter",
+      "contentFile": "chapters/foreword.json"
+    },
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "partId": "front-matter",
+      "contentFile": "chapters/introduction.json"
+    },
+    {
+      "id": "clarity-of-intention",
+      "title": "Clarity of Intention",
+      "partId": "tenets",
+      "contentFile": "chapters/clarity-of-intention.json"
+    },
+    {
+      "id": "the-law-of-volitionality",
+      "title": "The Law of Volitionality",
+      "partId": "tenets",
+      "contentFile": "chapters/the-law-of-volitionality.json"
+    },
+    {
+      "id": "face-everything-and-avoid-nothing",
+      "title": "Face Everything and Avoid Nothing",
+      "partId": "tenets",
+      "contentFile": "chapters/face-everything-and-avoid-nothing.json"
+    },
+    {
+      "id": "the-truth-of-impersonality",
+      "title": "The Truth of Impersonality",
+      "partId": "tenets",
+      "contentFile": "chapters/the-truth-of-impersonality.json"
+    },
+    {
+      "id": "for-the-sake-of-the-whole",
+      "title": "For the Sake of the Whole",
+      "partId": "tenets",
+      "contentFile": "chapters/for-the-sake-of-the-whole.json"
+    },
+    {
+      "id": "the-promise-of-perfection",
+      "title": "The Promise of Perfection",
+      "partId": "desire",
+      "contentFile": "chapters/the-promise-of-perfection.json"
+    },
+    {
+      "id": "an-absolute-relationship-to-life",
+      "title": "An Absolute Relationship to Life",
+      "partId": "psychology",
+      "contentFile": "chapters/an-absolute-relationship-to-life.json"
+    },
+    {
+      "id": "what-is-the-ultimate-truth",
+      "title": "What Is the Ultimate Truth?",
+      "partId": "psychology",
+      "contentFile": "chapters/what-is-the-ultimate-truth.json"
+    },
+    {
+      "id": "meditation-is-a-metaphor-for-enlightenment",
+      "title": "Meditation Is a Metaphor for Enlightenment",
+      "partId": "essays",
+      "contentFile": "chapters/meditation-is-a-metaphor-for-enlightenment.json"
+    },
+    {
+      "id": "perils-of-the-path",
+      "title": "Perils of the Path",
+      "partId": "essays",
+      "contentFile": "chapters/perils-of-the-path.json"
+    },
+    {
+      "id": "liberation-without-a-face",
+      "title": "Liberation without a Face",
+      "partId": "essays",
+      "contentFile": "chapters/liberation-without-a-face.json"
+    },
+    {
+      "id": "the-glory-of-god",
+      "title": "The Glory of God",
+      "partId": "essays",
+      "contentFile": "chapters/the-glory-of-god.json"
+    },
+    {
+      "id": "the-call-of-the-absolute",
+      "title": "The Call of the Absolute",
+      "partId": "essays",
+      "contentFile": "chapters/the-call-of-the-absolute.json"
+    }
+  ]
+}

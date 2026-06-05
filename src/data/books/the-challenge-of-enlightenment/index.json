@@ -1,0 +1,64 @@
+{
+  "slug": "the-challenge-of-enlightenment",
+  "title": "The Challenge of Enlightenment",
+  "subtitle": "A Voyage into the Multidimensional Integrity of Nonduality",
+  "credits": "Copyright © 1996 by Moksha Foundation, Inc. · ISBN 1-883929-44-8",
+  "parts": [
+    {
+      "id": "front-matter",
+      "label": "Front Matter"
+    },
+    {
+      "id": "part-one",
+      "label": "Part One"
+    },
+    {
+      "id": "part-two",
+      "label": "Part Two"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "foreword",
+      "title": "Foreword",
+      "partId": "front-matter",
+      "contentFile": "chapters/foreword.json"
+    },
+    {
+      "id": "context",
+      "title": "Context",
+      "partId": "front-matter",
+      "contentFile": "chapters/context.json"
+    },
+    {
+      "id": "let-everything-be-as-it-is",
+      "title": "Let Everything Be as It Is",
+      "partId": "part-one",
+      "contentFile": "chapters/let-everything-be-as-it-is.json"
+    },
+    {
+      "id": "wholeness",
+      "title": "Wholeness",
+      "partId": "part-one",
+      "contentFile": "chapters/wholeness.json"
+    },
+    {
+      "id": "for-or-against",
+      "title": "For or Against",
+      "partId": "part-two",
+      "contentFile": "chapters/for-or-against.json"
+    },
+    {
+      "id": "knowing-versus-not-knowing",
+      "title": "Knowing versus Not Knowing",
+      "partId": "part-two",
+      "contentFile": "chapters/knowing-versus-not-knowing.json"
+    },
+    {
+      "id": "the-unknown",
+      "title": "The Unknown",
+      "partId": "part-two",
+      "contentFile": "chapters/the-unknown.json"
+    }
+  ]
+}
