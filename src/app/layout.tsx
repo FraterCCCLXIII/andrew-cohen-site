@@ -4,6 +4,7 @@ import { cookies, headers } from "next/headers";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { defaultLocale, isLocale, type Locale } from "@/i18n/config";
 import DynamicLocaleProvider from "@/i18n/dynamic-locale-provider";
 import { getMessages } from "@/i18n/get-messages";
@@ -55,6 +56,7 @@ export default async function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="grain min-h-full flex flex-col bg-background text-foreground">
+        <GoogleAnalytics />
         <DynamicLocaleProvider
           initialLocale={locale}
           initialMessages={messages}

@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 import { List, X } from "@phosphor-icons/react";
-import LanguageSwitcher, { localeHref } from "@/components/LanguageSwitcher";
+import { localeHref } from "@/components/LanguageSwitcher";
 import { useLocale } from "@/i18n/locale-provider";
 
 const navLinks = [
@@ -34,13 +34,12 @@ export default function Nav() {
             Andrew Cohen
           </span>
           <span className="text-xs md:text-sm text-muted font-sans tracking-wide">
-            Nonduality Evolved
+            Nonduality for an Evolving World
           </span>
         </Link>
 
         {/* Desktop nav + contribute */}
-        <div className="hidden md:flex items-center gap-4">
-          <LanguageSwitcher />
+        <div className="hidden md:flex items-center gap-6">
           <ul className="flex items-center gap-8">
             {navLinks.map((link) => (
               <li key={link.href}>
@@ -63,7 +62,6 @@ export default function Nav() {
 
         {/* Mobile: contribute + menu toggle */}
         <div className="md:hidden flex items-center gap-2">
-          <LanguageSwitcher />
           <Link
             href="/contribute"
             className="inline-flex items-center px-3 py-1.5 bg-foreground text-background text-xs rounded-md hover:bg-foreground/85 transition-colors duration-300 active:scale-[0.98]"

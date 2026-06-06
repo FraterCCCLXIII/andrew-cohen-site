@@ -1,6 +1,6 @@
 import InnerPageLayout from "@/components/InnerPageLayout";
 
-const archiveEmail = "archive@andrewcohen.com";
+const archiveEmail = "andrewcohenarchive@gmail.com";
 
 const sections = [
   {

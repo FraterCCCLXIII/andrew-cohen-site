@@ -127,6 +127,12 @@ def main() -> int:
         default=0,
         help="Only process the first N videos (0 = all)",
     )
+    parser.add_argument(
+        "--ids",
+        nargs="+",
+        metavar="YOUTUBE_ID",
+        help="Only process videos with these YouTube IDs (e.g. dQw4w9WgXcQ)",
+    )
     args = parser.parse_args()
 
     try:
@@ -137,17 +143,37 @@ def main() -> int:
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
+    all_videos = videos
     scraped_at = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
-    manifest = {
-        "scrapedAt": scraped_at,
-        "total": len(videos),
-        "withTranscript": 0,
-        "missing": [],
-        "videos": {},
-    }
+
+    if MANIFEST.exists():
+        manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+        manifest.setdefault("videos", {})
+    else:
+        manifest = {
+            "scrapedAt": scraped_at,
+            "total": len(all_videos),
+            "withTranscript": 0,
+            "missing": [],
+            "videos": {},
+        }
+
+    manifest["scrapedAt"] = scraped_at
+    manifest["total"] = len(all_videos)
 
     if args.limit > 0:
         videos = videos[: args.limit]
+
+    if args.ids:
+        id_set = set(args.ids)
+        videos = [
+            video
+            for video in videos
+            if (video.get("youtubeId") or video["id"].removeprefix("yt-")) in id_set
+        ]
+        if not videos:
+            print("No matching videos for --ids", file=sys.stderr)
+            return 1
 
     ok = 0
     skipped = 0
@@ -209,8 +235,16 @@ def main() -> int:
         if index < len(videos) and args.delay > 0:
             time.sleep(args.delay)
 
-    manifest["withTranscript"] = ok
-    manifest["missing"] = failed
+    manifest["withTranscript"] = sum(
+        1
+        for entry in manifest["videos"].values()
+        if entry.get("status") in {"ok", "cached"}
+    )
+    manifest["missing"] = [
+        video["id"]
+        for video in all_videos
+        if manifest["videos"].get(video["id"], {}).get("status") == "missing"
+    ]
     MANIFEST.write_text(
         json.dumps(manifest, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
