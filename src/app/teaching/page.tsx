@@ -111,6 +111,19 @@ const groups: TeachingGroup[] = [
     ],
   },
   {
+    label: "Reference",
+    blurb:
+      "Definitions of core terms with cited sources from the books and developmental frameworks.",
+    items: [
+      {
+        title: "Dictionary of Awakening",
+        description:
+          "An indexed glossary of teaching concepts — from Evolutionary Enlightenment, Integral theory, and Spiral Dynamics — with definitions and sources.",
+        href: "/dictionary",
+      },
+    ],
+  },
+  {
     label: "Integral Framework",
     blurb:
       "The developmental maps — from Ken Wilber and Don Beck — that situate Evolutionary Enlightenment within the evolution of culture and consciousness.",

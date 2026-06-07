@@ -10,9 +10,10 @@ Wilber's AQAL model — "all quadrants, all levels, all lines, all states, all t
 Andrew Cohen credited Wilber, along with Brian Swimme and Don Beck, with helping to "deepen and refine" the thinking behind Evolutionary Enlightenment. Where nondual realization gave Cohen direct experience of liberation, Integral theory gave him a cognitive framework large enough to situate that realization within cosmic, biological, and cultural evolution.`,
     images: [
       {
-        src: "/images/teaching/aqal-four-quadrants.png",
-        alt: "AQAL four-quadrants diagram showing individual and collective, interior and exterior",
-        caption: "The four quadrants of Integral theory (AQAL)",
+        src: "/images/teaching/integral-quadrants-concentric.png",
+        alt: "Integral four quadrants — Body, Mind, Spirit; Gross, Subtle, Causal; Me, Us, All of Us; Group, Nation, Global",
+        wide: true,
+        caption: "The four quadrants at increasing depth — Ken Wilber, Integral theory (AQAL).",
       },
     ],
   },
@@ -21,6 +22,8 @@ Andrew Cohen credited Wilber, along with Brian Swimme and Don Beck, with helping
     body: `A central insight Integral philosophy brings to Cohen's teaching is that the universe has an outside and an inside — an exterior of matter and energy, and an interior of consciousness and subjectivity. Western science has trained us to see evolution primarily in the exterior domain: galaxies, ecosystems, bodies, brains.
 
 But if the material universe is evolving, the interior of the universe is evolving too. Consciousness, culture, and values are not static backdrop; they are part of the same creative process. Cohen's Evolutionary Enlightenment depends on this recognition: the evolutionary impulse is not only driving complexity in nature but awakening within human interiors as spiritual aspiration, moral urgency, and the call to create the future.
+
+Each quadrant unfolds through developmental levels — from prehension and atoms in the earliest stages to vision-logic and planetary systems at the leading edge. Evolution moves simultaneously in all four perspectives.
 
 "When you literally begin to feel the telos, or directionality, of the entire process moving in and through your own nervous system, that is when you directly experience that movement as a vertical impulse in your own consciousness."`,
   },
@@ -51,9 +54,11 @@ Traditional cultures orient around mythic order, sacred authority, and belonging
 Integral theory helps locate this predicament — and points toward the vertical development required to move beyond it.`,
     images: [
       {
-        src: "/images/teaching/wilber-aurobindo.jpg",
-        alt: "Diagram comparing developmental stages in Ken Wilber and Sri Aurobindo",
-        caption: "Developmental stages in Wilber and Sri Aurobindo",
+        src: "/images/teaching/integral-levels-of-consciousness.png",
+        alt: "Levels of consciousness — Piaget, Spiral Dynamics, Kegan, Loevinger, Gebser, and Fowler aligned by altitude",
+        wide: true,
+        caption:
+          "Levels of consciousness across developmental models — Ken Wilber, Integral theory (AQAL).",
       },
     ],
   },
@@ -104,9 +109,10 @@ export default function IntegralTheoryPage() {
       sections={sections}
       quotes={quotes}
       bookSource="Evolutionary Enlightenment (2011); Ken Wilber, A Brief History of Everything (1996) and Sex, Ecology, Spirituality (1995)"
-      heroImage="/images/teaching/aqal-four-quadrants.png"
-      heroImageAlt="AQAL four-quadrants diagram"
-      heroImageCaption="The four quadrants of Integral theory (AQAL), after Ken Wilber. Image: Wikimedia Commons."
+      heroImage="/images/teaching/integral-four-quadrants-levels.png"
+      heroImageAlt="AQAL four quadrants with developmental levels in each perspective"
+      heroImageFit="contain"
+      heroImageCaption="Developmental levels across the four quadrants — Ken Wilber, Integral theory (AQAL)."
     />
   );
 }

@@ -9,6 +9,7 @@ interface SectionImage {
   src: string;
   alt: string;
   caption?: string;
+  wide?: boolean;
 }
 
 interface PageSection {
@@ -42,6 +43,7 @@ interface InnerPageLayoutProps {
   heroImage?: string;
   heroImageAlt?: string;
   heroImageCaption?: string;
+  heroImageFit?: "cover" | "contain";
   heroVariant?: HeroVariant;
   links?: PageLink[];
 }
@@ -56,6 +58,7 @@ export default function InnerPageLayout({
   heroImage,
   heroImageAlt,
   heroImageCaption,
+  heroImageFit = "cover",
   heroVariant = "card",
   links,
 }: InnerPageLayoutProps) {
@@ -168,7 +171,7 @@ export default function InnerPageLayout({
                     fill
                     priority
                     sizes="(max-width: 896px) 100vw, 896px"
-                    className="object-cover"
+                    className={heroImageFit === "contain" ? "object-contain" : "object-cover"}
                   />
                 </div>
                 {heroImageCaption && (
@@ -208,42 +211,58 @@ export default function InnerPageLayout({
               <div
                 className={
                   section.images?.length
-                    ? section.images.length >= 3
+                    ? section.images.some((image) => image.wide)
                       ? "flex flex-col gap-8"
-                      : "flex flex-col gap-8 md:flex-row md:items-start"
+                      : section.images.length >= 3
+                        ? "flex flex-col gap-8"
+                        : "flex flex-col gap-8 md:flex-row md:items-start"
                     : undefined
                 }
               >
                 {section.images && section.images.length > 0 && (
                   <figure
                     className={
-                      section.images.length >= 3 ? "w-full" : "shrink-0 md:w-52"
+                      section.images.some((image) => image.wide)
+                        ? "w-full"
+                        : section.images.length >= 3
+                          ? "w-full"
+                          : "shrink-0 md:w-52"
                     }
                   >
                     <div
                       className={
-                        section.images.length >= 3
-                          ? "grid grid-cols-3 gap-3 md:gap-4"
-                          : section.images.length === 2
-                            ? "grid grid-cols-2 gap-3"
-                            : "space-y-3"
+                        section.images.some((image) => image.wide)
+                          ? "space-y-3"
+                          : section.images.length >= 3
+                            ? "grid grid-cols-3 gap-3 md:gap-4"
+                            : section.images.length === 2
+                              ? "grid grid-cols-2 gap-3"
+                              : "space-y-3"
                       }
                     >
                       {section.images.map((image) => (
                         <div key={image.src}>
-                          <div className="relative aspect-[3/4] overflow-hidden rounded-lg border border-border bg-surface-elevated">
+                          <div
+                            className={`relative overflow-hidden rounded-lg border border-border bg-surface-elevated ${
+                              image.wide ? "aspect-[4/3]" : "aspect-[3/4]"
+                            }`}
+                          >
                             <Image
                               src={image.src}
                               alt={image.alt}
                               fill
                               sizes={
-                                section.images!.length >= 3
-                                  ? "(max-width: 640px) 100vw, 33vw"
-                                  : section.images!.length === 2
-                                    ? "(max-width: 768px) 50vw, 140px"
-                                    : "(max-width: 768px) 100vw, 208px"
+                                image.wide
+                                  ? "(max-width: 896px) 100vw, 896px"
+                                  : section.images!.length >= 3
+                                    ? "(max-width: 640px) 100vw, 33vw"
+                                    : section.images!.length === 2
+                                      ? "(max-width: 768px) 50vw, 140px"
+                                      : "(max-width: 768px) 100vw, 208px"
                               }
-                              className="object-cover object-center"
+                              className={
+                                image.wide ? "object-contain" : "object-cover object-center"
+                              }
                             />
                           </div>
                           {image.caption && (

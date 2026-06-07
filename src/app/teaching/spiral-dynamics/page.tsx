@@ -10,9 +10,11 @@ After Graves's death, Don Edward Beck and Christopher Cowan extended his work in
 Andrew Cohen explicitly credited Don Beck alongside Ken Wilber as one of the "evolutionary and integral pioneers" who shaped Evolutionary Enlightenment. Spiral Dynamics gave Cohen a precise language for a theme running throughout his teaching: cultures evolve, values evolve, and spiritual life must address the stage of development a person or community actually inhabits — not the stage we wish they did.`,
     images: [
       {
-        src: "/images/teaching/spiral-of-development.jpg",
-        alt: "Spiral diagram of human development stages",
-        caption: "Spiral of development (Spiral Dynamics)",
+        src: "/images/teaching/spiral-dynamics-memes-worldviews.png",
+        alt: "Spiral Dynamics vMemes — worldviews and realities from Beige through Turquoise",
+        wide: true,
+        caption:
+          "The vMemes: worldviews and realities. Reprinted from “The Never-Ending Upward Quest,” interview with Dr. Don Beck by Jessica Roemischer, What Is Enlightenment? Issue 22 (Fall/Winter 2002). © Moksha Press.",
       },
     ],
   },
@@ -22,14 +24,9 @@ Andrew Cohen explicitly credited Don Beck alongside Ken Wilber as one of the "ev
 
 Beige (survival), Purple (tribal safety and magic), Red (power and impulsive ego), Blue (order, truth, and purposeful authority), Orange (achievement, rationality, and progress), Green (pluralism, sensitivity, and community), Yellow (integrative systems thinking), and Turquoise (holistic, global consciousness). Graves himself theorized further stages beyond those Beck and Cowan codified.
 
+The first tier comprises "subsistence" value systems — Beige through Green — each solving the problems of the stage before while creating new ones. The second tier — Yellow and Turquoise — marks a shift into "being" value systems, where the whole spiral becomes visible and integrative.
+
 The spiral helps explain why sincere people at different stages talk past one another — and why spiritual teachings that speak beautifully at one level may fail to land at another. It also clarifies Cohen's repeated insistence that the luckiest, most educated people on the planet can remain spiritually unavailable while believing themselves sophisticated: high Orange or Green development without a vertical spiritual context can deepen the postmodern predicament rather than resolve it.`,
-    images: [
-      {
-        src: "/images/teaching/spiral-dynamics-colors.jpg",
-        alt: "Spiral Dynamics color levels chart",
-        caption: "Spiral Dynamics value-system colors",
-      },
-    ],
   },
   {
     title: "Vertical vs Horizontal Change",
@@ -95,9 +92,10 @@ export default function SpiralDynamicsPage() {
       sections={sections}
       quotes={quotes}
       bookSource="Evolutionary Enlightenment (2011); Don Beck & Christopher Cowan, Spiral Dynamics (1996); Clare W. Graves's emergent cyclical theory"
-      heroImage="/images/teaching/spiral-dynamics-colors.jpg"
-      heroImageAlt="Spiral Dynamics color levels"
-      heroImageCaption="Spiral Dynamics value-system colors. Image: Wikimedia Commons (CC BY-SA)."
+      heroImage="/images/teaching/spiral-dynamics-eight-stages.png"
+      heroImageAlt="Spiral Dynamics — the eight-stage spiral of development"
+      heroImageFit="contain"
+      heroImageCaption="The eight-stage spiral of development. Reprinted from “The Never-Ending Upward Quest,” interview with Dr. Don Beck by Jessica Roemischer, What Is Enlightenment? Issue 22 (Fall/Winter 2002). © Moksha Press."
     />
   );
 }

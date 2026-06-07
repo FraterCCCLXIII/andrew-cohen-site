@@ -165,6 +165,54 @@ body {
   background: var(--muted);
 }
 
+/* Dictionary left nav scroll */
+.dictionary-nav-scroll {
+  position: relative;
+}
+
+.dictionary-nav-scroll::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2.5rem;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent, var(--background));
+}
+
+.dictionary-nav-scroll__track {
+  height: 100%;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  padding-right: 0.75rem;
+  padding-bottom: 1.5rem;
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--muted) 50%, transparent) transparent;
+}
+
+.dictionary-nav-scroll__track::-webkit-scrollbar {
+  width: 4px;
+}
+
+.dictionary-nav-scroll__track::-webkit-scrollbar-track {
+  background: transparent;
+  margin-block: 0.25rem;
+}
+
+.dictionary-nav-scroll__track::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--muted) 35%, var(--border));
+  border-radius: 999px;
+}
+
+.dictionary-nav-scroll__track::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}
+
+.dictionary-nav-scroll__track::-webkit-scrollbar-thumb:active {
+  background: var(--foreground);
+}
+
 /* Archive dual-thumb year range slider */
 .archive-range-dual {
   position: relative;

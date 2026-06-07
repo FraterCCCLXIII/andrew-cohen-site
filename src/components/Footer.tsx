@@ -26,6 +26,7 @@ export default function Footer() {
             { label: "Life", href: "/life" },
             { label: "Lineage", href: "/lineage" },
             { label: "Teaching", href: "/teaching" },
+            { label: "Dictionary", href: "/dictionary" },
             { label: "Practice", href: "/practice" },
             { label: "Books", href: "/books" },
             { label: "Magazine", href: "/magazine" },
