@@ -45,6 +45,10 @@ The two became close collaborators and friends, carrying on a sustained public e
         caption: "Ken Wilber",
       },
     ],
+    links: [
+      { label: "Integral Theory", href: "/teaching/integral-theory" },
+      { label: "Spiral Dynamics", href: "/teaching/spiral-dynamics" },
+    ],
   },
   {
     title: "Sri Aurobindo, the Mother, and Integral Yoga",

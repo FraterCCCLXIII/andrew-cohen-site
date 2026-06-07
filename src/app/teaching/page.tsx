@@ -111,6 +111,25 @@ const groups: TeachingGroup[] = [
     ],
   },
   {
+    label: "Integral Framework",
+    blurb:
+      "The developmental maps — from Ken Wilber and Don Beck — that situate Evolutionary Enlightenment within the evolution of culture and consciousness.",
+    items: [
+      {
+        title: "Integral Theory",
+        description:
+          "Ken Wilber's AQAL framework — interior and exterior, individual and collective — and its role in Cohen's evolutionary spirituality.",
+        href: "/teaching/integral-theory",
+      },
+      {
+        title: "Spiral Dynamics",
+        description:
+          "Clare Graves, Don Beck, and the color-coded spiral of evolving value systems — vertical development and the evolution of culture.",
+        href: "/teaching/spiral-dynamics",
+      },
+    ],
+  },
+  {
     label: "From the Books",
     blurb: "Themes drawn from across the written work.",
     items: [
