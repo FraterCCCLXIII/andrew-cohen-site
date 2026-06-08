@@ -5,6 +5,7 @@ import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import ThemeScript from "@/components/ThemeScript";
 import { defaultLocale, isLocale, type Locale } from "@/i18n/config";
 import DynamicLocaleProvider from "@/i18n/dynamic-locale-provider";
 import { getMessages } from "@/i18n/get-messages";
@@ -54,8 +55,10 @@ export default async function RootLayout({
       lang={locale}
       dir={locale === "ar" ? "rtl" : "ltr"}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
       <body className="grain min-h-full flex flex-col bg-background text-foreground">
+        <ThemeScript />
         <GoogleAnalytics />
         <DynamicLocaleProvider
           initialLocale={locale}

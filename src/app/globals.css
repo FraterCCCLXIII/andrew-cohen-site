@@ -1,6 +1,22 @@
 @import "tailwindcss";
 
 :root {
+  --background: #111110;
+  --foreground: #E8E8E5;
+  --muted: #999995;
+  --border: #2A2A28;
+  --surface: #1A1A18;
+  --surface-elevated: #222220;
+  --accent: #6B9B7F;
+  --accent-soft: #1A2820;
+  --accent-soft-text: #8BB89D;
+  --serif: var(--font-geist-sans), "Geist Sans", "SF Pro Display", system-ui, sans-serif;
+  --sans: var(--font-geist-sans), "Geist Sans", "SF Pro Display", system-ui, sans-serif;
+  --mono: "Geist Mono", "SF Mono", monospace;
+  color-scheme: dark;
+}
+
+.light {
   --background: #FBFBFA;
   --foreground: #1A1A18;
   --muted: #787774;
@@ -10,9 +26,7 @@
   --accent: #3B6B4F;
   --accent-soft: #EDF3EC;
   --accent-soft-text: #346538;
-  --serif: var(--font-geist-sans), "Geist Sans", "SF Pro Display", system-ui, sans-serif;
-  --sans: var(--font-geist-sans), "Geist Sans", "SF Pro Display", system-ui, sans-serif;
-  --mono: "Geist Mono", "SF Mono", monospace;
+  color-scheme: light;
 }
 
 @theme inline {
@@ -28,20 +42,6 @@
   --font-sans: var(--sans);
   --font-serif: var(--serif);
   --font-mono: var(--mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #111110;
-    --foreground: #E8E8E5;
-    --muted: #999995;
-    --border: #2A2A28;
-    --surface: #1A1A18;
-    --surface-elevated: #222220;
-    --accent: #6B9B7F;
-    --accent-soft: #1A2820;
-    --accent-soft-text: #8BB89D;
-  }
 }
 
 * {
@@ -236,7 +236,7 @@ body {
   top: 0;
   height: 100%;
   border-radius: 999px;
-  background: #ffffff;
+  background: var(--foreground);
 }
 
 .archive-range-thumb {
@@ -271,7 +271,7 @@ body {
   height: 14px;
   margin-top: -5px;
   border-radius: 50%;
-  background: #ffffff;
+  background: var(--foreground);
   border: none;
   box-shadow: none;
   cursor: grab;
@@ -286,7 +286,7 @@ body {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: #ffffff;
+  background: var(--foreground);
   border: none;
   box-shadow: none;
   cursor: grab;

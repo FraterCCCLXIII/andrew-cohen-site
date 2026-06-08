@@ -232,6 +232,15 @@ export const dictionaryEntries: DictionaryEntry[] = [
     relatedHref: "/teaching/enlightenment-is-a-secret",
   },
   {
+    id: "faith",
+    term: "Faith",
+    category: "Core Teaching",
+    definition:
+      "Faith, love, and devotion for that which the mind cannot grasp — the courage to stay with revelation when the mind tries to pollute, corrupt, or destroy what has been seen. After a glimpse of truth, faith is what prevents slipping back; confidence in revelation grows when it is not betrayed by indulgence in doubt. Spiritual self-confidence — born of direct recognition of the Absolute — is utterly threatening to the ego and essential for sustaining liberation.",
+    source: "Enlightenment Is a Secret (1991), How Can I Not Get Lost Again?; If in the Face of Revelation You Allow Yourself to Doubt",
+    relatedHref: "/teaching/enlightenment-is-a-secret",
+  },
+  {
     id: "letting-go",
     term: "Letting Go",
     category: "Core Teaching",
@@ -462,6 +471,15 @@ export const dictionaryEntries: DictionaryEntry[] = [
       "The deep conviction that one already knows liberation is not possible — hardness, invulnerability, and coldness rooted in the belief that everything is limited. The opposite of genuine humility and not knowing; a defense mechanism of the ego that protects itself from the radical implications of authentic awakening.",
     source: "The Challenge of Enlightenment (1996), Knowing Versus Not Knowing",
     relatedHref: "/teaching/the-challenge-of-enlightenment",
+  },
+  {
+    id: "doubt",
+    term: "Doubt",
+    category: "The Ego & Self",
+    definition:
+      "Mechanically produced by the ego — not genuine discrimination. Indulgence in doubt is dangerous: it weakens where discrimination strengthens, poisons the delicate intimations of the heart, and can make one forget freedom in less than an instant. Self-doubt — doubt about one's ability to realize what one already knows to be true — is the most insidious form: an excuse not to change. In the face of fear, doubt is Maya's temptation to turn back from liberation.",
+    source: "Enlightenment Is a Secret (1991), Doubt Has Nothing to Do with Discrimination; Self-Doubt Is the Most Insidious Form of Doubt; Will You Be Seduced by Maya?",
+    relatedHref: "/teaching/enlightenment-is-a-secret",
   },
   {
     id: "negative-freedom",

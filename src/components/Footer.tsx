@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { localeHref } from "@/components/LanguageSwitcher";
+import ThemeToggle from "@/components/ThemeToggle";
 import { useLocale } from "@/i18n/locale-provider";
 
 export default function Footer() {
@@ -20,11 +21,15 @@ export default function Footer() {
           <p className="mt-2 text-sm text-muted">
             A resource for those in search of freedom.
           </p>
+          <div className="mt-4">
+            <ThemeToggle />
+          </div>
         </div>
         <nav className="flex items-center gap-6">
           {[
             { label: "Life", href: "/life" },
             { label: "Lineage", href: "/lineage" },
+            { label: "Legacy", href: "/legacy" },
             { label: "Teaching", href: "/teaching" },
             { label: "Dictionary", href: "/dictionary" },
             { label: "Practice", href: "/practice" },
