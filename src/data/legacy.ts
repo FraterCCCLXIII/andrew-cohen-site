@@ -312,6 +312,55 @@ export const legacyProfiles: LegacyProfile[] = [
     ],
   },
   {
+    id: "carter-phipps",
+    names: "Carter Phipps",
+    bio: "A visionary writer, business futurist, and longtime student of Andrew Cohen since 1991, Carter Phipps served as Executive Editor of What Is Enlightenment? and EnlightenNext magazine from 1999 to 2011. His award-winning journalism and books have helped articulate the emerging conversation at the intersection of evolution, consciousness, and culture.",
+    projects: [
+      {
+        id: "carter-phipps",
+        title: "Carter Phipps",
+        description:
+          "Thinking ahead about leadership and culture — writing, speaking, and consulting at the intersection of business, personal development, and evolutionary change.",
+        url: "https://www.carterphipps.com/",
+        image: "/images/legacy/carter-phipps-logo.png",
+        imageAlt: "Carter Phipps",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
+      {
+        id: "evolutionaries",
+        title: "Evolutionaries",
+        description:
+          "A groundbreaking guide to the movement of scientists, philosophers, and spiritual thinkers illuminating the secrets of our past and expanding the vistas of our future.",
+        url: "https://www.carterphipps.com/evolutionaries/",
+        image: "/images/legacy/evolutionaries-cover.png",
+        imageAlt: "Evolutionaries book cover",
+        imageFit: "contain",
+      },
+      {
+        id: "thinking-ahead",
+        title: "Thinking Ahead",
+        description:
+          "A podcast exploring the movements, trends, people, and ideas shaping the future — from business and politics to science, technology, consciousness, and spirituality.",
+        url: "https://www.carterphipps.com/podcast/",
+        image: "/images/legacy/thinking-ahead-podcast.jpg",
+        imageAlt: "Thinking Ahead podcast",
+        imageFit: "cover",
+      },
+      {
+        id: "institute-for-developmental-philosophy",
+        title: "Institute for Developmental Philosophy",
+        description:
+          "A nonprofit advancing humanity's understanding of cultural evolution — renewing society's commitment to truth, beauty, and goodness through developmental politics and integrative policy.",
+        url: "https://www.developmentalphilosophy.org/",
+        image: "/images/legacy/institute-for-developmental-philosophy-logo.png",
+        imageAlt: "Institute for Developmental Philosophy logo",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
+    ],
+  },
+  {
     id: "amy-edelstein",
     names: "Amy Edelstein",
     bio: "A transformative educator, author, and longtime student of Andrew Cohen's Evolutionary Enlightenment since 1986, Amy Edelstein served as a senior editor of What Is Enlightenment? magazine and Communications Director for EnlightenNext. She now directs her work toward youth and education — founding Inner Strength Education and co-founding Emergence Education Press.",
