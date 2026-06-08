@@ -44,27 +44,28 @@ export default function Nav() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
-      <nav className="px-6 h-16 flex items-center justify-between">
+      <nav className="px-4 sm:px-6 h-16 flex items-center justify-between gap-3">
         <Link
           href={localeHref(locale)}
-          className="flex items-baseline gap-2 md:gap-3 min-w-0"
+          className="flex items-baseline gap-2 min-w-0 flex-1 xl:flex-none"
+          onClick={() => setOpen(false)}
         >
-          <span className="text-xl md:text-2xl font-sans font-medium tracking-tight text-foreground shrink-0">
+          <span className="text-lg sm:text-xl xl:text-2xl font-sans font-medium tracking-tight text-foreground shrink-0">
             Andrew Cohen
           </span>
-          <span className="text-xs md:text-sm text-muted font-sans tracking-wide">
+          <span className="hidden 2xl:inline text-sm text-muted font-sans tracking-wide truncate">
             Nonduality for an Evolving World
           </span>
         </Link>
 
-        {/* Desktop nav + contribute */}
-        <div className="hidden md:flex items-center gap-6">
-          <ul className="flex items-center gap-8">
+        {/* Desktop nav — wide screens only; tablets use the collapsed menu */}
+        <div className="hidden xl:flex items-center gap-4 shrink-0">
+          <ul className="flex items-center gap-5">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="text-sm text-muted hover:text-foreground transition-colors duration-300"
+                  className="text-sm text-muted hover:text-foreground transition-colors duration-300 whitespace-nowrap"
                 >
                   {link.label}
                 </Link>
@@ -80,14 +81,14 @@ export default function Nav() {
           </Link>
           <Link
             href="/contribute"
-            className="inline-flex items-center px-4 py-2 bg-foreground text-background text-sm rounded-md hover:bg-foreground/85 transition-colors duration-300 active:scale-[0.98] shrink-0"
+            className="inline-flex items-center px-4 py-2 bg-foreground text-background text-sm rounded-md hover:bg-foreground/85 transition-colors duration-300 active:scale-[0.98] shrink-0 whitespace-nowrap"
           >
             Contribute
           </Link>
         </div>
 
-        {/* Mobile: contribute + menu toggle */}
-        <div className="md:hidden flex items-center gap-2">
+        {/* Collapsed header — phone and tablet */}
+        <div className="xl:hidden flex items-center gap-1 shrink-0">
           <Link
             href="/nondualizer"
             className={nondualizerLinkClassName}
@@ -95,16 +96,11 @@ export default function Nav() {
           >
             <NondualizerNavIcon className="h-5 w-5" />
           </Link>
-          <Link
-            href="/contribute"
-            className="inline-flex items-center px-3 py-1.5 bg-foreground text-background text-xs rounded-md hover:bg-foreground/85 transition-colors duration-300 active:scale-[0.98]"
-          >
-            Contribute
-          </Link>
           <button
+            type="button"
             onClick={() => setOpen(!open)}
-            className="flex items-center justify-center w-10 h-10 text-foreground"
-            aria-label="Toggle menu"
+            className="flex items-center justify-center w-10 h-10 text-foreground rounded-md hover:bg-surface-elevated transition-colors duration-200"
+            aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
           >
             {open ? <X size={22} weight="regular" /> : <List size={22} weight="regular" />}
@@ -112,7 +108,7 @@ export default function Nav() {
         </div>
       </nav>
 
-      {/* Mobile menu */}
+      {/* Collapsed menu — phone and tablet */}
       <AnimatePresence>
         {open && (
           <motion.div
@@ -120,30 +116,50 @@ export default function Nav() {
             animate={{ opacity: 1, height: "auto" }}
             exit={reduce ? { opacity: 0 } : { opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="md:hidden overflow-hidden border-t border-border bg-background"
+            className="xl:hidden overflow-hidden border-t border-border bg-background"
           >
-            <ul className="flex flex-col px-6 py-6 gap-4">
-              {navLinks.map((link, i) => (
-                <motion.li
-                  key={link.href}
-                  initial={reduce ? false : { opacity: 0, y: 8 }}
-                  animate={reduce ? {} : { opacity: 1, y: 0 }}
-                  transition={{
-                    duration: 0.4,
-                    delay: reduce ? 0 : i * 0.06,
-                    ease: [0.16, 1, 0.3, 1],
-                  }}
-                >
-                  <Link
-                    href={link.href}
-                    onClick={() => setOpen(false)}
-                    className="text-base text-foreground hover:text-muted transition-colors duration-200"
+            <div className="max-h-[min(70dvh,calc(100dvh-4rem))] overflow-y-auto overscroll-contain px-4 sm:px-6 py-5 sm:py-6">
+              <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-4 gap-y-1">
+                {navLinks.map((link, i) => (
+                  <motion.li
+                    key={link.href}
+                    initial={reduce ? false : { opacity: 0, y: 8 }}
+                    animate={reduce ? {} : { opacity: 1, y: 0 }}
+                    transition={{
+                      duration: 0.35,
+                      delay: reduce ? 0 : i * 0.03,
+                      ease: [0.16, 1, 0.3, 1],
+                    }}
                   >
-                    {link.label}
-                  </Link>
-                </motion.li>
-              ))}
-            </ul>
+                    <Link
+                      href={link.href}
+                      onClick={() => setOpen(false)}
+                      className="block rounded-md px-2 py-2.5 text-sm sm:text-base text-foreground hover:bg-surface-elevated transition-colors duration-200"
+                    >
+                      {link.label}
+                    </Link>
+                  </motion.li>
+                ))}
+              </ul>
+
+              <div className="mt-5 sm:mt-6 pt-5 border-t border-border flex flex-col sm:flex-row gap-2 sm:gap-3">
+                <Link
+                  href="/contribute"
+                  onClick={() => setOpen(false)}
+                  className="inline-flex items-center justify-center px-4 py-2.5 bg-foreground text-background text-sm rounded-md hover:bg-foreground/85 transition-colors duration-300 active:scale-[0.98]"
+                >
+                  Contribute
+                </Link>
+                <Link
+                  href="/nondualizer"
+                  onClick={() => setOpen(false)}
+                  className="inline-flex items-center justify-center gap-2 px-4 py-2.5 border border-border text-sm rounded-md text-foreground hover:bg-surface-elevated transition-colors duration-300"
+                >
+                  <NondualizerNavIcon className="h-4 w-4" />
+                  Nondualize
+                </Link>
+              </div>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
