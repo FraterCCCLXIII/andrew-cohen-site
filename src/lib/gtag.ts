@@ -1,5 +1,4 @@
-export const GOOGLE_TAG_ID = "GT-TQD6TZPC";
-export const GA_MEASUREMENT_ID = "G-P66CJZZCGH";
+export const GA_MEASUREMENT_ID = "G-QQY3P6RT6H";
 
 type GtagCommand = "config" | "event" | "js" | "set";
 

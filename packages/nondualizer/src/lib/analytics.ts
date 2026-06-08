@@ -1,5 +1,7 @@
 // Analytics utility for tracking user interactions
 
+export const GA_MEASUREMENT_ID = "G-QQY3P6RT6H";
+
 // Event categories for consistent tracking
 export const ANALYTICS_CATEGORIES = {
   AUDIO: 'Audio',
@@ -333,7 +335,7 @@ export const trackTrackPageView = (
       const gtag = window.gtag;
       if (!gtag) return;
 
-      gtag("config", "G-BRVLR3TZPQ", {
+      gtag("config", GA_MEASUREMENT_ID, {
         page_title: `${trackTitle} - Nondualize`,
         page_location: `${window.location.origin}/nondualizer/track/${trackSlug}`,
         custom_map: {
@@ -360,7 +362,7 @@ export const trackHomePageView = () => {
       const gtag = window.gtag;
       if (!gtag) return;
 
-      gtag("config", "G-BRVLR3TZPQ", {
+      gtag("config", GA_MEASUREMENT_ID, {
         page_title: "Nondualize - Andrew Cohen",
         page_location: `${window.location.origin}/nondualizer`,
       });
