@@ -68,6 +68,66 @@ export const legacyProfiles: LegacyProfile[] = [
     ],
   },
   {
+    id: "vincent-drouot",
+    names: "Vincent Drouot",
+    bio: "Originally from France, Vincent Drouot is a trainer and instructional designer specializing in Generative AI, with a background as an entrepreneur spanning technology, training, and innovation. A senior practitioner of Evolutionary Enlightenment, he has been a dedicated student of Andrew Cohen since 2008, following a life-changing retreat where he met his teacher. Over the past 17 years, he has cultivated a close relationship with Andrew as guru, mentor, and friend. An active member of Manifest Nirvana, Vincent lives in France, where he continues his work in both technology and spiritual practice.",
+    portrait: "/images/legacy/vincent-drouot.jpg",
+    portraitAlt: "Vincent Drouot",
+    projects: [
+      {
+        id: "manifest-nirvana",
+        title: "Manifest Nirvana",
+        description:
+          "A spiritual community and online platform dedicated to Evolutionary Enlightenment — rooted at the foot of Arunachala in Tiruvannamalai and reaching a global community through live teachings, retreats, guided meditations, and intersubjective practice.",
+        url: "https://manifest-nirvana.com/",
+        image: "/images/legacy/manifest-nirvana-logo.svg",
+        imageAlt: "Manifest Nirvana logo",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
+    ],
+  },
+  {
+    id: "annick-macher",
+    names: "Annick Macher",
+    bio: "A lawyer, trainer, and consultant in labor law in France, Annick Macher is deeply interested in the world of work and its evolution, facilitating social dialogue within companies. A long-term student of Andrew Cohen for 17 years, she has been passionately inspired by the teachings of Evolutionary Enlightenment and the innovative practice of intersubjective dialogue — which she now uses as a compass to help reclaim meaning in human relationships at work.",
+    portrait: "/images/legacy/annick-macher.jpg",
+    portraitAlt: "Annick Macher",
+    projects: [
+      {
+        id: "manifest-nirvana",
+        title: "Manifest Nirvana",
+        description:
+          "A spiritual community and online platform dedicated to Evolutionary Enlightenment — rooted at the foot of Arunachala in Tiruvannamalai and reaching a global community through live teachings, retreats, guided meditations, and intersubjective practice.",
+        url: "https://manifest-nirvana.com/",
+        image: "/images/legacy/manifest-nirvana-logo.svg",
+        imageAlt: "Manifest Nirvana logo",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
+    ],
+  },
+  {
+    id: "sara-topsoe",
+    names: "Sara Topsoe",
+    bio: "An artist by profession with more than twenty years of experience leading creative processes, Sara Topsoe has served as an artistic leader in cross-aesthetic and co-creative performance productions. Since meeting Andrew Cohen in 2011 and becoming his student, she has been passionately involved in the spiritual practice, development, and facilitation of intersubjective dialogue.",
+    portrait: "/images/legacy/sara-topsoe.jpg",
+    portraitAlt: "Sara Topsoe",
+    projects: [
+      {
+        id: "manifest-nirvana",
+        title: "Manifest Nirvana",
+        description:
+          "A spiritual community and online platform dedicated to Evolutionary Enlightenment — rooted at the foot of Arunachala in Tiruvannamalai and reaching a global community through live teachings, retreats, guided meditations, and intersubjective practice.",
+        url: "https://manifest-nirvana.com/",
+        image: "/images/legacy/manifest-nirvana-logo.svg",
+        imageAlt: "Manifest Nirvana logo",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
+    ],
+  },
+  {
     id: "steve-brett-mary-adams",
     names: "Steve Brett & Mary Adams",
     bio: "Longtime students of Andrew Cohen and contributors to EnlightenNext, Steve and Mary founded 3rd Space — a platform for new perspectives in critical times. Through articles, interviews, podcasts, and immersive journeys, they convene voices reshaping the future of consciousness and society.",
@@ -95,9 +155,10 @@ export const legacyProfiles: LegacyProfile[] = [
         description:
           "A voice of a new culture of consciousness emerging across society. evolve tracks innovative visionaries and activists, offering a dialogue forum for those bringing more spirit into the world through their own development and the transformation of culture.",
         url: "https://www.evolve-world.org/evolve-magazin",
-        image: "/images/legacy/evolve-world-logo.svg",
-        imageAlt: "evolve Magazin logo",
+        image: "/images/legacy/evolve-magazin-logo.png",
+        imageAlt: "evolve magazin logo",
         imageFit: "contain",
+        imageBackground: "white",
       },
       {
         id: "evolve-world",
@@ -115,9 +176,9 @@ export const legacyProfiles: LegacyProfile[] = [
         description:
           "A global online community of practice where the sacred opens between us — offering weekday meditation, Open Interbeing Lab, tea dialogues, and quarterly days of practice for cultivating emergence through interbeing and dialogue.",
         url: "https://www.evolve-world.org/interbeing-monastery",
-        image: "/images/legacy/evolve-logo.png",
-        imageAlt: "Interbeing Monastery",
-        imageFit: "contain",
+        image: "/images/legacy/interbeing-monastery.png",
+        imageAlt: "Interbeing Monastery — a global online community of practice",
+        imageFit: "cover",
       },
     ],
   },
@@ -125,6 +186,8 @@ export const legacyProfiles: LegacyProfile[] = [
     id: "tom-huston",
     names: "Tom Huston",
     bio: "A professional writer and longtime practitioner of integral spirituality, Tom Huston served as an editor of Andrew Cohen's award-winning magazine What Is Enlightenment? and as a founding member of Ken Wilber's Integral Institute. Through Tantrika, he teaches courses in integral psychospiritual development for embodying the freedom of one's authentic self.",
+    portrait: "/images/legacy/tom-huston.jpg",
+    portraitAlt: "Tom Huston",
     projects: [
       {
         id: "tantrika",
@@ -143,6 +206,8 @@ export const legacyProfiles: LegacyProfile[] = [
     id: "lovena-vencatakistnen",
     names: "Lovena Vencatakistnen",
     bio: "An integrative hypnotherapist and former member of EnlightenNext, Lovena Vencatakistnen brings decades of meditation training and integral psychotherapy to her work. Through Symphony Therapy, she helps clients resolve deep-seated patterns through past-life regression, inner child healing, and other transformative modalities — online worldwide and in person in London.",
+    portrait: "/images/legacy/lovena-vencatakistnen.jpg",
+    portraitAlt: "Lovena Vencatakistnen",
     projects: [
       {
         id: "symphony-therapy",
