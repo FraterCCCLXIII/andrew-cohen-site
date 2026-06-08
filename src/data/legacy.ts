@@ -141,6 +141,16 @@ export const legacyProfiles: LegacyProfile[] = [
     bio: "Author, teacher, and founder of The Mystery School, Jeff Carreira has dedicated over thirty years to spiritual liberation, soul development, and transdimensional spirituality — exploring the invisible dimensions of reality and our inner capacities for transformation.",
     projects: [
       {
+        id: "emergence-education",
+        title: "Emergence Education",
+        description:
+          "A publishing house and educational platform dedicated to spiritual awakening and paradigm-shifting ideas — featuring books, The Artist of Possibility magazine, programs, and The Mystery School.",
+        url: "https://emergenceeducation.com/",
+        image: "/images/legacy/emergence-education-logo.png",
+        imageAlt: "Emergence Education logo",
+        imageFit: "contain",
+      },
+      {
         id: "jeff-carreira",
         title: "Jeff Carreira & The Mystery School",
         description:
