@@ -24,6 +24,14 @@ export const metadata: Metadata = {
   title: "Andrew Cohen | Evolutionary Enlightenment",
   description:
     "The teaching of Andrew Cohen: Evolutionary Enlightenment, a vision of the human being as a vehicle for the evolution of consciousness.",
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" },
+    ],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
+  },
+  manifest: "/site.webmanifest",
 };
 
 async function resolveLocale(): Promise<Locale> {
