@@ -181,8 +181,15 @@ export default async function ArchiveDetailPage({
     : item.vimeoId
       ? `https://vimeo.com/${item.vimeoId}`
       : primaryEmbed?.href ?? item.sourceUrl ?? item.href;
+  const youtubeMirror =
+    item.type === "video" && item.youtubeId && item.mediaPath
+      ? item.mediaPath
+      : null;
   const isYoutubeChannelVideo =
-    item.type === "video" && item.id.startsWith("yt-") && item.youtubeId;
+    item.type === "video" &&
+    item.id.startsWith("yt-") &&
+    item.youtubeId &&
+    !youtubeMirror;
   const showExternalLink = Boolean(
     item.youtubeId ||
       item.vimeoId ||
@@ -270,6 +277,17 @@ export default async function ArchiveDetailPage({
               title={item.title}
               label="Archive recording"
             />
+          ) : youtubeMirror ? (
+            <MediaEmbed
+              asset={{
+                format: "video",
+                provider: "file",
+                embedUrl: youtubeMirror,
+                href: youtubeMirror,
+              }}
+              title={item.title}
+              label="Archive recording"
+            />
           ) : isYoutubeChannelVideo ? (
             <div className="relative aspect-video w-full overflow-hidden rounded-md border border-border bg-surface-elevated">
               <iframe
@@ -311,9 +329,9 @@ export default async function ArchiveDetailPage({
                 <ArrowUpRight size={16} weight="regular" />
               </a>
             )}
-            {hostedMedia && (
+            {(hostedMedia || youtubeMirror) && (
               <a
-                href={hostedMedia.mediaPath}
+                href={hostedMedia?.mediaPath ?? youtubeMirror!}
                 download
                 className="inline-flex items-center gap-2 px-6 py-3 border border-border text-sm rounded-md hover:bg-surface-elevated transition-colors duration-300"
               >

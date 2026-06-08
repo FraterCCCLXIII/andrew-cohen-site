@@ -383,6 +383,60 @@ export const dictionaryEntries: DictionaryEntry[] = [
     source: "Evolutionary Enlightenment (2011), The Self: Relative and Absolute",
     relatedHref: "/teaching/the-absolute-the-true-self",
   },
+  {
+    id: "new-enlightenment",
+    term: "The New Enlightenment",
+    category: "Core Teaching",
+    definition:
+      "Cohen's term for Evolutionary Enlightenment — the experience of ego-transcendence carried on the wings of the evolutionary impulse. Unlike traditional enlightenment, which focuses on what is in the timeless Ground of Being, the new enlightenment is future-oriented: the ecstatic urgency of evolutionary Becoming, focused on what could be.",
+    source: "Being & Becoming (2010), Introduction: The Evolution of Enlightenment; Evolutionary Enlightenment (2011)",
+    relatedHref: "/teaching/evolutionary-enlightenment",
+  },
+  {
+    id: "ecstatic-urgency",
+    term: "Ecstatic Urgency",
+    category: "Core Teaching",
+    definition:
+      "The felt quality of the evolutionary impulse — not peaceful but thrilling, exciting, and relentlessly forward-leaning. When God is experienced as Eros rather than as the timeless Ground of Being, consciousness feels like infinite potential, all things possible, both feet on the gas with no hesitation. Enlightenment is no longer found only in the bliss of timeless Being; it is found also in this ecstatic urgency of evolutionary Becoming.",
+    source: "Being & Becoming (2010), The Evolutionary Impulse; Evolutionary Enlightenment (2011), Eros and the Evolutionary Impulse",
+    relatedHref: "/teaching/eros-the-evolutionary-impulse",
+  },
+  {
+    id: "ecstatic-indifference",
+    term: "Ecstatic Indifference",
+    category: "Core Teaching",
+    definition:
+      "The blissful, absolute peace of the unmanifest Ground of Being — a contentment so profound that one is free from all desire for the things of this world. In deep meditation, when the knot of existential tension dissolves, there is nothing you want except to be: to have nothing, to know nothing, to be no-one, for eternity. In ecstatic indifference, you wouldn't mind if the whole universe disappeared.",
+    source: "Being & Becoming (2010), Ecstatic Indifference",
+    relatedHref: "/teaching/meditation",
+  },
+  {
+    id: "pure-subjectivity",
+    term: "Pure Subjectivity",
+    category: "Core Teaching",
+    definition:
+      "Consciousness as subject rather than object — the primordial awareness at the core of experience, deeper than body, feeling, or thought. When everything else falls away, the subject remains, identical in each and every one of us. The recognition that consciousness is primary has always been the source of enlightenment; if you don't know consciousness, you don't know who you are.",
+    source: "Being & Becoming (2010), Pure Subjectivity",
+    relatedHref: "/teaching/the-absolute-the-true-self",
+  },
+  {
+    id: "fifty-one-percent",
+    term: "Fifty-One Percent",
+    category: "Core Teaching",
+    definition:
+      "The threshold at which meaningful transformation begins — when identification with the Authentic Self crosses from fifty to fifty-one percent and the ego becomes the weaker part of the self. Until that line is crossed, inspired conversation may abound but real change will not occur, because the majority of the self still belongs to the fears and desires of the ego. Crossing it is not the end of the path; it is just the beginning.",
+    source: "Being & Becoming (2010), Fifty-One Percent; Evolutionary Enlightenment (2011)",
+    relatedHref: "/teaching/the-authentic-self",
+  },
+  {
+    id: "moral-predicament",
+    term: "The Moral Predicament",
+    category: "Core Teaching",
+    definition:
+      "The evolutionary predicament of the postmodern narcissist — we glimpse spiritual glory but rarely make the noble effort to transform ourselves for the highest reasons, not because we can't but because we don't want to. The ego is invested in conveniently having a problem; as long as we remain on the sidelines, we cannot serve the evolution of the species. Cohen names this a moral issue, not merely a personal psychological problem.",
+    source: "Being & Becoming (2010), A Moral Predicament",
+    relatedHref: "/teaching/the-ego",
+  },
 
   // The Ego & Self
   {
@@ -498,6 +552,69 @@ export const dictionaryEntries: DictionaryEntry[] = [
       "The psychological self-protective habit of turning away from experience — literally what creates ego and builds the walls of separate selfhood. \"The moment we stop avoiding, those walls will begin to crumble.\" Facing everything and avoiding nothing is the antidote.",
     source: "Evolutionary Enlightenment (2011), Face Everything and Avoid Nothing",
     relatedHref: "/teaching/five-tenets",
+  },
+  {
+    id: "four-selves",
+    term: "The Four Selves",
+    category: "The Ego & Self",
+    definition:
+      "Cohen's map for navigating who is making choices at any given moment. In the relative dimension: the happy ego (positive ego) feels good about itself and positive about life; the unhappy ego (negative ego) feels bad about itself and bad about life. In the absolute dimension: the True Self experiences unconditional freedom from all egoic constriction; the Authentic Self experiences ecstatic, creative urgency and alignment with the evolutionary impulse. The practical aim is to recognize which self you are inhabiting before speaking or making important decisions.",
+    source: "The Four Selves with Andrew Cohen (spoken teaching); Being & Becoming (2010), The Science of the Self",
+    relatedHref: "/archive/yt-jZFnoOUvkI4",
+  },
+  {
+    id: "happy-ego",
+    term: "The Happy Ego",
+    category: "The Ego & Self",
+    definition:
+      "Cohen's name for the positive ego in relative consciousness — the self-feeling that arises when life is going well: \"I had a good day, I feel good about being me in this world and life is good.\" Infinitely better than the unhappy ego, but still only the relative dimension of self. Not a substitute for awakening to the True Self or Authentic Self.",
+    source: "The Four Selves with Andrew Cohen (spoken teaching)",
+    relatedHref: "/teaching/the-ego",
+  },
+  {
+    id: "unhappy-ego",
+    term: "The Unhappy Ego",
+    category: "The Ego & Self",
+    definition:
+      "Cohen's name for the negative ego in relative consciousness — the self-feeling that arises when \"I had a terrible day and I feel really bad about being me.\" The narcissistic, victimized, or depressed face of ego. Cohen's practical counsel: when you notice you are in your unhappy ego, it is a good time not to talk and not to make important life decisions.",
+    source: "The Four Selves with Andrew Cohen (spoken teaching)",
+    relatedHref: "/teaching/the-ego",
+  },
+  {
+    id: "science-of-the-self",
+    term: "The Science of the Self",
+    category: "The Ego & Self",
+    definition:
+      "The disciplined study of consciousness as territory — learning to distinguish clearly which dimension of self you are abiding in from moment to moment. Because subjective experience is so close to the self-sense, most people remain lost in the drama of their inner experience rather than objectively knowing whether they are in ego, Authentic Self, or the Ground of Being. Evolutionary Enlightenment requires this objectivity.",
+    source: "Being & Becoming (2010), The Science of the Self",
+    relatedHref: "/teaching/the-ego",
+  },
+  {
+    id: "choosing-faculty",
+    term: "The Choosing Faculty",
+    category: "The Ego & Self",
+    definition:
+      "The free agency within each person that chooses what to identify with — neither the ego nor the Authentic Self, but the \"you\" who is aware of both and decides where to place attention. What you choose to give attention to is always who and what you become. Enlightening the choosing faculty — bringing awareness to it rather than denying it — is foundational to the teaching; when the ego denies choice, transformation becomes impossible.",
+    source: "Being & Becoming (2010), Enlightening the Choosing Faculty; The Choosing Faculty (spoken teaching)",
+    relatedHref: "/archive/yt-ihND4q6lBko",
+  },
+  {
+    id: "liberation-of-choice",
+    term: "The Liberation of Choice",
+    category: "The Ego & Self",
+    definition:
+      "The freeing of one's miraculous capacity to choose from the ego's narrow, habit-driven world. In ego, choice feels like victimhood; when the Authentic Self is awakened, the power of choice becomes capable of expressing enlightenment through action. At the leading edge of development, choice aligns with the first cause — the original intention to create the universe — and one's spiritual aspiration becomes one with the evolutionary impulse itself.",
+    source: "Being & Becoming (2010), The Liberation of Choice",
+    relatedHref: "/teaching/the-authentic-self",
+  },
+  {
+    id: "radical-authenticity",
+    term: "Radical Authenticity",
+    category: "The Ego & Self",
+    definition:
+      "Freedom from pretense at the soul level — the enormous challenge of being a fit vehicle for the Authentic Self. The ego cares only about image and shapeshifts to protect itself; the Authentic Self recognizes only straightness, simplicity, transparency, and consistency. Radical authenticity means the game is up forever: breaking through the false world most of us live in and playing the game of life for real, now.",
+    source: "Being & Becoming (2010), The Challenge of Radical Authenticity",
+    relatedHref: "/teaching/the-authentic-self",
   },
 
   // Five Tenets
@@ -710,6 +827,15 @@ export const dictionaryEntries: DictionaryEntry[] = [
     definition:
       "A shared field of intersubjective enlightened awareness — a creative vortex between inspired individuals in which collective intelligence is unleashed and insights emerge that no one could reach alone. The intersubjective context in which the Six Principles spontaneously arise and evolution occurs through relationship.",
     source: "Evolutionary Enlightenment (2011), Creating the Future",
+    relatedHref: "/teaching/enlightened-communication",
+  },
+  {
+    id: "higher-we",
+    term: "A Higher We",
+    category: "Practice",
+    definition:
+      "Evolutionary Enlightenment as collective emergence rather than individual attainment — when all involved awaken simultaneously to the Authentic Self in an intersubjective nondual context. The paradox of the One and the many is lived in time: ceaselessly striving toward greater complexity and higher integration. Cohen's leap from \"I\" to \"we\" without blurring individual autonomy — creative power and ecstatic communion arise together.",
+    source: "Being & Becoming (2010), A Higher We; A Collective Emergence",
     relatedHref: "/teaching/enlightened-communication",
   },
   {

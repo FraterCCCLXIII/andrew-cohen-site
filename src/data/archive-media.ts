@@ -9,6 +9,7 @@ import archiveMediaData from "@/data/archive-media.json";
  *
  * Related catalogs:
  *   youtube-videos.json — YouTube (yt-*)
+ *   youtube-mirrors.json — local copies under archive/media/youtube/
  *   site-videos.json — scraped andrewcohen.com embeds (video-*)
  *   listen.json — audio / mixed embeds (media-*)
  */

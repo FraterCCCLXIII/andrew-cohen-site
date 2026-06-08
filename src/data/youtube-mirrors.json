@@ -1,0 +1,73 @@
+{
+  "schema": "youtube-mirrors/v1",
+  "mirrors": {
+    "Vada0zRfYEo": {
+      "mediaPath": "/archive/media/youtube/Vada0zRfYEo.mp4",
+      "mimeType": "video/mp4"
+    },
+    "xGs54RL6Ywc": {
+      "mediaPath": "/archive/media/youtube/xGs54RL6Ywc.mp4",
+      "mimeType": "video/mp4"
+    },
+    "Oy9v30Zj8V4": {
+      "mediaPath": "/archive/media/youtube/Oy9v30Zj8V4.mp4",
+      "mimeType": "video/mp4"
+    },
+    "mlhBnlRbWaw": {
+      "mediaPath": "/archive/media/youtube/mlhBnlRbWaw.mkv",
+      "mimeType": "video/x-matroska"
+    },
+    "ojmJ5TalXCI": {
+      "mediaPath": "/archive/media/youtube/ojmJ5TalXCI.mp4",
+      "mimeType": "video/mp4"
+    },
+    "RA9OUAEoD9k": {
+      "mediaPath": "/archive/media/youtube/RA9OUAEoD9k.mkv",
+      "mimeType": "video/x-matroska"
+    },
+    "DOT5vyryEdg": {
+      "mediaPath": "/archive/media/youtube/DOT5vyryEdg.mkv",
+      "mimeType": "video/x-matroska"
+    },
+    "BXbNaw7FlFA": {
+      "mediaPath": "/archive/media/youtube/BXbNaw7FlFA.webm",
+      "mimeType": "video/webm"
+    },
+    "rytFeEGWbl8": {
+      "mediaPath": "/archive/media/youtube/rytFeEGWbl8.mkv",
+      "mimeType": "video/x-matroska"
+    },
+    "NLhZ2ELnhT8": {
+      "mediaPath": "/archive/media/youtube/NLhZ2ELnhT8.mkv",
+      "mimeType": "video/x-matroska"
+    },
+    "M6xj3OFnaSg": {
+      "mediaPath": "/archive/media/youtube/M6xj3OFnaSg.mkv",
+      "mimeType": "video/x-matroska"
+    },
+    "8me3pTg66cQ": {
+      "mediaPath": "/archive/media/youtube/8me3pTg66cQ.mkv",
+      "mimeType": "video/x-matroska"
+    },
+    "ErNMd5znQNA": {
+      "mediaPath": "/archive/media/youtube/ErNMd5znQNA.mp4",
+      "mimeType": "video/mp4"
+    },
+    "MHM9tAisrbM": {
+      "mediaPath": "/archive/media/youtube/MHM9tAisrbM.mp4",
+      "mimeType": "video/mp4"
+    },
+    "LVC1XyFU6ao": {
+      "mediaPath": "/archive/media/youtube/LVC1XyFU6ao.mkv",
+      "mimeType": "video/x-matroska"
+    },
+    "RNYj7zIfsJg": {
+      "mediaPath": "/archive/media/youtube/RNYj7zIfsJg.mp4",
+      "mimeType": "video/mp4"
+    },
+    "bDkhKMw7NkM": {
+      "mediaPath": "/archive/media/youtube/bDkhKMw7NkM.mp4",
+      "mimeType": "video/mp4"
+    }
+  }
+}

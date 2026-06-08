@@ -39,13 +39,8 @@ yarn-error.log*
 /books
 /.extract
 
-# incoming source media at repo root — canonical copies live under public/archive/media/
-/Unfulfilled Desires Videos/
-/*.mp4
-/*.mkv
-/*.mov
-/*.MPG
-/*.webm
+# staging area for incoming media — canonical copies live under public/archive/media/
+/archive/incoming/
 
 # vercel
 .vercel

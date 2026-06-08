@@ -1,4 +1,5 @@
 import { archiveMediaItems } from "@/data/archive-media";
+import { getYoutubeMirror } from "@/data/youtube-mirrors";
 import { books } from "@/data/books";
 import { journalArticles } from "@/data/journal";
 import { listenItems } from "@/data/listen";
@@ -109,11 +110,21 @@ function magazineSupplementItems(): ArchiveItem[] {
 }
 
 function youtubeChannelItems(): ArchiveItem[] {
-  return (youtubeVideos as ArchiveItem[]).map((item) => ({
-    ...item,
-    type: "video" as const,
-    href: `/archive/${item.id}`,
-  }));
+  return (youtubeVideos as ArchiveItem[]).map((item) => {
+    const mirror =
+      item.youtubeId && getYoutubeMirror(item.youtubeId);
+    return {
+      ...item,
+      type: "video" as const,
+      href: `/archive/${item.id}`,
+      ...(mirror
+        ? {
+            mediaPath: mirror.mediaPath,
+            tags: [...new Set([...item.tags, "hosted-media"])],
+          }
+        : {}),
+    };
+  });
 }
 
 function siteVideoItems(): ArchiveItem[] {
