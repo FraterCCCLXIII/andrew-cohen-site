@@ -99,6 +99,62 @@ export const legacyProfiles: LegacyProfile[] = [
         imageAlt: "evolve Magazin logo",
         imageFit: "contain",
       },
+      {
+        id: "evolve-world",
+        title: "evolve World",
+        description:
+          "A human hive of co-creative emergence — a growing community of inquiry and practice catalyzing new consciousness and culture through magazine, podcast, salons, live events, courses, and the Communiverse membership community.",
+        url: "https://www.evolve-world.org/",
+        image: "/images/legacy/evolve-world-logo.svg",
+        imageAlt: "evolve World logo",
+        imageFit: "contain",
+      },
+      {
+        id: "interbeing-monastery",
+        title: "Interbeing Monastery",
+        description:
+          "A global online community of practice where the sacred opens between us — offering weekday meditation, Open Interbeing Lab, tea dialogues, and quarterly days of practice for cultivating emergence through interbeing and dialogue.",
+        url: "https://www.evolve-world.org/interbeing-monastery",
+        image: "/images/legacy/evolve-logo.png",
+        imageAlt: "Interbeing Monastery",
+        imageFit: "contain",
+      },
+    ],
+  },
+  {
+    id: "tom-huston",
+    names: "Tom Huston",
+    bio: "A professional writer and longtime practitioner of integral spirituality, Tom Huston served as an editor of Andrew Cohen's award-winning magazine What Is Enlightenment? and as a founding member of Ken Wilber's Integral Institute. Through Tantrika, he teaches courses in integral psychospiritual development for embodying the freedom of one's authentic self.",
+    projects: [
+      {
+        id: "tantrika",
+        title: "Tantrika",
+        description:
+          "Programs in integral psychospiritual development — discovering the timeless, world-embracing way of nondual tantra through courses such as The Way of Advaya Tantra.",
+        url: "https://www.tantrika.life/",
+        image: "/images/legacy/tantrika-logo.png",
+        imageAlt: "Tantrika logo",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
+    ],
+  },
+  {
+    id: "lovena-vencatakistnen",
+    names: "Lovena Vencatakistnen",
+    bio: "An integrative hypnotherapist and former member of EnlightenNext, Lovena Vencatakistnen brings decades of meditation training and integral psychotherapy to her work. Through Symphony Therapy, she helps clients resolve deep-seated patterns through past-life regression, inner child healing, and other transformative modalities — online worldwide and in person in London.",
+    projects: [
+      {
+        id: "symphony-therapy",
+        title: "Symphony Therapy",
+        description:
+          "A holistic synthesis of integrative hypnotherapy — addressing problems at their source through past-life regression, inner child healing, life between lives spiritual regression, and future-life progression.",
+        url: "https://www.symphonytherapy.com/",
+        image: "/images/legacy/symphony-therapy-logo.svg",
+        imageAlt: "Symphony Therapy logo",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
     ],
   },
   {
@@ -163,6 +219,34 @@ export const legacyProfiles: LegacyProfile[] = [
     ],
   },
   {
+    id: "amy-edelstein",
+    names: "Amy Edelstein",
+    bio: "A transformative educator, author, and longtime student of Andrew Cohen's Evolutionary Enlightenment since 1986, Amy Edelstein served as a senior editor of What Is Enlightenment? magazine and Communications Director for EnlightenNext. She now directs her work toward youth and education — founding Inner Strength Education and co-founding Emergence Education Press.",
+    projects: [
+      {
+        id: "amy-edelstein",
+        title: "Amy Edelstein",
+        description:
+          "Transformative educator, author, and school mindfulness leader — offering courses, award-winning books, the Conscious Classroom podcast, and guided practice for personal and cultural change.",
+        url: "https://amyedelstein.com/",
+        image: "/images/legacy/conscious-classroom-cover.png",
+        imageAlt: "The Conscious Classroom by Amy Edelstein",
+        imageFit: "contain",
+      },
+      {
+        id: "inner-strength-education",
+        title: "Inner Strength Education",
+        description:
+          "A proven teen mindfulness and social-emotional learning program bringing mindfulness and systems thinking to classrooms — empowering students with calm, curiosity, and care across Philadelphia and beyond.",
+        url: "https://innerstrengtheducation.org/",
+        image: "/images/legacy/inner-strength-education-logo.png",
+        imageAlt: "Inner Strength Education logo",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
+    ],
+  },
+  {
     id: "gia-mantra",
     names: "Gia Mantra Global Village",
     bio: "An experimental eco-village at the foot of Arunachala in Tamil Nadu. Andrew Cohen, Alka Arora, and Daniela Bomatter were among its early investors — supporting a global community dedicated to sustainable living, spiritual growth, and holistic wellness.",
@@ -219,7 +303,6 @@ export const legacyProfiles: LegacyProfile[] = [
   {
     id: "pete-bampton",
     names: "Pete Bampton",
-    hidden: true,
     bio: "A British-born spiritual teacher who studied with Andrew Cohen for over a decade as a member of EnlightenNext. With Cynthia Lea Rose, he co-founded the Awakened Life Project in Portugal — hosting silent retreats devoted to meditation and evolutionary spirituality. His book The Fire of the Heart articulates a direct, contemporary approach to awakening.",
     projects: [
       {
