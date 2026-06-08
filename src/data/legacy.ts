@@ -223,6 +223,23 @@ export const legacyProfiles: LegacyProfile[] = [
     ],
   },
   {
+    id: "amir-freimann",
+    names: "Amir Freimann",
+    bio: "An Israeli researcher and author, Amir Freimann spent over twenty years in intensive spiritual practice in Andrew Cohen's EnlightenNext community — following two years of Zen training in Japan — before returning to Israel and academia. His work bridges spiritual search and academic research, exploring spiritual transmission, living transcendence, and the Experience of Being through interviews, books, and doctoral research at the University of Haifa.",
+    projects: [
+      {
+        id: "spiritual-research",
+        title: "Spiritual Search and Academic Research",
+        description:
+          "A meeting place for spiritual seekers with rational sensibilities and academic researchers with spiritual sensibilities — exploring the Experience of Being, living transcendence, spiritual transmission, and enlightening each other.",
+        url: "https://www.spiritualresearch.net/",
+        image: "/images/legacy/spiritual-research.png",
+        imageAlt: "Spiritual Search and Academic Research — Enlightening Each Other",
+        imageFit: "cover",
+      },
+    ],
+  },
+  {
     id: "emergence-foundation",
     names: "Emergence Foundation",
     bio: "A fund created from EnlightenNext by former members, the Emergence Foundation supports those engaged in social justice, activism, and making the world a better place — offering grants, retreats, and spaces for regeneration, contemplation, and enquiry.",
