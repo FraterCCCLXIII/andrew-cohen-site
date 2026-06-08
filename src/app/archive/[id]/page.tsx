@@ -17,6 +17,7 @@ import {
 import { getJournalArticle } from "@/data/journal";
 import { getListenItem } from "@/data/listen";
 import { getSiteVideo } from "@/data/site-videos";
+import { getArchiveMediaItem, isHostedArchiveVideoId } from "@/data/archive-media";
 import { getJournalArticleContent } from "@/lib/journalContent";
 import { getVideoTranscript } from "@/lib/transcripts";
 
@@ -164,6 +165,10 @@ export default async function ArchiveDetailPage({
     item.type === "video" && item.id.startsWith("video-")
       ? getSiteVideo(item.id)
       : null;
+  const hostedMedia =
+    item.type === "video" && isHostedArchiveVideoId(item.id)
+      ? getArchiveMediaItem(item.id)
+      : null;
   const transcript =
     item.type === "video" && item.id.startsWith("yt-")
       ? getVideoTranscript(item.id)
@@ -178,6 +183,11 @@ export default async function ArchiveDetailPage({
       : primaryEmbed?.href ?? item.sourceUrl ?? item.href;
   const isYoutubeChannelVideo =
     item.type === "video" && item.id.startsWith("yt-") && item.youtubeId;
+  const showExternalLink = Boolean(
+    item.youtubeId ||
+      item.vimeoId ||
+      (item.sourceUrl && !hostedMedia)
+  );
 
   return (
     <div className="min-h-screen pt-16">
@@ -201,6 +211,12 @@ export default async function ArchiveDetailPage({
           <h1 className="text-3xl md:text-5xl font-serif tracking-tight leading-[1.1] text-foreground mb-8">
             {item.title}
           </h1>
+
+          {hostedMedia?.location && (
+            <p className="font-mono text-xs uppercase tracking-[0.14em] text-muted mb-8">
+              {hostedMedia.location}
+            </p>
+          )}
 
           {item.description && (
             <p className="text-lg text-muted leading-relaxed max-w-3xl mb-8">
@@ -243,6 +259,17 @@ export default async function ArchiveDetailPage({
                 />
               ))}
             </div>
+          ) : hostedMedia ? (
+            <MediaEmbed
+              asset={{
+                format: "video",
+                provider: "file",
+                embedUrl: hostedMedia.mediaPath,
+                href: hostedMedia.mediaPath,
+              }}
+              title={item.title}
+              label="Archive recording"
+            />
           ) : isYoutubeChannelVideo ? (
             <div className="relative aspect-video w-full overflow-hidden rounded-md border border-border bg-surface-elevated">
               <iframe
@@ -267,21 +294,33 @@ export default async function ArchiveDetailPage({
           ) : null}
 
           <div className="mt-8 flex flex-wrap gap-3">
-            <a
-              href={externalUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background text-sm rounded-md hover:bg-foreground/85 transition-colors duration-300 active:scale-[0.98]"
-            >
-              {item.type === "video" && item.youtubeId
-                ? "Watch on YouTube"
-                : item.type === "video" && item.vimeoId
-                  ? "Watch on Vimeo"
-                  : item.type === "media"
-                    ? "View on andrewcohen.com"
-                    : "View original"}
-              <ArrowUpRight size={16} weight="regular" />
-            </a>
+            {showExternalLink && (
+              <a
+                href={externalUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background text-sm rounded-md hover:bg-foreground/85 transition-colors duration-300 active:scale-[0.98]"
+              >
+                {item.type === "video" && item.youtubeId
+                  ? "Watch on YouTube"
+                  : item.type === "video" && item.vimeoId
+                    ? "Watch on Vimeo"
+                    : item.type === "media"
+                      ? "View on andrewcohen.com"
+                      : "View original"}
+                <ArrowUpRight size={16} weight="regular" />
+              </a>
+            )}
+            {hostedMedia && (
+              <a
+                href={hostedMedia.mediaPath}
+                download
+                className="inline-flex items-center gap-2 px-6 py-3 border border-border text-sm rounded-md hover:bg-surface-elevated transition-colors duration-300"
+              >
+                Download video
+                <ArrowUpRight size={16} weight="regular" />
+              </a>
+            )}
             {listenItem &&
               [...new Map(listenItem.media.map((asset) => [asset.href, asset])).values()].map(
                 (asset) => (
@@ -322,6 +361,7 @@ export default async function ArchiveDetailPage({
                       "vimeo",
                       "libsyn",
                       "andrewcohen-com",
+                      "hosted-media",
                     ].includes(tag)
                 )
                 .map((tag) => (

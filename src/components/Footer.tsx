@@ -28,6 +28,7 @@ export default function Footer() {
         <nav className="flex items-center gap-6">
           {[
             { label: "Life", href: "/life" },
+            { label: "Jazz", href: "/jazz" },
             { label: "Lineage", href: "/lineage" },
             { label: "Legacy", href: "/legacy" },
             { label: "Teaching", href: "/teaching" },

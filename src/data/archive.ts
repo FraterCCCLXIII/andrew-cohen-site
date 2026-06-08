@@ -1,3 +1,4 @@
+import { archiveMediaItems } from "@/data/archive-media";
 import { books } from "@/data/books";
 import { journalArticles } from "@/data/journal";
 import { listenItems } from "@/data/listen";
@@ -37,6 +38,7 @@ export interface ArchiveItem {
   youtubeId?: string;
   vimeoId?: string;
   sourceUrl?: string;
+  mediaPath?: string;
 }
 
 const typeLabels: Record<ArchiveType, string> = {
@@ -130,8 +132,28 @@ function siteVideoItems(): ArchiveItem[] {
   }));
 }
 
+function hostedMediaItems(): ArchiveItem[] {
+  return archiveMediaItems.map((item) => ({
+    id: item.id,
+    type: "video" as const,
+    title: item.title,
+    description: item.description,
+    date: item.date,
+    tags: item.tags,
+    href: `/archive/${item.id}`,
+    thumbnail: item.thumbnail,
+    duration: item.duration,
+    sourceUrl: item.sourceUrl,
+    mediaPath: item.mediaPath,
+  }));
+}
+
 function videoItems(): ArchiveItem[] {
-  return [...siteVideoItems(), ...youtubeChannelItems()];
+  return [
+    ...hostedMediaItems(),
+    ...siteVideoItems(),
+    ...youtubeChannelItems(),
+  ];
 }
 
 function articleItems(): ArchiveItem[] {

@@ -87,6 +87,7 @@ export default function ArchiveCard({ item }: ArchiveCardProps) {
                   "vimeo",
                   "libsyn",
                   "andrewcohen-com",
+                  "hosted-media",
                 ].includes(tag)
             )
             .slice(0, 3)

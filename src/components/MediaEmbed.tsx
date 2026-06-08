@@ -17,7 +17,7 @@ const providerLabels: Record<string, string> = {
   soundcloud: "SoundCloud",
   vimeo: "Vimeo",
   libsyn: "Podcast",
-  file: "Audio file",
+  file: "Archive file",
   youtube: "YouTube",
 };
 
@@ -37,6 +37,26 @@ export default function MediaEmbed({ asset, title, label }: MediaEmbedProps) {
           className="w-full"
           title={title}
         />
+      </div>
+    );
+  }
+
+  if (asset.provider === "file" && asset.format === "video") {
+    return (
+      <div className="space-y-3">
+        <p className="font-mono text-xs uppercase tracking-[0.14em] text-muted">
+          {heading}
+        </p>
+        <div className="relative aspect-video w-full overflow-hidden rounded-md border border-border bg-black">
+          <video
+            controls
+            preload="metadata"
+            playsInline
+            src={asset.embedUrl}
+            className="absolute inset-0 h-full w-full"
+            title={title}
+          />
+        </div>
       </div>
     );
   }

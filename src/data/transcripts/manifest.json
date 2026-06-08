@@ -1,7 +1,7 @@
 {
-  "scrapedAt": "2026-06-05T04:32:46Z",
-  "total": 179,
-  "withTranscript": 156,
+  "scrapedAt": "2026-06-08T19:20:42Z",
+  "total": 431,
+  "withTranscript": 382,
   "missing": [
     "yt-0BBjOu-PQbQ",
     "yt-CMHJn10Uu4g",
@@ -25,7 +25,33 @@
     "yt-RZ9unbjK2t8",
     "yt-PbEFvmmfPZU",
     "yt-mu3lN81mbZw",
-    "yt-4PVtsnp8aPE"
+    "yt-4PVtsnp8aPE",
+    "yt-aduuGXTHb5c",
+    "yt-2a9vTp8TjpY",
+    "yt-FrFr8AVspNE",
+    "yt-gsbXbtlgf2o",
+    "yt--uZeDz_ZKEA",
+    "yt-iECFBT_1ePk",
+    "yt-6W3Itfs5hpg",
+    "yt-otoMgAi3oDs",
+    "yt-B_UFMjdS5R4",
+    "yt-gItuAhj1dWw",
+    "yt-M7SnQ1wWhTI",
+    "yt-ej0vUq1dkvs",
+    "yt--zy4sTGAzxY",
+    "yt-QjstWiUDSOA",
+    "yt-ZvumrLiDrpY",
+    "yt-_Cdo2DYF-_s",
+    "yt-hLmK-gglvR0",
+    "yt-W_X1cIxMwdM",
+    "yt-PQeIXMnZmYA",
+    "yt-dsrDh-RHmY4",
+    "yt-9a3NPfGKnRA",
+    "yt-asC98Z9yq94",
+    "yt-E2lZoL6p-hw",
+    "yt-RJLwGbohJcE",
+    "yt-rytFeEGWbl8",
+    "yt-MHM9tAisrbM"
   ],
   "videos": {
     "yt-5BRVshoUULc": {
@@ -50,457 +76,457 @@
       "youtubeId": "tqWXqhD4apo",
       "language": "en",
       "charCount": 45982,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-9CN0g6YkS28": {
       "youtubeId": "9CN0g6YkS28",
       "language": "en",
       "charCount": 32037,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-bBPTFtvYjhU": {
       "youtubeId": "bBPTFtvYjhU",
       "language": "en",
       "charCount": 41369,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-Nex-AB1KFe0": {
       "youtubeId": "Nex-AB1KFe0",
       "language": "en",
       "charCount": 34089,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-uRwnJ86DqwA": {
       "youtubeId": "uRwnJ86DqwA",
       "language": "en",
       "charCount": 37197,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-DMlHQ00S5WY": {
       "youtubeId": "DMlHQ00S5WY",
       "language": "en",
       "charCount": 24438,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-Ttro7ZvDxVQ": {
       "youtubeId": "Ttro7ZvDxVQ",
       "language": "en",
       "charCount": 48089,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-U7NbxCbfCFs": {
       "youtubeId": "U7NbxCbfCFs",
       "language": "en",
       "charCount": 43804,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-OF6Wj39fXfw": {
       "youtubeId": "OF6Wj39fXfw",
       "language": "en",
       "charCount": 46447,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-q-LFjPYQWjw": {
       "youtubeId": "q-LFjPYQWjw",
       "language": "en",
       "charCount": 33643,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-qZV7qg-IQXo": {
       "youtubeId": "qZV7qg-IQXo",
       "language": "en",
       "charCount": 57932,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-Tu16dXX-704": {
       "youtubeId": "Tu16dXX-704",
       "language": "en",
       "charCount": 32624,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-sGOWsgKEszI": {
       "youtubeId": "sGOWsgKEszI",
       "language": "en",
       "charCount": 31073,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-AwVyaqt4lKk": {
       "youtubeId": "AwVyaqt4lKk",
       "language": "en",
       "charCount": 6366,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-8C1ZFn265zY": {
       "youtubeId": "8C1ZFn265zY",
       "language": "en",
       "charCount": 9688,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-62nSWfSnLu4": {
       "youtubeId": "62nSWfSnLu4",
       "language": "en",
       "charCount": 6184,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-xRMA-1eGAvs": {
       "youtubeId": "xRMA-1eGAvs",
       "language": "en",
       "charCount": 4775,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-FofZwkV9lyE": {
       "youtubeId": "FofZwkV9lyE",
       "language": "en",
       "charCount": 6692,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-rrdE0A_XvvQ": {
       "youtubeId": "rrdE0A_XvvQ",
       "language": "en",
       "charCount": 11474,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-15VhF-ZRnM8": {
       "youtubeId": "15VhF-ZRnM8",
       "language": "en",
       "charCount": 12469,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-NQ8ILKUYj2c": {
       "youtubeId": "NQ8ILKUYj2c",
       "language": "en",
       "charCount": 9106,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-15Kh5PD3SVY": {
       "youtubeId": "15Kh5PD3SVY",
       "language": "en",
       "charCount": 9859,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-alj-ur7qBwc": {
       "youtubeId": "alj-ur7qBwc",
       "language": "en",
       "charCount": 9763,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-XTZTo4QAgFY": {
       "youtubeId": "XTZTo4QAgFY",
       "language": "en",
       "charCount": 7161,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-tbzrZ6AaNe4": {
       "youtubeId": "tbzrZ6AaNe4",
       "language": "en",
       "charCount": 8798,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-QJOMFgytw6w": {
       "youtubeId": "QJOMFgytw6w",
       "language": "en",
       "charCount": 14307,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-aHZ1ZefQmoQ": {
       "youtubeId": "aHZ1ZefQmoQ",
       "language": "en",
       "charCount": 7415,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-mwF7z9Ab9ic": {
       "youtubeId": "mwF7z9Ab9ic",
       "language": "en",
       "charCount": 11897,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-sG89RS1GDb4": {
       "youtubeId": "sG89RS1GDb4",
       "language": "en",
       "charCount": 9601,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-66Cd5497TAw": {
       "youtubeId": "66Cd5497TAw",
       "language": "en",
       "charCount": 14219,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-2YvGGUQx21o": {
       "youtubeId": "2YvGGUQx21o",
       "language": "en",
       "charCount": 10371,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-pLKMjUOzrm4": {
       "youtubeId": "pLKMjUOzrm4",
       "language": "en",
       "charCount": 11926,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-clJIun99-nA": {
       "youtubeId": "clJIun99-nA",
       "language": "en",
       "charCount": 12367,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-GVrWHduKibk": {
       "youtubeId": "GVrWHduKibk",
       "language": "en",
       "charCount": 8191,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-6R-HPvXGLTc": {
       "youtubeId": "6R-HPvXGLTc",
       "language": "en",
       "charCount": 14124,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-eYXUwVOUBjc": {
       "youtubeId": "eYXUwVOUBjc",
       "language": "en",
       "charCount": 9017,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-fJeGCU6di48": {
       "youtubeId": "fJeGCU6di48",
       "language": "en",
       "charCount": 4033,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-gzI3SW0jwEI": {
       "youtubeId": "gzI3SW0jwEI",
       "language": "en",
       "charCount": 12873,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-Hl0c4Tk1jRs": {
       "youtubeId": "Hl0c4Tk1jRs",
       "language": "en",
       "charCount": 7929,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-QHKNNWqgZ9w": {
       "youtubeId": "QHKNNWqgZ9w",
       "language": "en",
       "charCount": 11750,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-fOMAKtAncxs": {
       "youtubeId": "fOMAKtAncxs",
       "language": "en",
       "charCount": 10831,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-FXXtq86G7Nk": {
       "youtubeId": "FXXtq86G7Nk",
       "language": "en",
       "charCount": 10944,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-Pv0BHXjQdjY": {
       "youtubeId": "Pv0BHXjQdjY",
       "language": "en",
       "charCount": 6520,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-oBvmy8qpenQ": {
       "youtubeId": "oBvmy8qpenQ",
       "language": "en",
       "charCount": 4272,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-omMvdXUn4lI": {
       "youtubeId": "omMvdXUn4lI",
       "language": "en",
       "charCount": 5494,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-9u5m6x9rPSg": {
       "youtubeId": "9u5m6x9rPSg",
       "language": "en",
       "charCount": 8512,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-HzW08v3eU9o": {
       "youtubeId": "HzW08v3eU9o",
       "language": "en",
       "charCount": 10023,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-0Iy4PohtV7o": {
       "youtubeId": "0Iy4PohtV7o",
       "language": "en",
       "charCount": 8801,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-RrflXHi0nMo": {
       "youtubeId": "RrflXHi0nMo",
       "language": "en",
       "charCount": 7290,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-2zx0iuIMcCM": {
       "youtubeId": "2zx0iuIMcCM",
       "language": "en",
       "charCount": 5288,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-V6i23UybMks": {
       "youtubeId": "V6i23UybMks",
       "language": "en",
       "charCount": 65799,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-2-lhAylz8gI": {
       "youtubeId": "2-lhAylz8gI",
       "language": "en",
       "charCount": 3432,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-mnHIk60Xz0s": {
       "youtubeId": "mnHIk60Xz0s",
       "language": "en",
       "charCount": 73780,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-fLSt6WNv53s": {
       "youtubeId": "fLSt6WNv53s",
       "language": "en",
       "charCount": 84807,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-9MFjZDtBPOM": {
       "youtubeId": "9MFjZDtBPOM",
       "language": "en",
       "charCount": 37199,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-xl06iAQ9AGw": {
       "youtubeId": "xl06iAQ9AGw",
       "language": "en",
       "charCount": 59282,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-s23AsVzMi3c": {
       "youtubeId": "s23AsVzMi3c",
       "language": "en",
       "charCount": 64637,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-1oT-zsNFyKY": {
       "youtubeId": "1oT-zsNFyKY",
       "language": "en",
       "charCount": 42564,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-N6nbrZl6gCQ": {
       "youtubeId": "N6nbrZl6gCQ",
       "language": "en",
       "charCount": 83625,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-tg843UH_uM0": {
       "youtubeId": "tg843UH_uM0",
       "language": "en",
       "charCount": 40540,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-NKF0xFE-Bdk": {
       "youtubeId": "NKF0xFE-Bdk",
       "language": "en",
       "charCount": 41687,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-oo90TaJ1FdA": {
       "youtubeId": "oo90TaJ1FdA",
       "language": "en",
       "charCount": 34938,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-fyQXwdqIURg": {
       "youtubeId": "fyQXwdqIURg",
       "language": "en",
       "charCount": 45179,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-HK3brWPnKrM": {
       "youtubeId": "HK3brWPnKrM",
       "language": "en",
       "charCount": 36072,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-nGnN7MY7oho": {
       "youtubeId": "nGnN7MY7oho",
       "language": "en",
       "charCount": 51694,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-WjhvqLX3_Q8": {
       "youtubeId": "WjhvqLX3_Q8",
       "language": "en",
       "charCount": 43349,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-tu-iVXmLkM8": {
       "youtubeId": "tu-iVXmLkM8",
       "language": "en",
       "charCount": 52150,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-2Kelkmp7svE": {
       "youtubeId": "2Kelkmp7svE",
       "language": "en",
       "charCount": 34242,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-0YGJ8Z5OBOs": {
       "youtubeId": "0YGJ8Z5OBOs",
       "language": "en",
       "charCount": 41631,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-DzfEjsK2sYU": {
       "youtubeId": "DzfEjsK2sYU",
       "language": "en",
       "charCount": 51927,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-moOvGmkanXw": {
       "youtubeId": "moOvGmkanXw",
       "language": "en",
       "charCount": 55894,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-XT4dbyAZkk0": {
       "youtubeId": "XT4dbyAZkk0",
       "language": "en",
       "charCount": 47651,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-PmyNkkfpp8A": {
       "youtubeId": "PmyNkkfpp8A",
       "language": "en",
       "charCount": 40765,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-mbzk8yYVoQY": {
       "youtubeId": "mbzk8yYVoQY",
       "language": "en",
       "charCount": 62375,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-SlCxemu2Qkc": {
       "youtubeId": "SlCxemu2Qkc",
       "language": "en",
       "charCount": 75349,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-FzNksgEr1yM": {
       "youtubeId": "FzNksgEr1yM",
       "language": "en",
       "charCount": 44815,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-0BBjOu-PQbQ": {
       "youtubeId": "0BBjOu-PQbQ",
@@ -510,79 +536,79 @@
       "youtubeId": "vl0RVRLzDGs",
       "language": "en",
       "charCount": 41411,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-yBAp1ZSF4Yo": {
       "youtubeId": "yBAp1ZSF4Yo",
       "language": "en",
       "charCount": 34512,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-q2HWZXGSRa8": {
       "youtubeId": "q2HWZXGSRa8",
       "language": "en",
       "charCount": 40008,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-65qlvEQzb7g": {
       "youtubeId": "65qlvEQzb7g",
       "language": "en",
       "charCount": 49517,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-ED8RIG3pJKg": {
       "youtubeId": "ED8RIG3pJKg",
       "language": "en",
       "charCount": 60705,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-ZdQ8hK8fJbM": {
       "youtubeId": "ZdQ8hK8fJbM",
       "language": "en",
       "charCount": 33583,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-MZWiJ_x-bWE": {
       "youtubeId": "MZWiJ_x-bWE",
       "language": "en",
       "charCount": 44518,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-UArI8uLUMSU": {
       "youtubeId": "UArI8uLUMSU",
       "language": "en",
       "charCount": 38783,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-AGa7tTQw_mA": {
       "youtubeId": "AGa7tTQw_mA",
       "language": "en",
       "charCount": 61380,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-sMR3uqtXkOs": {
       "youtubeId": "sMR3uqtXkOs",
       "language": "en",
       "charCount": 27639,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-7seqYWT8DFg": {
       "youtubeId": "7seqYWT8DFg",
       "language": "en",
       "charCount": 41886,
-      "status": "ok"
+      "status": "cached"
     },
     "yt--EYkMCTBgKc": {
       "youtubeId": "-EYkMCTBgKc",
       "language": "en",
       "charCount": 46277,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-_5X0vmup_4g": {
       "youtubeId": "_5X0vmup_4g",
       "language": "en",
       "charCount": 61228,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-CMHJn10Uu4g": {
       "youtubeId": "CMHJn10Uu4g",
@@ -592,13 +618,13 @@
       "youtubeId": "7sBSht329IE",
       "language": "en",
       "charCount": 53468,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-LIC6PRB41W4": {
       "youtubeId": "LIC6PRB41W4",
       "language": "en",
       "charCount": 25733,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-HkCFjPApW24": {
       "youtubeId": "HkCFjPApW24",
@@ -608,7 +634,7 @@
       "youtubeId": "eJpwIhtnHDg",
       "language": "en",
       "charCount": 35059,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-nBoJM2mGtsU": {
       "youtubeId": "nBoJM2mGtsU",
@@ -618,31 +644,31 @@
       "youtubeId": "cueDhkEHjkY",
       "language": "en",
       "charCount": 39302,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-S7atMuDmyY8": {
       "youtubeId": "S7atMuDmyY8",
       "language": "en",
       "charCount": 28894,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-UGGppGuTGPI": {
       "youtubeId": "UGGppGuTGPI",
       "language": "en",
       "charCount": 56525,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-STrqeWDbDVA": {
       "youtubeId": "STrqeWDbDVA",
       "language": "en",
       "charCount": 29713,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-R2VYL1Dwuh4": {
       "youtubeId": "R2VYL1Dwuh4",
       "language": "en",
       "charCount": 40612,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-d1h39-RjrVw": {
       "youtubeId": "d1h39-RjrVw",
@@ -656,25 +682,25 @@
       "youtubeId": "s_SoqeZYWNY",
       "language": "en",
       "charCount": 65925,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-UFCKFiUNCE0": {
       "youtubeId": "UFCKFiUNCE0",
       "language": "en",
       "charCount": 38287,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-j6Ccc2Eq1Co": {
       "youtubeId": "j6Ccc2Eq1Co",
       "language": "en",
       "charCount": 24080,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-euafLhpzlp4": {
       "youtubeId": "euafLhpzlp4",
       "language": "en",
       "charCount": 26115,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-AdOOjPlQE_s": {
       "youtubeId": "AdOOjPlQE_s",
@@ -688,7 +714,7 @@
       "youtubeId": "iO5dYWh8By8",
       "language": "en",
       "charCount": 29085,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-fzrez_oRjAE": {
       "youtubeId": "fzrez_oRjAE",
@@ -710,19 +736,19 @@
       "youtubeId": "BXlp-JgXAbs",
       "language": "en",
       "charCount": 34121,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-3hAw212pR9M": {
       "youtubeId": "3hAw212pR9M",
       "language": "en",
       "charCount": 28045,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-P3Bn-ADhsTo": {
       "youtubeId": "P3Bn-ADhsTo",
       "language": "en",
       "charCount": 35184,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-GoLckO1DBjA": {
       "youtubeId": "GoLckO1DBjA",
@@ -744,13 +770,13 @@
       "youtubeId": "1FJ0CLbqhvg",
       "language": "en",
       "charCount": 21241,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-PvScFlcm9ug": {
       "youtubeId": "PvScFlcm9ug",
       "language": "en",
       "charCount": 28414,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-MAMdiAPL1Ag": {
       "youtubeId": "MAMdiAPL1Ag",
@@ -760,19 +786,19 @@
       "youtubeId": "7XYrJ7qKPbc",
       "language": "en",
       "charCount": 21136,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-_MYWCfmgSpk": {
       "youtubeId": "_MYWCfmgSpk",
       "language": "en",
       "charCount": 23693,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-FbiY0NFF3iM": {
       "youtubeId": "FbiY0NFF3iM",
       "language": "en",
       "charCount": 70176,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-0bIEiiWuMy4": {
       "youtubeId": "0bIEiiWuMy4",
@@ -786,7 +812,7 @@
       "youtubeId": "i5EbZ6PIuVQ",
       "language": "en",
       "charCount": 1022,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-RZ9unbjK2t8": {
       "youtubeId": "RZ9unbjK2t8",
@@ -800,7 +826,7 @@
       "youtubeId": "5IE49ep0UbA",
       "language": "en",
       "charCount": 6777,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-mu3lN81mbZw": {
       "youtubeId": "mu3lN81mbZw",
@@ -814,246 +840,1706 @@
       "youtubeId": "JTO5_bobtIk",
       "language": "en",
       "charCount": 7838,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-AcXZpV5g22w": {
       "youtubeId": "AcXZpV5g22w",
       "language": "en",
       "charCount": 6142,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-4o0Ml__z2MA": {
       "youtubeId": "4o0Ml__z2MA",
       "language": "en",
       "charCount": 3246,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-iWbnZFqXL9E": {
       "youtubeId": "iWbnZFqXL9E",
       "language": "en",
       "charCount": 1452,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-65Kg08kMIhs": {
       "youtubeId": "65Kg08kMIhs",
       "language": "en",
       "charCount": 3357,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-_GH3TleYgwE": {
       "youtubeId": "_GH3TleYgwE",
       "language": "en",
       "charCount": 11027,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-z6Kn3hFctSY": {
       "youtubeId": "z6Kn3hFctSY",
       "language": "en",
       "charCount": 13294,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-6OmCY5Y9PCI": {
       "youtubeId": "6OmCY5Y9PCI",
       "language": "en",
       "charCount": 80722,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-JToHIXtH2C8": {
       "youtubeId": "JToHIXtH2C8",
       "language": "en",
       "charCount": 3112,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-v9paUjH8bSs": {
       "youtubeId": "v9paUjH8bSs",
       "language": "en",
       "charCount": 9753,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-DBfEg-aEu_k": {
       "youtubeId": "DBfEg-aEu_k",
       "language": "en",
       "charCount": 1095,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-mIaRV_vN7tU": {
       "youtubeId": "mIaRV_vN7tU",
       "language": "en",
       "charCount": 695,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-3D7OZTf6Kfw": {
       "youtubeId": "3D7OZTf6Kfw",
       "language": "en",
       "charCount": 378,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-iYr5gLrn4Qs": {
       "youtubeId": "iYr5gLrn4Qs",
       "language": "en",
       "charCount": 985,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-mU9QvBynbHI": {
       "youtubeId": "mU9QvBynbHI",
       "language": "en",
       "charCount": 3817,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-VO4qCZQDpxw": {
       "youtubeId": "VO4qCZQDpxw",
       "language": "en",
       "charCount": 1341,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-zLAzpxL7780": {
       "youtubeId": "zLAzpxL7780",
       "language": "en",
       "charCount": 1986,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-oJSxOvlgTq0": {
       "youtubeId": "oJSxOvlgTq0",
       "language": "en",
       "charCount": 12915,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-wKl5gMQWq-Q": {
       "youtubeId": "wKl5gMQWq-Q",
       "language": "en",
       "charCount": 3814,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-3-MrY4wDxxQ": {
       "youtubeId": "3-MrY4wDxxQ",
       "language": "en",
       "charCount": 8738,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-Y2yb7EtEqVk": {
       "youtubeId": "Y2yb7EtEqVk",
       "language": "en",
       "charCount": 4322,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-n2Ia9LEKGY0": {
       "youtubeId": "n2Ia9LEKGY0",
       "language": "en",
       "charCount": 2972,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-AX5GBJvD8A0": {
       "youtubeId": "AX5GBJvD8A0",
       "language": "en",
       "charCount": 4059,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-Y98JQu9l0PI": {
       "youtubeId": "Y98JQu9l0PI",
       "language": "en",
       "charCount": 9405,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-wAsXUIPuvnY": {
       "youtubeId": "wAsXUIPuvnY",
       "language": "en",
       "charCount": 4708,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-678MW9PE3Ss": {
       "youtubeId": "678MW9PE3Ss",
       "language": "en",
       "charCount": 3975,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-h0stpoo1fX0": {
       "youtubeId": "h0stpoo1fX0",
       "language": "en",
       "charCount": 4001,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-zu1fN5wPKMw": {
       "youtubeId": "zu1fN5wPKMw",
       "language": "en",
       "charCount": 929,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-9GZIcxXSsMw": {
       "youtubeId": "9GZIcxXSsMw",
       "language": "en",
       "charCount": 1992,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-k_Nb1r11oTs": {
       "youtubeId": "k_Nb1r11oTs",
       "language": "en",
       "charCount": 1620,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-yM26pUNOWGo": {
       "youtubeId": "yM26pUNOWGo",
       "language": "en",
       "charCount": 16888,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-lmonQKiPgBY": {
       "youtubeId": "lmonQKiPgBY",
       "language": "en",
       "charCount": 2379,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-2S68IAOLJCY": {
       "youtubeId": "2S68IAOLJCY",
       "language": "en",
       "charCount": 5262,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-oMJmmNVCvy4": {
       "youtubeId": "oMJmmNVCvy4",
       "language": "en",
       "charCount": 2043,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-DSvJTNybCbA": {
       "youtubeId": "DSvJTNybCbA",
       "language": "en",
       "charCount": 126229,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-WZTTKXvT4Og": {
       "youtubeId": "WZTTKXvT4Og",
       "language": "en",
       "charCount": 50816,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-hYGdQjRbDGE": {
       "youtubeId": "hYGdQjRbDGE",
       "language": "en",
       "charCount": 2065,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-XlekGlnovkI": {
       "youtubeId": "XlekGlnovkI",
       "language": "en",
       "charCount": 4056,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-ZME4nbndDmE": {
       "youtubeId": "ZME4nbndDmE",
       "language": "en",
       "charCount": 7925,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-gBUwkQhL6ek": {
       "youtubeId": "gBUwkQhL6ek",
       "language": "en",
       "charCount": 2082,
-      "status": "ok"
+      "status": "cached"
     },
     "yt-2mcTqNZdY6Y": {
       "youtubeId": "2mcTqNZdY6Y",
       "language": "en",
       "charCount": 97089,
+      "status": "cached"
+    },
+    "yt-PY7ZXWsxc90": {
+      "youtubeId": "PY7ZXWsxc90",
+      "language": "en",
+      "charCount": 12836,
+      "status": "ok"
+    },
+    "yt-gJ6rG38eql8": {
+      "youtubeId": "gJ6rG38eql8",
+      "language": "en",
+      "charCount": 32176,
+      "status": "ok"
+    },
+    "yt-lVBk8tiQoC0": {
+      "youtubeId": "lVBk8tiQoC0",
+      "language": "en",
+      "charCount": 15123,
+      "status": "ok"
+    },
+    "yt-BqB04fF7_JY": {
+      "youtubeId": "BqB04fF7_JY",
+      "language": "en",
+      "charCount": 14915,
+      "status": "ok"
+    },
+    "yt-aduuGXTHb5c": {
+      "youtubeId": "aduuGXTHb5c",
+      "status": "missing"
+    },
+    "yt-_I5P8e7fMHE": {
+      "youtubeId": "_I5P8e7fMHE",
+      "language": "en",
+      "charCount": 18032,
+      "status": "ok"
+    },
+    "yt-o1uE0Sq1_eY": {
+      "youtubeId": "o1uE0Sq1_eY",
+      "language": "en",
+      "charCount": 12841,
+      "status": "ok"
+    },
+    "yt-2a9vTp8TjpY": {
+      "youtubeId": "2a9vTp8TjpY",
+      "status": "missing"
+    },
+    "yt-Ms1ccKjJMRs": {
+      "youtubeId": "Ms1ccKjJMRs",
+      "language": "en",
+      "charCount": 5097,
+      "status": "ok"
+    },
+    "yt-BU_n8fxFsgo": {
+      "youtubeId": "BU_n8fxFsgo",
+      "language": "en",
+      "charCount": 12376,
+      "status": "ok"
+    },
+    "yt-OkIerY9LeIE": {
+      "youtubeId": "OkIerY9LeIE",
+      "language": "en",
+      "charCount": 9699,
+      "status": "ok"
+    },
+    "yt-IcpUJ7OAFgg": {
+      "youtubeId": "IcpUJ7OAFgg",
+      "language": "en",
+      "charCount": 14380,
+      "status": "ok"
+    },
+    "yt-UgYbR8HgKnI": {
+      "youtubeId": "UgYbR8HgKnI",
+      "language": "en",
+      "charCount": 9923,
+      "status": "ok"
+    },
+    "yt-U3fZoV2N_FY": {
+      "youtubeId": "U3fZoV2N_FY",
+      "language": "en",
+      "charCount": 10062,
+      "status": "ok"
+    },
+    "yt-cJdz4QJk5c0": {
+      "youtubeId": "cJdz4QJk5c0",
+      "language": "en",
+      "charCount": 11613,
+      "status": "ok"
+    },
+    "yt-v6aS8C89Fvo": {
+      "youtubeId": "v6aS8C89Fvo",
+      "language": "en",
+      "charCount": 3154,
+      "status": "ok"
+    },
+    "yt-FrFr8AVspNE": {
+      "youtubeId": "FrFr8AVspNE",
+      "status": "missing"
+    },
+    "yt-gsbXbtlgf2o": {
+      "youtubeId": "gsbXbtlgf2o",
+      "status": "missing"
+    },
+    "yt-aFW7KaiBeMc": {
+      "youtubeId": "aFW7KaiBeMc",
+      "language": "en",
+      "charCount": 4893,
+      "status": "ok"
+    },
+    "yt-S4sCvwoctTU": {
+      "youtubeId": "S4sCvwoctTU",
+      "language": "en",
+      "charCount": 7575,
+      "status": "ok"
+    },
+    "yt--def7QSELtk": {
+      "youtubeId": "-def7QSELtk",
+      "language": "en",
+      "charCount": 4829,
+      "status": "ok"
+    },
+    "yt-O3aatdEjFBw": {
+      "youtubeId": "O3aatdEjFBw",
+      "language": "en",
+      "charCount": 4353,
+      "status": "ok"
+    },
+    "yt-bY_zwVQQjXo": {
+      "youtubeId": "bY_zwVQQjXo",
+      "language": "en",
+      "charCount": 4407,
+      "status": "ok"
+    },
+    "yt-G1NdnG4NyyM": {
+      "youtubeId": "G1NdnG4NyyM",
+      "language": "en",
+      "charCount": 3648,
+      "status": "ok"
+    },
+    "yt-Fx0x3_QJYEc": {
+      "youtubeId": "Fx0x3_QJYEc",
+      "language": "en",
+      "charCount": 4267,
+      "status": "ok"
+    },
+    "yt-a0HwqGUkxbA": {
+      "youtubeId": "a0HwqGUkxbA",
+      "language": "en",
+      "charCount": 26303,
+      "status": "ok"
+    },
+    "yt-4vGsv4VwRyw": {
+      "youtubeId": "4vGsv4VwRyw",
+      "language": "en",
+      "charCount": 11600,
+      "status": "ok"
+    },
+    "yt-abbWHLagQao": {
+      "youtubeId": "abbWHLagQao",
+      "language": "en",
+      "charCount": 8698,
+      "status": "ok"
+    },
+    "yt-JX5znkuV1C8": {
+      "youtubeId": "JX5znkuV1C8",
+      "language": "en",
+      "charCount": 4828,
+      "status": "ok"
+    },
+    "yt-eHszI1n-CJY": {
+      "youtubeId": "eHszI1n-CJY",
+      "language": "en",
+      "charCount": 7555,
+      "status": "ok"
+    },
+    "yt--unPT8UMZFk": {
+      "youtubeId": "-unPT8UMZFk",
+      "language": "en",
+      "charCount": 12171,
+      "status": "ok"
+    },
+    "yt-LiQ4Yksjzwc": {
+      "youtubeId": "LiQ4Yksjzwc",
+      "language": "en",
+      "charCount": 1626,
+      "status": "ok"
+    },
+    "yt-ihND4q6lBko": {
+      "youtubeId": "ihND4q6lBko",
+      "language": "en",
+      "charCount": 7664,
+      "status": "ok"
+    },
+    "yt-HJc8yyQX2K4": {
+      "youtubeId": "HJc8yyQX2K4",
+      "language": "en",
+      "charCount": 3257,
+      "status": "ok"
+    },
+    "yt-UzgvUpYwCVU": {
+      "youtubeId": "UzgvUpYwCVU",
+      "language": "en",
+      "charCount": 1567,
+      "status": "ok"
+    },
+    "yt-NnETVXKkvNU": {
+      "youtubeId": "NnETVXKkvNU",
+      "language": "en",
+      "charCount": 5871,
+      "status": "ok"
+    },
+    "yt-bDF3mpGPqSI": {
+      "youtubeId": "bDF3mpGPqSI",
+      "language": "en",
+      "charCount": 4063,
+      "status": "ok"
+    },
+    "yt-IfsFR0IrRNg": {
+      "youtubeId": "IfsFR0IrRNg",
+      "language": "en",
+      "charCount": 7495,
+      "status": "ok"
+    },
+    "yt-sVS6HKjwkVk": {
+      "youtubeId": "sVS6HKjwkVk",
+      "language": "en",
+      "charCount": 3481,
+      "status": "ok"
+    },
+    "yt-UZbKKQqJy5E": {
+      "youtubeId": "UZbKKQqJy5E",
+      "language": "en",
+      "charCount": 11494,
+      "status": "ok"
+    },
+    "yt-6vzl3c4VRqU": {
+      "youtubeId": "6vzl3c4VRqU",
+      "language": "en",
+      "charCount": 14597,
+      "status": "ok"
+    },
+    "yt-jARpws5Sjwc": {
+      "youtubeId": "jARpws5Sjwc",
+      "language": "en",
+      "charCount": 4091,
+      "status": "ok"
+    },
+    "yt-fNN4lXYrnw0": {
+      "youtubeId": "fNN4lXYrnw0",
+      "language": "en",
+      "charCount": 5002,
+      "status": "ok"
+    },
+    "yt-dWa-jPsOG2E": {
+      "youtubeId": "dWa-jPsOG2E",
+      "language": "en",
+      "charCount": 44884,
+      "status": "ok"
+    },
+    "yt-Qrfj5bhbBDk": {
+      "youtubeId": "Qrfj5bhbBDk",
+      "language": "en",
+      "charCount": 8509,
+      "status": "ok"
+    },
+    "yt-US-Awt6eM48": {
+      "youtubeId": "US-Awt6eM48",
+      "language": "en",
+      "charCount": 25163,
+      "status": "ok"
+    },
+    "yt-amKGwkVxuIw": {
+      "youtubeId": "amKGwkVxuIw",
+      "language": "en",
+      "charCount": 38465,
+      "status": "ok"
+    },
+    "yt-AIojFT0_AtQ": {
+      "youtubeId": "AIojFT0_AtQ",
+      "language": "en",
+      "charCount": 9705,
+      "status": "ok"
+    },
+    "yt-iHP58FvPJIY": {
+      "youtubeId": "iHP58FvPJIY",
+      "language": "en",
+      "charCount": 3301,
+      "status": "ok"
+    },
+    "yt-46G289Krmxo": {
+      "youtubeId": "46G289Krmxo",
+      "language": "en",
+      "charCount": 6005,
+      "status": "ok"
+    },
+    "yt-8JURH9iwAPc": {
+      "youtubeId": "8JURH9iwAPc",
+      "language": "en",
+      "charCount": 33584,
+      "status": "ok"
+    },
+    "yt-1COa4RidFi8": {
+      "youtubeId": "1COa4RidFi8",
+      "language": "en",
+      "charCount": 7977,
+      "status": "ok"
+    },
+    "yt-wlM8yyR9yl4": {
+      "youtubeId": "wlM8yyR9yl4",
+      "language": "en",
+      "charCount": 7507,
+      "status": "ok"
+    },
+    "yt-mpUxC2RzheU": {
+      "youtubeId": "mpUxC2RzheU",
+      "language": "en",
+      "charCount": 6779,
+      "status": "ok"
+    },
+    "yt-_n28OdikFRY": {
+      "youtubeId": "_n28OdikFRY",
+      "language": "en",
+      "charCount": 5378,
+      "status": "ok"
+    },
+    "yt-ppIKWc2X9As": {
+      "youtubeId": "ppIKWc2X9As",
+      "language": "en",
+      "charCount": 9531,
+      "status": "ok"
+    },
+    "yt-h8fNtdA9fxY": {
+      "youtubeId": "h8fNtdA9fxY",
+      "language": "en",
+      "charCount": 11697,
+      "status": "ok"
+    },
+    "yt-5lxrrnnTSeI": {
+      "youtubeId": "5lxrrnnTSeI",
+      "language": "en",
+      "charCount": 4754,
+      "status": "ok"
+    },
+    "yt-B_FJ57ATmII": {
+      "youtubeId": "B_FJ57ATmII",
+      "language": "en",
+      "charCount": 6592,
+      "status": "ok"
+    },
+    "yt-c6zINgcqP9A": {
+      "youtubeId": "c6zINgcqP9A",
+      "language": "en",
+      "charCount": 4045,
+      "status": "ok"
+    },
+    "yt-pN6FLaUfixc": {
+      "youtubeId": "pN6FLaUfixc",
+      "language": "en",
+      "charCount": 2142,
+      "status": "ok"
+    },
+    "yt-PZrj283rUvo": {
+      "youtubeId": "PZrj283rUvo",
+      "language": "en",
+      "charCount": 12186,
+      "status": "ok"
+    },
+    "yt-mhGJRB37Rfw": {
+      "youtubeId": "mhGJRB37Rfw",
+      "language": "en",
+      "charCount": 15063,
+      "status": "ok"
+    },
+    "yt--7dnnikh2Us": {
+      "youtubeId": "-7dnnikh2Us",
+      "language": "en",
+      "charCount": 8303,
+      "status": "ok"
+    },
+    "yt-Ght9ZAt7HCA": {
+      "youtubeId": "Ght9ZAt7HCA",
+      "language": "en",
+      "charCount": 6544,
+      "status": "ok"
+    },
+    "yt-kS7wYi20Ims": {
+      "youtubeId": "kS7wYi20Ims",
+      "language": "en",
+      "charCount": 4864,
+      "status": "ok"
+    },
+    "yt-PAUdslMr6tg": {
+      "youtubeId": "PAUdslMr6tg",
+      "language": "en",
+      "charCount": 2389,
+      "status": "ok"
+    },
+    "yt-Gwf63GBTyIA": {
+      "youtubeId": "Gwf63GBTyIA",
+      "language": "en",
+      "charCount": 3435,
+      "status": "ok"
+    },
+    "yt-MvXblXCd370": {
+      "youtubeId": "MvXblXCd370",
+      "language": "en",
+      "charCount": 2679,
+      "status": "ok"
+    },
+    "yt-yhv5R1kaiFs": {
+      "youtubeId": "yhv5R1kaiFs",
+      "language": "en",
+      "charCount": 3234,
+      "status": "ok"
+    },
+    "yt-_fKthReY_yQ": {
+      "youtubeId": "_fKthReY_yQ",
+      "language": "en",
+      "charCount": 3482,
+      "status": "ok"
+    },
+    "yt-9zpu-Nyaris": {
+      "youtubeId": "9zpu-Nyaris",
+      "language": "en",
+      "charCount": 2731,
+      "status": "ok"
+    },
+    "yt-7fR-fEHWg5Y": {
+      "youtubeId": "7fR-fEHWg5Y",
+      "language": "en",
+      "charCount": 2355,
+      "status": "ok"
+    },
+    "yt-RJSNDAYSZPE": {
+      "youtubeId": "RJSNDAYSZPE",
+      "language": "en",
+      "charCount": 4294,
+      "status": "ok"
+    },
+    "yt-XzDb4maMqGo": {
+      "youtubeId": "XzDb4maMqGo",
+      "language": "en",
+      "charCount": 4538,
+      "status": "ok"
+    },
+    "yt--zzpbrpDn40": {
+      "youtubeId": "-zzpbrpDn40",
+      "language": "en",
+      "charCount": 34,
+      "status": "ok"
+    },
+    "yt-9VsnVFVF2Xs": {
+      "youtubeId": "9VsnVFVF2Xs",
+      "language": "en",
+      "charCount": 8037,
+      "status": "ok"
+    },
+    "yt-kGLEw8YsTLg": {
+      "youtubeId": "kGLEw8YsTLg",
+      "language": "en",
+      "charCount": 5332,
+      "status": "ok"
+    },
+    "yt-qnkxZdC4jU8": {
+      "youtubeId": "qnkxZdC4jU8",
+      "language": "en",
+      "charCount": 2106,
+      "status": "ok"
+    },
+    "yt-XYCMrvsAdRA": {
+      "youtubeId": "XYCMrvsAdRA",
+      "language": "en",
+      "charCount": 6514,
+      "status": "ok"
+    },
+    "yt-i9FxqoqlNIk": {
+      "youtubeId": "i9FxqoqlNIk",
+      "language": "en",
+      "charCount": 1790,
+      "status": "ok"
+    },
+    "yt-M6OyL1dy3OI": {
+      "youtubeId": "M6OyL1dy3OI",
+      "language": "en",
+      "charCount": 2902,
+      "status": "ok"
+    },
+    "yt-HEwRjgy8GYs": {
+      "youtubeId": "HEwRjgy8GYs",
+      "language": "en",
+      "charCount": 2323,
+      "status": "ok"
+    },
+    "yt-RTLzubNBqH8": {
+      "youtubeId": "RTLzubNBqH8",
+      "language": "en",
+      "charCount": 5816,
+      "status": "ok"
+    },
+    "yt-6ukBELdvwos": {
+      "youtubeId": "6ukBELdvwos",
+      "language": "en",
+      "charCount": 8798,
+      "status": "ok"
+    },
+    "yt-rnBXPyekCz8": {
+      "youtubeId": "rnBXPyekCz8",
+      "language": "en",
+      "charCount": 6887,
+      "status": "ok"
+    },
+    "yt-wVEdelU-Xzw": {
+      "youtubeId": "wVEdelU-Xzw",
+      "language": "en",
+      "charCount": 2820,
+      "status": "ok"
+    },
+    "yt-rNstjgvk2eY": {
+      "youtubeId": "rNstjgvk2eY",
+      "language": "en",
+      "charCount": 6822,
+      "status": "ok"
+    },
+    "yt-N3Hq3m76QMg": {
+      "youtubeId": "N3Hq3m76QMg",
+      "language": "en",
+      "charCount": 3742,
+      "status": "ok"
+    },
+    "yt-ffeH-_3V8g0": {
+      "youtubeId": "ffeH-_3V8g0",
+      "language": "en",
+      "charCount": 7429,
+      "status": "ok"
+    },
+    "yt-c6_C7ibezbk": {
+      "youtubeId": "c6_C7ibezbk",
+      "language": "en",
+      "charCount": 5060,
+      "status": "ok"
+    },
+    "yt--uZeDz_ZKEA": {
+      "youtubeId": "-uZeDz_ZKEA",
+      "status": "missing"
+    },
+    "yt-SsxdOb_Dd_0": {
+      "youtubeId": "SsxdOb_Dd_0",
+      "language": "en",
+      "charCount": 3926,
+      "status": "ok"
+    },
+    "yt-23nJP7aXD50": {
+      "youtubeId": "23nJP7aXD50",
+      "language": "en",
+      "charCount": 6870,
+      "status": "ok"
+    },
+    "yt-HLNtXb7sODU": {
+      "youtubeId": "HLNtXb7sODU",
+      "language": "en",
+      "charCount": 5470,
+      "status": "ok"
+    },
+    "yt-rhoEqFuvU-E": {
+      "youtubeId": "rhoEqFuvU-E",
+      "language": "en",
+      "charCount": 7116,
+      "status": "ok"
+    },
+    "yt-Cg6atunc-ks": {
+      "youtubeId": "Cg6atunc-ks",
+      "language": "en",
+      "charCount": 7121,
+      "status": "ok"
+    },
+    "yt-XdAwFRwk-KM": {
+      "youtubeId": "XdAwFRwk-KM",
+      "language": "en",
+      "charCount": 1391,
+      "status": "ok"
+    },
+    "yt-R5EEGThd1uI": {
+      "youtubeId": "R5EEGThd1uI",
+      "language": "en",
+      "charCount": 5671,
+      "status": "ok"
+    },
+    "yt-0_WrAt1QFak": {
+      "youtubeId": "0_WrAt1QFak",
+      "language": "en",
+      "charCount": 7749,
+      "status": "ok"
+    },
+    "yt-d4E0obRO60c": {
+      "youtubeId": "d4E0obRO60c",
+      "language": "en",
+      "charCount": 2896,
+      "status": "ok"
+    },
+    "yt-gdnveFOxC9s": {
+      "youtubeId": "gdnveFOxC9s",
+      "language": "en",
+      "charCount": 1158,
+      "status": "ok"
+    },
+    "yt-KHgW3Hf2eKc": {
+      "youtubeId": "KHgW3Hf2eKc",
+      "language": "en",
+      "charCount": 3292,
+      "status": "ok"
+    },
+    "yt-AfMVm5Qak_w": {
+      "youtubeId": "AfMVm5Qak_w",
+      "language": "en",
+      "charCount": 1004,
+      "status": "ok"
+    },
+    "yt-08dNIqW5IYs": {
+      "youtubeId": "08dNIqW5IYs",
+      "language": "en",
+      "charCount": 1324,
+      "status": "ok"
+    },
+    "yt-pcL9gqFSXWw": {
+      "youtubeId": "pcL9gqFSXWw",
+      "language": "en",
+      "charCount": 4511,
+      "status": "ok"
+    },
+    "yt-rvDnkU9-LI4": {
+      "youtubeId": "rvDnkU9-LI4",
+      "language": "en",
+      "charCount": 5112,
+      "status": "ok"
+    },
+    "yt-wi7INziUQM8": {
+      "youtubeId": "wi7INziUQM8",
+      "language": "en",
+      "charCount": 2044,
+      "status": "ok"
+    },
+    "yt-w3ztYttq1vA": {
+      "youtubeId": "w3ztYttq1vA",
+      "language": "en",
+      "charCount": 3761,
+      "status": "ok"
+    },
+    "yt-0K55a5SM9yM": {
+      "youtubeId": "0K55a5SM9yM",
+      "language": "en",
+      "charCount": 4126,
+      "status": "ok"
+    },
+    "yt-YcWSAFdiP1g": {
+      "youtubeId": "YcWSAFdiP1g",
+      "language": "en",
+      "charCount": 3122,
+      "status": "ok"
+    },
+    "yt-eJkQvvXFnTk": {
+      "youtubeId": "eJkQvvXFnTk",
+      "language": "en",
+      "charCount": 416,
+      "status": "ok"
+    },
+    "yt-6mijqM8Kr0w": {
+      "youtubeId": "6mijqM8Kr0w",
+      "language": "en",
+      "charCount": 3667,
+      "status": "ok"
+    },
+    "yt-ScI9RL8W5Vw": {
+      "youtubeId": "ScI9RL8W5Vw",
+      "language": "en",
+      "charCount": 5025,
+      "status": "ok"
+    },
+    "yt-oWebdtU1XdA": {
+      "youtubeId": "oWebdtU1XdA",
+      "language": "en",
+      "charCount": 6949,
+      "status": "ok"
+    },
+    "yt-wZy4sW7WpCg": {
+      "youtubeId": "wZy4sW7WpCg",
+      "language": "en",
+      "charCount": 2763,
+      "status": "ok"
+    },
+    "yt-Bb8jxEGmJ-w": {
+      "youtubeId": "Bb8jxEGmJ-w",
+      "language": "en",
+      "charCount": 2211,
+      "status": "ok"
+    },
+    "yt-y_AOcVnS8W4": {
+      "youtubeId": "y_AOcVnS8W4",
+      "language": "en",
+      "charCount": 6824,
+      "status": "ok"
+    },
+    "yt-W9bYekoK56Y": {
+      "youtubeId": "W9bYekoK56Y",
+      "language": "en",
+      "charCount": 4888,
+      "status": "ok"
+    },
+    "yt-u3yjC5j11iQ": {
+      "youtubeId": "u3yjC5j11iQ",
+      "language": "en",
+      "charCount": 7550,
+      "status": "ok"
+    },
+    "yt-muHYYUrb0VQ": {
+      "youtubeId": "muHYYUrb0VQ",
+      "language": "en",
+      "charCount": 4270,
+      "status": "ok"
+    },
+    "yt-QIbU2rnl3bU": {
+      "youtubeId": "QIbU2rnl3bU",
+      "language": "en",
+      "charCount": 1567,
+      "status": "ok"
+    },
+    "yt-GKvXAN2Kd4g": {
+      "youtubeId": "GKvXAN2Kd4g",
+      "language": "en",
+      "charCount": 5871,
+      "status": "ok"
+    },
+    "yt-g5hYEWPS4fg": {
+      "youtubeId": "g5hYEWPS4fg",
+      "language": "en",
+      "charCount": 3690,
+      "status": "ok"
+    },
+    "yt-BgC7TGlFkcU": {
+      "youtubeId": "BgC7TGlFkcU",
+      "language": "en",
+      "charCount": 2450,
+      "status": "ok"
+    },
+    "yt-FLA0QBxjBQo": {
+      "youtubeId": "FLA0QBxjBQo",
+      "language": "en",
+      "charCount": 3783,
+      "status": "ok"
+    },
+    "yt-hbh9UDvlP0I": {
+      "youtubeId": "hbh9UDvlP0I",
+      "language": "en",
+      "charCount": 8399,
+      "status": "ok"
+    },
+    "yt-DWL7-I5yBIM": {
+      "youtubeId": "DWL7-I5yBIM",
+      "language": "en",
+      "charCount": 6746,
+      "status": "ok"
+    },
+    "yt-hA40dejUjc0": {
+      "youtubeId": "hA40dejUjc0",
+      "language": "en",
+      "charCount": 8270,
+      "status": "ok"
+    },
+    "yt-JXYUGd5WE3Y": {
+      "youtubeId": "JXYUGd5WE3Y",
+      "language": "en",
+      "charCount": 9498,
+      "status": "ok"
+    },
+    "yt-BpVQwyIox7M": {
+      "youtubeId": "BpVQwyIox7M",
+      "language": "en",
+      "charCount": 5862,
+      "status": "ok"
+    },
+    "yt-bn8f2NaDAUc": {
+      "youtubeId": "bn8f2NaDAUc",
+      "language": "en",
+      "charCount": 8531,
+      "status": "ok"
+    },
+    "yt-iECFBT_1ePk": {
+      "youtubeId": "iECFBT_1ePk",
+      "status": "missing"
+    },
+    "yt-bbMcDoSC66I": {
+      "youtubeId": "bbMcDoSC66I",
+      "language": "en",
+      "charCount": 3354,
+      "status": "ok"
+    },
+    "yt-SI43OcYbhqg": {
+      "youtubeId": "SI43OcYbhqg",
+      "language": "en",
+      "charCount": 4073,
+      "status": "ok"
+    },
+    "yt-VhhXuqSlw_I": {
+      "youtubeId": "VhhXuqSlw_I",
+      "language": "en",
+      "charCount": 3409,
+      "status": "ok"
+    },
+    "yt-4WTOE8u1hpY": {
+      "youtubeId": "4WTOE8u1hpY",
+      "language": "en",
+      "charCount": 1847,
+      "status": "ok"
+    },
+    "yt-8dHuVv9C2Nw": {
+      "youtubeId": "8dHuVv9C2Nw",
+      "language": "en",
+      "charCount": 3481,
+      "status": "ok"
+    },
+    "yt-NiZsREr3e2g": {
+      "youtubeId": "NiZsREr3e2g",
+      "language": "en",
+      "charCount": 4211,
+      "status": "ok"
+    },
+    "yt-B5xRIO4z_rs": {
+      "youtubeId": "B5xRIO4z_rs",
+      "language": "en",
+      "charCount": 2654,
+      "status": "ok"
+    },
+    "yt-mdFaE4k86pQ": {
+      "youtubeId": "mdFaE4k86pQ",
+      "language": "en",
+      "charCount": 3015,
+      "status": "ok"
+    },
+    "yt-8GgQd5fpGyo": {
+      "youtubeId": "8GgQd5fpGyo",
+      "language": "en",
+      "charCount": 4005,
+      "status": "ok"
+    },
+    "yt-FNo5d_xU59g": {
+      "youtubeId": "FNo5d_xU59g",
+      "language": "en",
+      "charCount": 3442,
+      "status": "ok"
+    },
+    "yt-iJaKNa4idgo": {
+      "youtubeId": "iJaKNa4idgo",
+      "language": "en",
+      "charCount": 3649,
+      "status": "ok"
+    },
+    "yt-ErRe5OmSzXI": {
+      "youtubeId": "ErRe5OmSzXI",
+      "language": "en",
+      "charCount": 1173,
+      "status": "ok"
+    },
+    "yt-uK87imB1Fm8": {
+      "youtubeId": "uK87imB1Fm8",
+      "language": "en",
+      "charCount": 7967,
+      "status": "ok"
+    },
+    "yt-xHjU6oYwNBc": {
+      "youtubeId": "xHjU6oYwNBc",
+      "language": "en",
+      "charCount": 5585,
+      "status": "ok"
+    },
+    "yt-KeKrO_bj-ao": {
+      "youtubeId": "KeKrO_bj-ao",
+      "language": "en",
+      "charCount": 5120,
+      "status": "ok"
+    },
+    "yt-5lyYP0r2sSg": {
+      "youtubeId": "5lyYP0r2sSg",
+      "language": "en",
+      "charCount": 8136,
+      "status": "ok"
+    },
+    "yt-Pr77Dw0H6is": {
+      "youtubeId": "Pr77Dw0H6is",
+      "language": "en",
+      "charCount": 6746,
+      "status": "ok"
+    },
+    "yt-HFE6JJ-nPvQ": {
+      "youtubeId": "HFE6JJ-nPvQ",
+      "language": "en",
+      "charCount": 8162,
+      "status": "ok"
+    },
+    "yt-XufKXYZfoTc": {
+      "youtubeId": "XufKXYZfoTc",
+      "language": "en",
+      "charCount": 8638,
+      "status": "ok"
+    },
+    "yt-_3aPbXRpiRo": {
+      "youtubeId": "_3aPbXRpiRo",
+      "language": "en",
+      "charCount": 8126,
+      "status": "ok"
+    },
+    "yt-i0dHJuImas0": {
+      "youtubeId": "i0dHJuImas0",
+      "language": "en",
+      "charCount": 8715,
+      "status": "ok"
+    },
+    "yt-9wucpN6Gnjo": {
+      "youtubeId": "9wucpN6Gnjo",
+      "language": "en",
+      "charCount": 4462,
+      "status": "ok"
+    },
+    "yt-EWm-l3BFQWM": {
+      "youtubeId": "EWm-l3BFQWM",
+      "language": "en",
+      "charCount": 4801,
+      "status": "ok"
+    },
+    "yt-MFaBWLn8R-4": {
+      "youtubeId": "MFaBWLn8R-4",
+      "language": "en",
+      "charCount": 4678,
+      "status": "ok"
+    },
+    "yt-vMEcArgs7Jc": {
+      "youtubeId": "vMEcArgs7Jc",
+      "language": "en",
+      "charCount": 8143,
+      "status": "ok"
+    },
+    "yt-20tM0UPVq_4": {
+      "youtubeId": "20tM0UPVq_4",
+      "language": "en",
+      "charCount": 4083,
+      "status": "ok"
+    },
+    "yt-Gqpt07PorzM": {
+      "youtubeId": "Gqpt07PorzM",
+      "language": "en",
+      "charCount": 5886,
+      "status": "ok"
+    },
+    "yt-xzFOSVJrMiY": {
+      "youtubeId": "xzFOSVJrMiY",
+      "language": "en",
+      "charCount": 4448,
+      "status": "ok"
+    },
+    "yt-gaGAjMktueg": {
+      "youtubeId": "gaGAjMktueg",
+      "language": "en",
+      "charCount": 2054,
+      "status": "ok"
+    },
+    "yt-z6UWWgJtnkg": {
+      "youtubeId": "z6UWWgJtnkg",
+      "language": "en",
+      "charCount": 3851,
+      "status": "ok"
+    },
+    "yt-SQnTjSIFT2M": {
+      "youtubeId": "SQnTjSIFT2M",
+      "language": "en",
+      "charCount": 3590,
+      "status": "ok"
+    },
+    "yt-sasA-MR50Cs": {
+      "youtubeId": "sasA-MR50Cs",
+      "language": "en",
+      "charCount": 4179,
+      "status": "ok"
+    },
+    "yt-KGvmoR2ckB0": {
+      "youtubeId": "KGvmoR2ckB0",
+      "language": "en",
+      "charCount": 4830,
+      "status": "ok"
+    },
+    "yt-RA_xN3zeRPE": {
+      "youtubeId": "RA_xN3zeRPE",
+      "language": "en",
+      "charCount": 5409,
+      "status": "ok"
+    },
+    "yt-PXbRg9tXYp8": {
+      "youtubeId": "PXbRg9tXYp8",
+      "language": "en",
+      "charCount": 4533,
+      "status": "ok"
+    },
+    "yt-NgjDl_8VM2c": {
+      "youtubeId": "NgjDl_8VM2c",
+      "language": "en",
+      "charCount": 4096,
+      "status": "ok"
+    },
+    "yt-ndO_pns6vSI": {
+      "youtubeId": "ndO_pns6vSI",
+      "language": "en",
+      "charCount": 3415,
+      "status": "ok"
+    },
+    "yt-MXFxDDJPTzw": {
+      "youtubeId": "MXFxDDJPTzw",
+      "language": "en",
+      "charCount": 3542,
+      "status": "ok"
+    },
+    "yt-9rfjE1zNufs": {
+      "youtubeId": "9rfjE1zNufs",
+      "language": "en",
+      "charCount": 5626,
+      "status": "ok"
+    },
+    "yt-qRZWvvIJsP0": {
+      "youtubeId": "qRZWvvIJsP0",
+      "language": "en",
+      "charCount": 4183,
+      "status": "ok"
+    },
+    "yt-XCH-r3PKwTQ": {
+      "youtubeId": "XCH-r3PKwTQ",
+      "language": "en",
+      "charCount": 3030,
+      "status": "ok"
+    },
+    "yt-_m4BdpEl6J4": {
+      "youtubeId": "_m4BdpEl6J4",
+      "language": "en",
+      "charCount": 4767,
+      "status": "ok"
+    },
+    "yt-Hl-dQMfBw_Y": {
+      "youtubeId": "Hl-dQMfBw_Y",
+      "language": "en",
+      "charCount": 6118,
+      "status": "ok"
+    },
+    "yt-OmWlEbo79Xs": {
+      "youtubeId": "OmWlEbo79Xs",
+      "language": "en",
+      "charCount": 5419,
+      "status": "ok"
+    },
+    "yt-2AnpHHZAHxE": {
+      "youtubeId": "2AnpHHZAHxE",
+      "language": "en",
+      "charCount": 6460,
+      "status": "ok"
+    },
+    "yt-TOIq0UpOyL8": {
+      "youtubeId": "TOIq0UpOyL8",
+      "language": "en",
+      "charCount": 1979,
+      "status": "ok"
+    },
+    "yt-VRbabpHgg_Y": {
+      "youtubeId": "VRbabpHgg_Y",
+      "language": "en",
+      "charCount": 9088,
+      "status": "ok"
+    },
+    "yt-F3qrQRWox54": {
+      "youtubeId": "F3qrQRWox54",
+      "language": "en",
+      "charCount": 8732,
+      "status": "ok"
+    },
+    "yt-6W3Itfs5hpg": {
+      "youtubeId": "6W3Itfs5hpg",
+      "status": "missing"
+    },
+    "yt-0D1YlYMNTFM": {
+      "youtubeId": "0D1YlYMNTFM",
+      "language": "en",
+      "charCount": 8023,
+      "status": "ok"
+    },
+    "yt-hFmAa1Yz48o": {
+      "youtubeId": "hFmAa1Yz48o",
+      "language": "en",
+      "charCount": 8776,
+      "status": "ok"
+    },
+    "yt-2tLlpDoE5fA": {
+      "youtubeId": "2tLlpDoE5fA",
+      "language": "en",
+      "charCount": 7782,
+      "status": "ok"
+    },
+    "yt-7xw6Q2Zo-8w": {
+      "youtubeId": "7xw6Q2Zo-8w",
+      "language": "en",
+      "charCount": 5568,
+      "status": "ok"
+    },
+    "yt-6kx1jKbTqT0": {
+      "youtubeId": "6kx1jKbTqT0",
+      "language": "en",
+      "charCount": 2907,
+      "status": "ok"
+    },
+    "yt-5kZhv38IZJA": {
+      "youtubeId": "5kZhv38IZJA",
+      "language": "en",
+      "charCount": 6092,
+      "status": "ok"
+    },
+    "yt-AgHnMRuIb8o": {
+      "youtubeId": "AgHnMRuIb8o",
+      "language": "en",
+      "charCount": 6747,
+      "status": "ok"
+    },
+    "yt-k0kxdrODTmg": {
+      "youtubeId": "k0kxdrODTmg",
+      "language": "en",
+      "charCount": 7227,
+      "status": "ok"
+    },
+    "yt-dlu4SkGmQL4": {
+      "youtubeId": "dlu4SkGmQL4",
+      "language": "en",
+      "charCount": 5461,
+      "status": "ok"
+    },
+    "yt--0hrgmspBHY": {
+      "youtubeId": "-0hrgmspBHY",
+      "language": "en",
+      "charCount": 8129,
+      "status": "ok"
+    },
+    "yt--HNCSmSkdQ4": {
+      "youtubeId": "-HNCSmSkdQ4",
+      "language": "en",
+      "charCount": 6990,
+      "status": "ok"
+    },
+    "yt-qgk5r-Y6OPg": {
+      "youtubeId": "qgk5r-Y6OPg",
+      "language": "en",
+      "charCount": 8958,
+      "status": "ok"
+    },
+    "yt-qMdS9ZpEvp0": {
+      "youtubeId": "qMdS9ZpEvp0",
+      "language": "en",
+      "charCount": 2896,
+      "status": "ok"
+    },
+    "yt-3qqV2pjSuoQ": {
+      "youtubeId": "3qqV2pjSuoQ",
+      "language": "en",
+      "charCount": 1221,
+      "status": "ok"
+    },
+    "yt-CpdeOEh0ZQ8": {
+      "youtubeId": "CpdeOEh0ZQ8",
+      "language": "en",
+      "charCount": 6118,
+      "status": "ok"
+    },
+    "yt-iIlhWILOeSY": {
+      "youtubeId": "iIlhWILOeSY",
+      "language": "en",
+      "charCount": 2943,
+      "status": "ok"
+    },
+    "yt-tH4xdA35IME": {
+      "youtubeId": "tH4xdA35IME",
+      "language": "en",
+      "charCount": 819,
+      "status": "ok"
+    },
+    "yt-UYQErZpj99M": {
+      "youtubeId": "UYQErZpj99M",
+      "language": "en",
+      "charCount": 2031,
+      "status": "ok"
+    },
+    "yt-NzUmPR2n9LU": {
+      "youtubeId": "NzUmPR2n9LU",
+      "language": "en",
+      "charCount": 7828,
+      "status": "ok"
+    },
+    "yt-k3WWrMTuRWc": {
+      "youtubeId": "k3WWrMTuRWc",
+      "language": "en",
+      "charCount": 6790,
+      "status": "ok"
+    },
+    "yt-Nxd1ctxzkLU": {
+      "youtubeId": "Nxd1ctxzkLU",
+      "language": "en",
+      "charCount": 4416,
+      "status": "ok"
+    },
+    "yt-yZ_dX7Nvlqc": {
+      "youtubeId": "yZ_dX7Nvlqc",
+      "language": "en",
+      "charCount": 6773,
+      "status": "ok"
+    },
+    "yt-V1huNaf4xs8": {
+      "youtubeId": "V1huNaf4xs8",
+      "language": "en",
+      "charCount": 7022,
+      "status": "ok"
+    },
+    "yt-_SPFV-GlkNA": {
+      "youtubeId": "_SPFV-GlkNA",
+      "language": "en",
+      "charCount": 8770,
+      "status": "ok"
+    },
+    "yt-kyg3si_cUpY": {
+      "youtubeId": "kyg3si_cUpY",
+      "language": "en",
+      "charCount": 4153,
+      "status": "ok"
+    },
+    "yt-oHmRkq-z1Kg": {
+      "youtubeId": "oHmRkq-z1Kg",
+      "language": "en",
+      "charCount": 2953,
+      "status": "ok"
+    },
+    "yt-otoMgAi3oDs": {
+      "youtubeId": "otoMgAi3oDs",
+      "status": "missing"
+    },
+    "yt-B_UFMjdS5R4": {
+      "youtubeId": "B_UFMjdS5R4",
+      "status": "missing"
+    },
+    "yt-qn811BLEFGQ": {
+      "youtubeId": "qn811BLEFGQ",
+      "language": "en",
+      "charCount": 6330,
+      "status": "ok"
+    },
+    "yt-gItuAhj1dWw": {
+      "youtubeId": "gItuAhj1dWw",
+      "status": "missing"
+    },
+    "yt-M7SnQ1wWhTI": {
+      "youtubeId": "M7SnQ1wWhTI",
+      "status": "missing"
+    },
+    "yt-ej0vUq1dkvs": {
+      "youtubeId": "ej0vUq1dkvs",
+      "status": "missing"
+    },
+    "yt--zy4sTGAzxY": {
+      "youtubeId": "-zy4sTGAzxY",
+      "status": "missing"
+    },
+    "yt-QjstWiUDSOA": {
+      "youtubeId": "QjstWiUDSOA",
+      "status": "missing"
+    },
+    "yt-ZvumrLiDrpY": {
+      "youtubeId": "ZvumrLiDrpY",
+      "status": "missing"
+    },
+    "yt-_Cdo2DYF-_s": {
+      "youtubeId": "_Cdo2DYF-_s",
+      "status": "missing"
+    },
+    "yt-hLmK-gglvR0": {
+      "youtubeId": "hLmK-gglvR0",
+      "status": "missing"
+    },
+    "yt-XafeMpUNvfk": {
+      "youtubeId": "XafeMpUNvfk",
+      "language": "en",
+      "charCount": 2358,
+      "status": "ok"
+    },
+    "yt-KY0idVjt4Tg": {
+      "youtubeId": "KY0idVjt4Tg",
+      "language": "en",
+      "charCount": 9178,
+      "status": "ok"
+    },
+    "yt-UNdI0_XsRJg": {
+      "youtubeId": "UNdI0_XsRJg",
+      "language": "en",
+      "charCount": 4812,
+      "status": "ok"
+    },
+    "yt-44_p0W9Xlpo": {
+      "youtubeId": "44_p0W9Xlpo",
+      "language": "en",
+      "charCount": 4104,
+      "status": "ok"
+    },
+    "yt-W_X1cIxMwdM": {
+      "youtubeId": "W_X1cIxMwdM",
+      "status": "missing"
+    },
+    "yt-b54U_5YiwGU": {
+      "youtubeId": "b54U_5YiwGU",
+      "language": "en",
+      "charCount": 9113,
+      "status": "ok"
+    },
+    "yt-oDk6XUdRTc4": {
+      "youtubeId": "oDk6XUdRTc4",
+      "language": "en",
+      "charCount": 6681,
+      "status": "ok"
+    },
+    "yt-9gUaAiZqKcc": {
+      "youtubeId": "9gUaAiZqKcc",
+      "language": "en",
+      "charCount": 5811,
+      "status": "ok"
+    },
+    "yt-PQeIXMnZmYA": {
+      "youtubeId": "PQeIXMnZmYA",
+      "status": "missing"
+    },
+    "yt-dsrDh-RHmY4": {
+      "youtubeId": "dsrDh-RHmY4",
+      "status": "missing"
+    },
+    "yt-9a3NPfGKnRA": {
+      "youtubeId": "9a3NPfGKnRA",
+      "status": "missing"
+    },
+    "yt-asC98Z9yq94": {
+      "youtubeId": "asC98Z9yq94",
+      "status": "missing"
+    },
+    "yt-4lD8t3uEr00": {
+      "youtubeId": "4lD8t3uEr00",
+      "language": "en",
+      "charCount": 2299,
+      "status": "ok"
+    },
+    "yt-E2lZoL6p-hw": {
+      "youtubeId": "E2lZoL6p-hw",
+      "status": "missing"
+    },
+    "yt-RJLwGbohJcE": {
+      "youtubeId": "RJLwGbohJcE",
+      "status": "missing"
+    },
+    "yt-1L5ptoJ_8gA": {
+      "youtubeId": "1L5ptoJ_8gA",
+      "language": "en",
+      "charCount": 1172,
+      "status": "ok"
+    },
+    "yt-DOT5vyryEdg": {
+      "youtubeId": "DOT5vyryEdg",
+      "language": "en",
+      "charCount": 72564,
+      "status": "ok"
+    },
+    "yt-Oy9v30Zj8V4": {
+      "youtubeId": "Oy9v30Zj8V4",
+      "language": "en",
+      "charCount": 9816,
+      "status": "ok"
+    },
+    "yt-rytFeEGWbl8": {
+      "youtubeId": "rytFeEGWbl8",
+      "status": "missing"
+    },
+    "yt-BXbNaw7FlFA": {
+      "youtubeId": "BXbNaw7FlFA",
+      "language": "en",
+      "charCount": 62633,
+      "status": "ok"
+    },
+    "yt-ojmJ5TalXCI": {
+      "youtubeId": "ojmJ5TalXCI",
+      "language": "en",
+      "charCount": 97144,
+      "status": "ok"
+    },
+    "yt-M6xj3OFnaSg": {
+      "youtubeId": "M6xj3OFnaSg",
+      "language": "en",
+      "charCount": 16912,
+      "status": "ok"
+    },
+    "yt-RNYj7zIfsJg": {
+      "youtubeId": "RNYj7zIfsJg",
+      "language": "en",
+      "charCount": 54935,
+      "status": "ok"
+    },
+    "yt-MHM9tAisrbM": {
+      "youtubeId": "MHM9tAisrbM",
+      "status": "missing"
+    },
+    "yt-xGs54RL6Ywc": {
+      "youtubeId": "xGs54RL6Ywc",
+      "language": "en",
+      "charCount": 8723,
+      "status": "ok"
+    },
+    "yt-LVC1XyFU6ao": {
+      "youtubeId": "LVC1XyFU6ao",
+      "language": "en",
+      "charCount": 18129,
+      "status": "ok"
+    },
+    "yt-RA9OUAEoD9k": {
+      "youtubeId": "RA9OUAEoD9k",
+      "language": "en",
+      "charCount": 56558,
+      "status": "ok"
+    },
+    "yt-mlhBnlRbWaw": {
+      "youtubeId": "mlhBnlRbWaw",
+      "language": "en",
+      "charCount": 31843,
+      "status": "ok"
+    },
+    "yt-ErNMd5znQNA": {
+      "youtubeId": "ErNMd5znQNA",
+      "language": "en",
+      "charCount": 353,
+      "status": "ok"
+    },
+    "yt-bDkhKMw7NkM": {
+      "youtubeId": "bDkhKMw7NkM",
+      "language": "en",
+      "charCount": 25,
+      "status": "ok"
+    },
+    "yt-8me3pTg66cQ": {
+      "youtubeId": "8me3pTg66cQ",
+      "language": "en",
+      "charCount": 144,
+      "status": "ok"
+    },
+    "yt-NLhZ2ELnhT8": {
+      "youtubeId": "NLhZ2ELnhT8",
+      "language": "en",
+      "charCount": 4230,
+      "status": "ok"
+    },
+    "yt-Vada0zRfYEo": {
+      "youtubeId": "Vada0zRfYEo",
+      "language": "en",
+      "charCount": 7276,
       "status": "ok"
     }
   }

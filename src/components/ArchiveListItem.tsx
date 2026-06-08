@@ -37,6 +37,7 @@ const hiddenTags = new Set([
   "vimeo",
   "libsyn",
   "andrewcohen-com",
+  "hosted-media",
 ]);
 
 interface ArchiveListItemProps {

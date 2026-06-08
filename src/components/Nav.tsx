@@ -9,6 +9,7 @@ import { useLocale } from "@/i18n/locale-provider";
 
 const navLinks = [
   { label: "Life", href: "/life" },
+  { label: "Jazz", href: "/jazz" },
   { label: "Lineage", href: "/lineage" },
   { label: "Legacy", href: "/legacy" },
   { label: "Teaching", href: "/teaching" },
