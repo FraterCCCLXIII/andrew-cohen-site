@@ -125,6 +125,17 @@ export const legacyProfiles: LegacyProfile[] = [
         imageFit: "contain",
         imageBackground: "white",
       },
+      {
+        id: "art-of-listening",
+        title: "Art of Listening",
+        description:
+          "Explorations in consciousness and culture — artistic projects, workshops, and processes that change the way we experience reality through participatory, sensorial art grounded in phenomenology, collective intelligence, and the art of listening.",
+        url: "https://art-of-listening.org/",
+        image: "/images/legacy/art-of-listening-logo.png",
+        imageAlt: "Art of Listening logo",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
     ],
   },
   {
@@ -378,6 +389,23 @@ export const legacyProfiles: LegacyProfile[] = [
         url: "https://nondualize.com/",
         image: "/images/legacy/nondualize-icon.png",
         imageAlt: "Nondualize.com",
+        imageFit: "contain",
+      },
+    ],
+  },
+  {
+    id: "tim-mansfield",
+    names: "Tim Mansfield",
+    bio: "A longtime member of Andrew Cohen's EnlightenNext community for nineteen years, Tim Mansfield lived at Foxhollow and participated deeply in the life of the sangha through its rise, creative flourishing, and eventual collapse. His book offers a committed first-hand account of the vision, endeavour, and complexity of Cohen's spiritual community.",
+    projects: [
+      {
+        id: "invoking-the-authentic-self",
+        title: "Invoking the Authentic Self",
+        description:
+          "The life and work of Andrew Cohen's spiritual community — a first-hand account of EnlightenNext's pioneering experiment in consciousness, its remarkable achievements, and its dramatic collapse in 2013.",
+        url: "https://www.amazon.com/Invoking-Authentic-Self-Tim-Mansfield/dp/1913663876",
+        image: "/images/legacy/invoking-the-authentic-self.png",
+        imageAlt: "Invoking the Authentic Self book cover",
         imageFit: "contain",
       },
     ],
