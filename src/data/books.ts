@@ -72,6 +72,15 @@ export const books: Book[] = [
     cover: "/images/books/freedom-has-no-history.jpg",
   },
   {
+    slug: "an-absolute-relationship-to-life",
+    title: "An Absolute Relationship to Life",
+    year: "1997",
+    tagline: "A talk on enlightenment and the human condition.",
+    description:
+      "What would it mean to have an absolute relationship to the entire experience of being alive? In this teaching, Andrew Cohen divides our experience into its three most fundamental aspects — our relationship to time, to thought, and to feeling — and asks what it would mean to give ourselves completely to life, to know that thought has no inherent significance, and to discover that no feeling defines who we really are.",
+    cover: "/images/books/an-absolute-relationship-to-life.jpg",
+  },
+  {
     slug: "who-am-i-and-how-shall-i-live",
     title: "Who Am I? and How Shall I Live?",
     year: "1998",

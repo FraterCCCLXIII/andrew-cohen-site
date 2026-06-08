@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { cookies, headers } from "next/headers";
 import "./globals.css";
 import Nav from "@/components/Nav";
-import Footer from "@/components/Footer";
+import ConditionalFooter from "@/components/ConditionalFooter";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import ThemeScript from "@/components/ThemeScript";
 import { defaultLocale, isLocale, type Locale } from "@/i18n/config";
@@ -66,7 +66,7 @@ export default async function RootLayout({
         >
           <Nav />
           <main className="flex-1">{children}</main>
-          <Footer />
+          <ConditionalFooter />
         </DynamicLocaleProvider>
       </body>
     </html>

@@ -6,6 +6,7 @@ export interface LegacyProject {
   image: string;
   imageAlt: string;
   imageFit?: "cover" | "contain";
+  imageBackground?: "white";
 }
 
 export interface LegacyProfile {
@@ -15,6 +16,7 @@ export interface LegacyProfile {
   portrait?: string;
   portraitAlt?: string;
   projects: LegacyProject[];
+  hidden?: boolean;
 }
 
 export const legacyIntro = {
@@ -32,6 +34,17 @@ export const legacyProfiles: LegacyProfile[] = [
     portrait: "/images/legacy/daniela-bomatter.jpg",
     portraitAlt: "Daniela Bomatter",
     projects: [
+      {
+        id: "manifest-nirvana",
+        title: "Manifest Nirvana",
+        description:
+          "A spiritual community and online platform dedicated to Evolutionary Enlightenment — rooted at the foot of Arunachala in Tiruvannamalai and reaching a global community through live teachings, retreats, guided meditations, and intersubjective practice.",
+        url: "https://manifest-nirvana.com/",
+        image: "/images/legacy/manifest-nirvana-logo.svg",
+        imageAlt: "Manifest Nirvana logo",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
       {
         id: "viratya-myth",
         title: "The Viratya Myth",
@@ -167,8 +180,8 @@ export const legacyProfiles: LegacyProfile[] = [
         description:
           "A global initiative at the intersection of consciousness, culture, and collective evolution — convening practitioners and visionaries around the work of awakening in the twenty-first century.",
         url: "https://weareicon.org/",
-        image: "/images/legacy/icon-cover.jpg",
-        imageAlt: "ICON",
+        image: "/images/legacy/icon-logo.png",
+        imageAlt: "ICON — Integral Conference of North America",
         imageFit: "contain",
       },
       {
@@ -179,6 +192,34 @@ export const legacyProfiles: LegacyProfile[] = [
         url: "https://tiru.fm",
         image: "/images/legacy/tiru-fm-icon.svg",
         imageAlt: "Tiru.fm",
+        imageFit: "contain",
+      },
+      {
+        id: "nondualize",
+        title: "Nondualize.com",
+        description:
+          "Meditation and spiritual teachings with Andrew Cohen — a platform for awakening, offering guided practice and dharma drawn from Evolutionary Enlightenment.",
+        url: "https://nondualize.com/",
+        image: "/images/legacy/nondualize-icon.png",
+        imageAlt: "Nondualize.com",
+        imageFit: "contain",
+      },
+    ],
+  },
+  {
+    id: "pete-bampton",
+    names: "Pete Bampton",
+    hidden: true,
+    bio: "A British-born spiritual teacher who studied with Andrew Cohen for over a decade as a member of EnlightenNext. With Cynthia Lea Rose, he co-founded the Awakened Life Project in Portugal — hosting silent retreats devoted to meditation and evolutionary spirituality. His book The Fire of the Heart articulates a direct, contemporary approach to awakening.",
+    projects: [
+      {
+        id: "fire-of-the-heart",
+        title: "The Fire of the Heart",
+        description:
+          "An approach to spiritual awakening that is direct, contemporary, and integral in its embrace of the human condition — exploring the radical immediacy and evolutionary potential of the heart.",
+        url: "https://www.amazon.com/Fire-Heart-Peter-Bampton/dp/164606769X/",
+        image: "/images/legacy/fire-of-the-heart-cover.png",
+        imageAlt: "The Fire of the Heart book cover",
         imageFit: "contain",
       },
     ],

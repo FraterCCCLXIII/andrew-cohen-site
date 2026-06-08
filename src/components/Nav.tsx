@@ -20,6 +20,23 @@ const navLinks = [
   { label: "Quotes", href: "/quotes" },
 ];
 
+function NondualizerNavIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 16 16"
+      fill="currentColor"
+      className={className}
+      aria-hidden
+    >
+      <path d="M8,0C3.581,0,0,3.583,0,8c0,4.419,3.581,8,8,8s8-3.581,8-8C16,3.583,12.419,0,8,0z M4.172,8.938c0,0.276-0.224,0.5-0.5,0.5s-0.5-0.224-0.5-0.5V7.063c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5V8.938z M6.336,9.734c0,0.275-0.224,0.5-0.5,0.5s-0.5-0.225-0.5-0.5V6.266c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5V9.734z M8.5,11.125c0,0.275-0.224,0.5-0.5,0.5s-0.5-0.225-0.5-0.5v-6.25c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5V11.125z M10.664,10.396c0,0.275-0.225,0.5-0.5,0.5s-0.5-0.225-0.5-0.5V5.604c0-0.276,0.225-0.5,0.5-0.5s0.5,0.224,0.5,0.5V10.396z M12.828,9.219c0,0.276-0.225,0.5-0.5,0.5s-0.5-0.224-0.5-0.5V6.781c0-0.276,0.225-0.5,0.5-0.5s0.5,0.224,0.5,0.5V9.219z" />
+    </svg>
+  );
+}
+
+const nondualizerLinkClassName =
+  "inline-flex items-center justify-center w-10 h-10 text-muted hover:text-foreground transition-colors duration-300 shrink-0";
+
 export default function Nav() {
   const [open, setOpen] = useState(false);
   const reduce = useReducedMotion();
@@ -55,6 +72,13 @@ export default function Nav() {
             ))}
           </ul>
           <Link
+            href="/nondualizer"
+            className={nondualizerLinkClassName}
+            aria-label="Nondualize"
+          >
+            <NondualizerNavIcon className="h-5 w-5" />
+          </Link>
+          <Link
             href="/contribute"
             className="inline-flex items-center px-4 py-2 bg-foreground text-background text-sm rounded-md hover:bg-foreground/85 transition-colors duration-300 active:scale-[0.98] shrink-0"
           >
@@ -64,6 +88,13 @@ export default function Nav() {
 
         {/* Mobile: contribute + menu toggle */}
         <div className="md:hidden flex items-center gap-2">
+          <Link
+            href="/nondualizer"
+            className={nondualizerLinkClassName}
+            aria-label="Nondualize"
+          >
+            <NondualizerNavIcon className="h-5 w-5" />
+          </Link>
           <Link
             href="/contribute"
             className="inline-flex items-center px-3 py-1.5 bg-foreground text-background text-xs rounded-md hover:bg-foreground/85 transition-colors duration-300 active:scale-[0.98]"

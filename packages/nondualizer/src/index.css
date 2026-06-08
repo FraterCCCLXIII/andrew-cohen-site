@@ -1,0 +1,426 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mobile safe area utilities - scoped to player */
+@supports (padding: max(0px)) {
+  .nondualizer-root .pb-safe-mobile {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom) + 0.5rem);
+  }
+  
+  /* Enhanced safe area for bottom-fixed elements */
+  .nondualizer-root .pb-safe-mobile-enhanced {
+    padding-bottom: max(5rem, env(safe-area-inset-bottom) + 4rem);
+  }
+  
+  /* For elements that need to be above Safari's bottom bar */
+  .nondualizer-root .pb-safari-bottom-bar {
+    padding-bottom: max(3rem, env(safe-area-inset-bottom) + 2rem);
+  }
+}
+
+/* Fallback for browsers without env() support */
+.nondualizer-root .pb-safe-mobile {
+  padding-bottom: 1rem;
+}
+
+.nondualizer-root .pb-safe-mobile-enhanced {
+  padding-bottom: 5rem;
+}
+
+.nondualizer-root .pb-safari-bottom-bar {
+  padding-bottom: 3rem;
+}
+
+/* Mobile touch improvements — player only */
+@media (max-width: 768px) {
+  .nondualizer-root .slider-thumb {
+    touch-action: pan-x;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Improve slider touch handling on mobile */
+  .nondualizer-root [data-radix-slider-root] {
+    touch-action: pan-x;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
+  /* Ensure slider thumb is properly touchable */
+  .nondualizer-root [data-radix-slider-thumb] {
+    touch-action: manipulation;
+    cursor: grab;
+  }
+  
+  /* Fix duplicate slider thumbs on mobile */
+  .nondualizer-root [data-radix-slider-thumb]:not(:first-child) {
+    display: none !important;
+  }
+  
+  /* Ensure only one thumb is visible */
+  .nondualizer-root [data-radix-slider-root] [data-radix-slider-thumb] + [data-radix-slider-thumb] {
+    display: none !important;
+  }
+  
+  /* Specific fix for timeline slider */
+  .nondualizer-root .slider-thumb [data-radix-slider-thumb]:nth-child(n+2) {
+    display: none !important;
+  }
+  
+  /* More aggressive fix for duplicate thumbs */
+  .nondualizer-root [data-radix-slider-thumb] {
+    position: relative !important;
+  }
+  
+  .nondualizer-root [data-radix-slider-thumb]:after {
+    content: none !important;
+  }
+  
+  .nondualizer-root [data-radix-slider-thumb]:before {
+    content: none !important;
+  }
+  
+  /* Ensure timeline slider has only one thumb */
+  .nondualizer-root .slider-thumb [data-radix-slider-thumb] {
+    position: absolute !important;
+    left: 0 !important;
+  }
+  
+  .nondualizer-root .slider-thumb [data-radix-slider-thumb]:not(:first-child) {
+    opacity: 0 !important;
+    pointer-events: none !important;
+    visibility: hidden !important;
+  }
+  
+  /* Improve button touch targets on mobile (player only) */
+  .nondualizer-root button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Ensure popover content is touchable */
+  .nondualizer-root [data-radix-popper-content-wrapper] {
+    touch-action: manipulation;
+  }
+  
+  /* Reduce page margins on mobile within player */
+  .nondualizer-root {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  .nondualizer-root {
+    box-sizing: border-box;
+    /* Dark cosmic theme */
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 5% 6%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 263 70% 60%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 5% 15%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 5% 15%;
+    --muted-foreground: 240 5% 65%;
+
+    --accent: 263 70% 60%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5% 15%;
+    --input: 240 5% 15%;
+    --ring: 263 70% 60%;
+
+    --radius: 0.75rem;
+
+    /* Glass morphism */
+    --glass-bg: 240 5% 6% / 0.8;
+    --glass-border: 0 0% 100% / 0.1;
+    --glass-shadow: 0 8px 32px 0 rgb(0 0 0 / 0.37);
+
+    /* Audio player specific */
+    --player-bg: 240 5% 6% / 0.95;
+    --control-hover: 263 70% 70%;
+    
+    /* Cosmic gradients */
+    --cosmic-gradient: linear-gradient(135deg, 
+      hsl(263 70% 20%) 0%, 
+      hsl(240 80% 10%) 50%, 
+      hsl(283 60% 15%) 100%);
+    --nebula-gradient: linear-gradient(45deg,
+      hsl(263 70% 60% / 0.3) 0%,
+      hsl(283 60% 50% / 0.2) 50%,
+      hsl(240 80% 40% / 0.1) 100%);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .nondualizer-root .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  .nondualizer-root *,
+  .nondualizer-root *::before,
+  .nondualizer-root *::after {
+    box-sizing: border-box;
+    @apply border-border;
+  }
+
+  .nondualizer-root {
+    @apply bg-background text-foreground overflow-hidden;
+  }
+}
+
+@layer components {
+  .glass-morphism {
+    @apply backdrop-blur-md bg-[hsl(var(--glass-bg))] border border-[hsl(var(--glass-border))];
+    box-shadow: var(--glass-shadow);
+  }
+
+  .cosmic-gradient {
+    background: var(--cosmic-gradient);
+  }
+
+  .nebula-overlay {
+    background: var(--nebula-gradient);
+  }
+
+  .crossfade-enter {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+
+  .crossfade-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 2s ease-in-out, transform 2s ease-in-out;
+  }
+
+  .crossfade-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .crossfade-exit-active {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 2s ease-in-out, transform 2s ease-in-out;
+  }
+
+  /* Ken Burns Slideshow with CSS Transitions — scoped to player area */
+  .nondualizer-root .ken-burns-slideshow {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: transparent;
+  }
+
+  .nondualizer-root .ken-burns-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    object-fit: cover;
+    object-position: center;
+    transform: scale(1);
+    /* Different transform origins for varied movement */
+    transform-origin: bottom left;
+    /* Smooth transitions - different durations for opacity and transform */
+    transition-property: opacity, transform;
+    transition-duration: 3s, 10s;
+    transition-timing-function: ease-in-out, ease-out;
+  }
+
+  /* Varied transform origins for different movement patterns */
+  .nondualizer-root .ken-burns-image:nth-child(2n+1) {
+    transform-origin: top right;
+  }
+
+  .nondualizer-root .ken-burns-image:nth-child(3n+1) {
+    transform-origin: top left;
+  }
+
+  .nondualizer-root .ken-burns-image:nth-child(4n+1) {
+    transform-origin: bottom right;
+  }
+
+  /* Z-index management for proper layering */
+  .nondualizer-root .ken-burns-image.fx:first-child + .ken-burns-image ~ .ken-burns-image {
+    z-index: -1;
+  }
+
+  /* Active image with Ken Burns effect */
+  .nondualizer-root .ken-burns-image.fx {
+    opacity: 1;
+    transform: scale(1.1);
+    animation: kenBurnsEffect 10s ease-out forwards;
+  }
+
+  /* Ken Burns animation keyframes */
+  @keyframes kenBurnsEffect {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
+
+  /* Custom scrollbar styling */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+}
+
+/* Mobile Safari bottom bar detection utilities */
+.nondualizer-root .mobile-safari-bottom-safe {
+  /* This class will be dynamically updated by JavaScript */
+  padding-bottom: 6rem; /* Default fallback */
+}
+
+/* Enhanced mobile positioning for audio player */
+@media (max-width: 768px) {
+  .nondualizer-root .audio-player-mobile-safe {
+    position: fixed;
+    bottom: env(safe-area-inset-bottom, 0);
+    bottom: max(env(safe-area-inset-bottom, 0), 1rem);
+    left: 0;
+    right: 0;
+    z-index: 50;
+  }
+
+  /* Fix mobile gap above images */
+  .nondualizer-root .relative.h-full {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  /* Mobile-specific fixes for Ken Burns slideshow */
+  .nondualizer-root .ken-burns-slideshow {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 100% !important;
+  }
+
+  .nondualizer-root .ken-burns-image {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 !important;
+    object-fit: cover !important;
+    object-position: center !important;
+  }
+
+  /* Additional mobile Safari fixes */
+  @supports (-webkit-touch-callout: none) {
+    .nondualizer-root .ken-burns-slideshow {
+      height: 100% !important;
+      min-height: 100% !important;
+    }
+    
+    .nondualizer-root .ken-burns-image {
+      height: 100% !important;
+      min-height: 100% !important;
+      width: 100% !important;
+    }
+  }
+
+}

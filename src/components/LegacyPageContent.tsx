@@ -30,7 +30,11 @@ function ProjectCard({
       }}
       className="group flex h-full flex-col overflow-hidden rounded-md border border-border bg-surface hover:bg-surface-elevated transition-colors duration-300"
     >
-      <div className="relative aspect-[16/10] w-full overflow-hidden bg-surface-elevated">
+      <div
+        className={`relative aspect-[16/10] w-full overflow-hidden ${
+          project.imageBackground === "white" ? "bg-white" : "bg-surface-elevated"
+        }`}
+      >
         <Image
           src={project.image}
           alt={project.imageAlt}
@@ -90,7 +94,7 @@ export default function LegacyPageContent() {
 
       <section className="px-6 pb-24">
         <div className="max-w-5xl mx-auto space-y-20">
-          {legacyProfiles.map((profile, profileIndex) => (
+          {legacyProfiles.filter((profile) => !profile.hidden).map((profile, profileIndex) => (
             <motion.article
               key={profile.id}
               id={profile.id}

@@ -19,7 +19,8 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@nondualizer/*": ["./packages/nondualizer/src/*"]
     }
   },
   "include": [
@@ -30,5 +31,13 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules",
+    "packages/nondualizer/src/App.tsx",
+    "packages/nondualizer/src/main.tsx",
+    "packages/nondualizer/src/pages",
+    "packages/nondualizer/src/components/_archive",
+    "packages/nondualizer/vite.config.ts",
+    "packages/nondualizer/tailwind.config.ts"
+  ]
 }
