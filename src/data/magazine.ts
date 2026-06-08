@@ -8,6 +8,19 @@ export interface MagazineIssue {
   cover: string;
 }
 
+export interface MagazineSupplement {
+  slug: string;
+  issue: number;
+  magazine: "What Is Enlightenment?" | "EnlightenNext";
+  date: string;
+  title: string;
+  author: string;
+  tagline: string;
+  pdf: string;
+  cover: string;
+  unpublished: true;
+}
+
 // Scraped from https://andrewcohen.com/enlightennext-magazine/
 // Issues published 1992–2011. Renamed from What Is Enlightenment? to EnlightenNext with Issue 24.
 export const magazineIssues: MagazineIssue[] = [
@@ -15,10 +28,11 @@ export const magazineIssues: MagazineIssue[] = [
     issue: 47,
     slug: "issue-47",
     magazine: "EnlightenNext",
-    date: "2011",
-    tagline: "The Cosmic Dimensions of Love: exploring the hidden depths of the evolutionary process.",
-    pdf: "https://s3.eu-central-1.amazonaws.com/wieoldissues/wie_en_weboptimized/EN_issue_47.pdf",
-    cover: "https://andrewcohen.com/wp-content/uploads/2017/01/EN_issue_47_cover.jpg",
+    date: "July 2011",
+    tagline:
+      "It's a New Era at EnlightenNext — A Message from Founder Andrew Cohen; Genius Is Collaborative; Evolutionary Enlightenment: The Book.",
+    pdf: "/downloads/magazine/issue-47-magalog.pdf",
+    cover: "/images/magazine/issue-47-cover-832x1024.png",
   },
   {
     issue: 46,
@@ -436,8 +450,37 @@ export const magazineIssues: MagazineIssue[] = [
   },
 ];
 
+/** Unpublished pieces prepared for a given issue but not included in the final edition. */
+export const magazineSupplements: MagazineSupplement[] = [
+  {
+    slug: "integirl-explains-it-all",
+    issue: 33,
+    magazine: "EnlightenNext",
+    date: "June-Aug 2006",
+    title: "Integirl Explains It All",
+    author: "Tom Huston",
+    tagline:
+      "The birth of an integral spirituality — Part 3: Not Just a Book Review of Integral Spirituality by Ken Wilber and A New Earth by Eckhart Tolle.",
+    pdf: "/downloads/magazine/integirl.pdf",
+    cover: "/images/magazine/integirl-cover.png",
+    unpublished: true,
+  },
+];
+
 export function getMagazineIssue(slug: string): MagazineIssue | undefined {
   return magazineIssues.find((item) => item.slug === slug);
+}
+
+export function getMagazineSupplement(
+  slug: string
+): MagazineSupplement | undefined {
+  return magazineSupplements.find((item) => item.slug === slug);
+}
+
+export function getSupplementsForIssue(
+  issue: number
+): MagazineSupplement[] {
+  return magazineSupplements.filter((item) => item.issue === issue);
 }
 
 export const magazineEras = [

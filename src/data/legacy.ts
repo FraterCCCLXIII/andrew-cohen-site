@@ -389,6 +389,26 @@ export const legacyProfiles: LegacyProfile[] = [
     ],
   },
   {
+    id: "gerard-senehi",
+    names: "Gerard Senehi",
+    bio: "A longtime student of Andrew Cohen and member of the EnlightenNext community, Gerard Senehi is a mentalist, educator, and philanthropist who carried the big questions awakened in Cohen's teaching into public education. After years at Foxhollow and a career as an internationally acclaimed mystery performer, he founded Open Future Institute in 2013 with Francesca Rusciani — empowering young people to explore meaning, purpose, and the values that will shape their lives and the culture of the future.",
+    portrait: "/images/legacy/gerard-senehi.jpg",
+    portraitAlt: "Gerard Senehi",
+    projects: [
+      {
+        id: "open-future-institute",
+        title: "Open Future Institute",
+        description:
+          "A nonprofit bringing The QUESTion Project into high schools — a semester-long credit-bearing course where students address life's biggest questions about meaning, purpose, and their role in making the world a better place.",
+        url: "https://openfutureinstitute.org/",
+        image: "/images/legacy/open-future-institute-logo.png",
+        imageAlt: "Open Future Institute logo",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
+    ],
+  },
+  {
     id: "gia-mantra",
     names: "Gia Mantra Global Village",
     bio: "An experimental eco-village at the foot of Arunachala in Tamil Nadu. Andrew Cohen, Alka Arora, and Daniela Bomatter were among its early investors — supporting a global community dedicated to sustainable living, spiritual growth, and holistic wellness.",

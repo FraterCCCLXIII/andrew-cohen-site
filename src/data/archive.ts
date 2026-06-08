@@ -1,7 +1,7 @@
 import { books } from "@/data/books";
 import { journalArticles } from "@/data/journal";
 import { listenItems } from "@/data/listen";
-import { magazineIssues } from "@/data/magazine";
+import { magazineIssues, magazineSupplements } from "@/data/magazine";
 import { siteVideos } from "@/data/site-videos";
 import youtubeVideos from "@/data/youtube-videos.json";
 
@@ -87,6 +87,25 @@ function magazineItems(): ArchiveItem[] {
   }));
 }
 
+function magazineSupplementItems(): ArchiveItem[] {
+  return magazineSupplements.map((item) => ({
+    id: `magazine-${item.slug}`,
+    type: "magazine" as const,
+    title: item.title,
+    description: `${item.tagline} · By ${item.author}. Unpublished from Issue ${item.issue}.`,
+    date: item.date,
+    tags: [
+      "magazine",
+      "enlightennext",
+      item.magazine === "EnlightenNext" ? "enlightennext-era" : "wie-era",
+      "unpublished",
+      `issue-${item.issue}`,
+    ],
+    href: `/magazine/${item.slug}`,
+    thumbnail: item.cover,
+  }));
+}
+
 function youtubeChannelItems(): ArchiveItem[] {
   return (youtubeVideos as ArchiveItem[]).map((item) => ({
     ...item,
@@ -151,6 +170,7 @@ export function getArchiveCatalog(): ArchiveItem[] {
     ...articleItems(),
     ...bookItems(),
     ...magazineItems(),
+    ...magazineSupplementItems(),
   ];
 }
 

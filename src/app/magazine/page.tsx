@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { motion, useReducedMotion } from "motion/react";
 import { ArrowUpRight } from "@phosphor-icons/react";
-import { magazineEras, magazineIssues } from "@/data/magazine";
+import { magazineEras, magazineIssues, magazineSupplements } from "@/data/magazine";
 import MagazineCover from "@/components/MagazineCover";
 
 export default function MagazinePage() {
@@ -104,6 +104,69 @@ export default function MagazinePage() {
           </section>
         );
       })}
+
+      {magazineSupplements.length > 0 && (
+        <section className="px-6 pb-20 border-t border-border pt-16">
+          <div className="max-w-5xl mx-auto">
+            <motion.div
+              initial={reduce ? false : { opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+              className="mb-10"
+            >
+              <h2 className="text-sm uppercase tracking-[0.18em] text-muted font-mono mb-2">
+                Unpublished from the archive
+              </h2>
+              <p className="text-base text-muted leading-relaxed">
+                Articles prepared for publication but not included in the
+                final issue.
+              </p>
+            </motion.div>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 items-start gap-x-6 gap-y-10">
+              {magazineSupplements.map((item, i) => (
+                <motion.div
+                  key={item.slug}
+                  initial={reduce ? false : { opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.15 }}
+                  transition={{
+                    duration: 0.5,
+                    delay: reduce ? 0 : (i % 4) * 0.04,
+                    ease: [0.16, 1, 0.3, 1],
+                  }}
+                >
+                  <Link href={`/magazine/${item.slug}`} className="group block">
+                    <MagazineCover
+                      issue={{
+                        issue: item.issue,
+                        magazine: item.magazine,
+                        cover: item.cover,
+                      }}
+                      alt={`${item.title} cover`}
+                      className="transition-transform duration-300 group-hover:-translate-y-1"
+                    />
+                    <div className="mt-4">
+                      <p className="font-mono text-[11px] text-muted mb-1">
+                        Unpublished · Issue {item.issue} · {item.date}
+                      </p>
+                      <h3 className="text-sm font-medium tracking-tight text-foreground leading-snug line-clamp-3">
+                        {item.title}
+                      </h3>
+                      <p className="mt-1 text-xs text-muted">{item.author}</p>
+                      <span className="mt-2 inline-flex items-center gap-1 text-xs text-muted group-hover:text-accent transition-colors duration-300">
+                        Read article
+                        <ArrowUpRight size={13} weight="regular" />
+                      </span>
+                    </div>
+                  </Link>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
     </div>
   );
 }
