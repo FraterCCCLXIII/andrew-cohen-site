@@ -43,6 +43,15 @@ export const books: Book[] = [
     cover: "/images/books/autobiography-of-an-awakening.gif",
   },
   {
+    slug: "letters-of-love",
+    title: "Letters of Love",
+    year: "1992",
+    tagline: "Declarations of freedom, ecstasy, intimacy, and revelation.",
+    description:
+      "A collection of writings by students of Andrew Cohen — intimate letters and reflections on freedom, ecstasy, intimacy, and revelation from the early years of his teaching community. Published by Moksha Press.",
+    cover: "/images/books/letters-of-love.png",
+  },
+  {
     slug: "an-unconditional-relationship-to-life",
     title: "An Unconditional Relationship to Life",
     year: "1995",
@@ -90,6 +99,15 @@ export const books: Book[] = [
     cover: "/images/books/who-am-i-and-how-shall-i-live.png",
   },
   {
+    slug: "the-promise-of-perfection",
+    title: "The Promise of Perfection",
+    year: "1998",
+    tagline: "On wanting, possession, and the spiritual life.",
+    description:
+      "Based on a talk delivered at Harvard Divinity School in October 1997, this teaching examines the nature of wanting, the endless craving for material things, and the suffering and confusion that arise when desire is left unexamined — offering a clarity that has the power to liberate.",
+    cover: "/images/books/the-promise-of-perfection.png",
+  },
+  {
     slug: "in-defense-of-the-guru-principle",
     title: "In Defense of the Guru Principle",
     year: "1999",
@@ -116,6 +134,15 @@ export const books: Book[] = [
     description:
       "A call to move beyond the personal ego toward a collective, evolving expression of enlightenment — an early articulation of the evolutionary vision that would come to define Cohen's teaching.",
     cover: "/images/books/living-enlightenment.jpg",
+  },
+  {
+    slug: "being-and-becoming",
+    title: "Being & Becoming",
+    year: "2010",
+    tagline: "Exploring the teachings of Evolutionary Enlightenment.",
+    description:
+      "A revised edition exploring the two inseparable dimensions at the heart of Evolutionary Enlightenment — the timeless ground of Being and the ecstatic urgency of Becoming — and why both are essential for authentic spiritual awakening in the twenty-first century.",
+    cover: "/images/books/being-and-becoming.png",
   },
   {
     slug: "evolutionary-enlightenment",

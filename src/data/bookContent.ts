@@ -101,7 +101,26 @@ Hans Plasqui is a writer, scholar and spiritual practitioner who has studied wit
   ],
 };
 
+const lettersOfLove: BookExtendedContent = {
+  slug: "letters-of-love",
+  subtitle:
+    "Declarations of Freedom, Descriptions of Ecstasy, Intimacy and Revelation",
+  credits: "By students of Andrew Cohen · Moksha Press · 1992",
+  sections: [],
+  quotes: [],
+};
+
+const beingAndBecoming: BookExtendedContent = {
+  slug: "being-and-becoming",
+  subtitle: "Exploring the Teachings of Evolutionary Enlightenment",
+  credits: "Revised edition with a new introduction by the author · 2010",
+  sections: [],
+  quotes: [],
+};
+
 const bookContentBySlug: Record<string, BookExtendedContent> = {
+  [beingAndBecoming.slug]: beingAndBecoming,
+  [lettersOfLove.slug]: lettersOfLove,
   [whenShadowMeetsTheBodhisattva.slug]: whenShadowMeetsTheBodhisattva,
 };
 

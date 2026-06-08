@@ -27,6 +27,11 @@ const downloads: Record<string, BookDownload> = {
     downloadName: "The-Challenge-of-Enlightenment.pdf",
     format: "pdf",
   },
+  "being-and-becoming": {
+    href: "/downloads/books/being-and-becoming.pdf",
+    downloadName: "Being-and-Becoming.pdf",
+    format: "pdf",
+  },
   "evolutionary-enlightenment": {
     href: "/downloads/books/evolutionary-enlightenment.epub",
     downloadName: "Evolutionary-Enlightenment.epub",

@@ -40,7 +40,7 @@ KEEP_ENGLISH = {
     "H.W.L. Poonja (Papaji)",
     "Andrew Cohen",
     "1955 – 2025",
-    "1954, New York City",
+    "23 October 1955, New York City",
     "EnlightenNext",
 }
 
