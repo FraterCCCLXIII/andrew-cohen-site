@@ -3,10 +3,13 @@
 import Link from "next/link";
 import { localeHref } from "@/components/LanguageSwitcher";
 import ThemeToggle from "@/components/ThemeToggle";
+import { useNewsletter } from "@/components/NewsletterProvider";
+import { NEWSLETTER_COPY } from "@/lib/newsletter";
 import { useLocale } from "@/i18n/locale-provider";
 
 export default function Footer() {
   const locale = useLocale();
+  const { openNewsletter } = useNewsletter();
 
   return (
     <footer className="border-t border-border px-6 py-12 bg-background">
@@ -21,11 +24,18 @@ export default function Footer() {
           <p className="mt-2 text-sm text-muted">
             A resource for those in search of freedom.
           </p>
-          <div className="mt-4">
+          <div className="mt-4 flex flex-wrap items-center gap-4">
             <ThemeToggle />
+            <button
+              type="button"
+              onClick={() => openNewsletter("footer")}
+              className="text-sm text-muted transition-colors duration-200 hover:text-foreground"
+            >
+              {NEWSLETTER_COPY.footerLink}
+            </button>
           </div>
         </div>
-        <nav className="flex items-center gap-6">
+        <nav className="flex flex-wrap items-center gap-6">
           {[
             { label: "Life", href: "/life" },
             { label: "Lineage", href: "/lineage" },

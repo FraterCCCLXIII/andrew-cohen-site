@@ -8,6 +8,7 @@ import GoogleAnalytics from "@/components/GoogleAnalytics";
 import ThemeScript from "@/components/ThemeScript";
 import { defaultLocale, isLocale, type Locale } from "@/i18n/config";
 import DynamicLocaleProvider from "@/i18n/dynamic-locale-provider";
+import NewsletterProvider from "@/components/NewsletterProvider";
 import { getMessages } from "@/i18n/get-messages";
 
 const geistSans = Geist({
@@ -72,9 +73,11 @@ export default async function RootLayout({
           initialLocale={locale}
           initialMessages={messages}
         >
-          <Nav />
-          <main className="flex-1">{children}</main>
-          <ConditionalFooter />
+          <NewsletterProvider>
+            <Nav />
+            <main className="flex-1">{children}</main>
+            <ConditionalFooter />
+          </NewsletterProvider>
         </DynamicLocaleProvider>
       </body>
     </html>
