@@ -559,8 +559,6 @@ export const legacyProfiles: LegacyProfile[] = [
     id: "faheem-nusrat",
     names: "Faheem Nusrat",
     bio: "Faheem Nusrat has explored Eastern culture and practice for over thirty years, with lived experience in intentional community, alongside many years of work in the tech industry. A long-standing collaborator with 3rd Space, he co-leads the Living with Uncertainty learning pathway and has shared reflections on Andrew Cohen in Conversations from the Heart.",
-    portrait: "/images/legacy/faheem-nusrat.jpg",
-    portraitAlt: "Faheem Nusrat",
     projects: [
       {
         id: "third-space-living-with-uncertainty",
@@ -606,8 +604,6 @@ export const legacyProfiles: LegacyProfile[] = [
     id: "mike-kauschke",
     names: "Mike Kauschke",
     bio: "Mike Kauschke lives in the Chiemgau region of Germany as an author, editor, translator, dialog facilitator, poet, and photographer.",
-    portrait: "/images/legacy/mike-kauschke.jpg",
-    portraitAlt: "Mike Kauschke",
     projects: [
       {
         id: "mike-kauschke",
