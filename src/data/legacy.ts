@@ -215,6 +215,7 @@ export const legacyProfiles: LegacyProfile[] = [
   },
   {
     id: "lovena-vencatakistnen",
+    hidden: true,
     names: "Lovena Vencatakistnen",
     bio: "An integrative hypnotherapist and former member of EnlightenNext, Lovena Vencatakistnen brings decades of meditation training and integral psychotherapy to her work. Through Symphony Therapy, she helps clients resolve deep-seated patterns through past-life regression, inner child healing, and other transformative modalities — online worldwide and in person in London.",
     portrait: "/images/legacy/lovena-vencatakistnen.jpg",
