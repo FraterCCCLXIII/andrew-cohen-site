@@ -1,4 +1,7 @@
 import InnerPageLayout from "@/components/InnerPageLayout";
+import { getTeachingModel } from "@/data/teachingModels";
+
+const egoModel = getTeachingModel("ego")!;
 
 const sections = [
   {
@@ -79,6 +82,17 @@ export default function TheEgoPage() {
       sections={sections}
       quotes={quotes}
       bookSource="Evolutionary Enlightenment (2011)"
+      heroImage={egoModel.image}
+      heroImageAlt={egoModel.imageAlt}
+      heroImageFit="contain"
+      heroImageCaption={`${egoModel.title} — ${egoModel.subtitle}. From ${egoModel.source}.`}
+      links={[
+        {
+          label: "Download PDF",
+          href: egoModel.pdfHref,
+          download: egoModel.pdfDownloadName,
+        },
+      ]}
     />
   );
 }

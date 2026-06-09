@@ -497,4 +497,129 @@ export const legacyProfiles: LegacyProfile[] = [
       },
     ],
   },
+  {
+    id: "morgan-dix",
+    names: "Morgan Dix",
+    bio: "Morgan Dix is a cofounder of AboutMeditation.com, where he hosts the OneMind Meditation Podcast. He offers meditation coaching for new and seasoned meditators, drawing on fifteen years of formal meditation training in a contemporary yoga and meditation ashram focused on the non-dual teachings of Ramana Maharshi, and holds Mindfulness Meditation Teacher certification through Tibet House and Dharma Moon.",
+    projects: [
+      {
+        id: "morgan-dix-meditation-coaching",
+        title: "Meditation Coaching",
+        description:
+          "One-on-one meditation coaching to help new and seasoned meditators discover meaning, purpose, and life-changing positivity through meditation.",
+        url: "https://www.morgandix.com/meditation-coaching/",
+        image: "/images/legacy/morgan-dix-meditation-coaching.png",
+        imageAlt: "Meditation Coaching logo",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
+      {
+        id: "about-meditation",
+        title: "About Meditation",
+        description:
+          "A home for building a vibrant meditation practice — free courses, the OneMind Meditation Podcast, and guided resources for shifting from stress to inner calm.",
+        url: "https://aboutmeditation.com/",
+        image: "/images/legacy/about-meditation.jpg",
+        imageAlt: "About Meditation",
+        imageFit: "cover",
+      },
+    ],
+  },
+  {
+    id: "aterah-nusrat",
+    names: "Aterah Nusrat",
+    bio: "Aterah Nusrat is Senior Program Manager and Director of Programming in Integrative Medicine and Planetary Health at the Osher Center for Integrative Medicine. She holds an MSc in Environmental Technology from Imperial College, University of London, and describes herself as a seasoned meditation practitioner with more than twenty-five years of experience in program and event management, marketing, communications, and grant management.",
+    portrait: "/images/legacy/aterah-nusrat.jpg",
+    portraitAlt: "Aterah Nusrat",
+    projects: [
+      {
+        id: "icon-2026-aterah-nusrat",
+        title: "ICON 2026 — Supporting Collective Spiritual Emergence",
+        description:
+          "Supporting Collective Spiritual Emergence: From Laboratory Lessons To Planetary Wellbeing — a presentation at ICON 2026.",
+        url: "https://weareicon.org/events/supporting-collective-spiritual-emergence-from-laboratory-lessons-to-planetary-wellbeing/",
+        image: "/images/legacy/icon-cover.jpg",
+        imageAlt: "ICON — Integral Conference of North America",
+        imageFit: "cover",
+      },
+      {
+        id: "osher-center-aterah-nusrat",
+        title: "Osher Center for Integrative Medicine",
+        description:
+          "Senior Program Manager and Director of Programming in Integrative Medicine and Planetary Health — integrating environmental sustainability, meditation, and integrative medicine programming.",
+        url: "https://oshercenter.org/oc-leadership/aterah-nusrat-msc-dic/",
+        image: "/images/legacy/osher-center-logo.png",
+        imageAlt: "Osher Center for Integrative Medicine logo",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
+    ],
+  },
+  {
+    id: "faheem-nusrat",
+    names: "Faheem Nusrat",
+    bio: "Faheem Nusrat has explored Eastern culture and practice for over thirty years, with lived experience in intentional community, alongside many years of work in the tech industry. A long-standing collaborator with 3rd Space, he co-leads the Living with Uncertainty learning pathway and has shared reflections on Andrew Cohen in Conversations from the Heart.",
+    portrait: "/images/legacy/faheem-nusrat.jpg",
+    portraitAlt: "Faheem Nusrat",
+    projects: [
+      {
+        id: "third-space-living-with-uncertainty",
+        title: "3rd Space — Living with Uncertainty",
+        description:
+          "A twelve-session learning pathway for thinking clearly about AI — drawing on evolutionary biology, philosophy of technology, and the study of consciousness to navigate a disorienting time.",
+        url: "https://3rd-space.org/learning-pathway/",
+        image: "/images/legacy/third-space-logo.png",
+        imageAlt: "3rd Space logo",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
+      {
+        id: "emergence-education-ai-course",
+        title: "A Fresh Perspective on AI and What It Means to Be Human",
+        description:
+          "A free Emergence Education conversation introducing the Living with Uncertainty course — exploring what this moment in human history might be asking of us.",
+        url: "https://emergenceeducation.com/programs/a-fresh-perspective-on-ai-and-what-it-means-to-be-human/",
+        image: "/images/legacy/emergence-education-logo.png",
+        imageAlt: "Emergence Education logo",
+        imageFit: "contain",
+      },
+    ],
+  },
+  {
+    id: "igal-harmelin",
+    names: "Rabbi Igal Harmelin",
+    bio: "Rabbi Igal Harmelin offers sessions for healing developmental trauma, spiritual direction, and mental health coaching. He conducts meditative attunement workshops for therapists and is a certified practitioner of the NeuroAffective Relational Model (NARM).",
+    projects: [
+      {
+        id: "igal-harmelin",
+        title: "Rabbi Igal Harmelin",
+        description:
+          "Spiritual direction, developmental trauma healing, mental health coaching, and meditative attunement workshops for therapists.",
+        url: "https://www.igalharmelin.com/",
+        image: "/images/legacy/igal-harmelin.jpg",
+        imageAlt: "Rabbi Igal Harmelin",
+        imageFit: "cover",
+      },
+    ],
+  },
+  {
+    id: "mike-kauschke",
+    names: "Mike Kauschke",
+    bio: "Mike Kauschke lives in the Chiemgau region of Germany as an author, editor, translator, dialog facilitator, poet, and photographer.",
+    portrait: "/images/legacy/mike-kauschke.jpg",
+    portraitAlt: "Mike Kauschke",
+    projects: [
+      {
+        id: "mike-kauschke",
+        title: "Mike Kauschke",
+        description:
+          "Author, translator, editor, photographer, and dialog facilitator — sharing books, translations, editorial projects, and a newsletter on poetic and dialogical ways of engaging life.",
+        url: "https://mike-kauschke.de/",
+        image: "/images/legacy/mike-kauschke-logo.png",
+        imageAlt: "Mike Kauschke",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
+    ],
+  },
 ];

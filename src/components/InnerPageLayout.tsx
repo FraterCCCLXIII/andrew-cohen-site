@@ -29,6 +29,7 @@ interface PageLink {
   label: string;
   href: string;
   external?: boolean;
+  download?: string;
 }
 
 type HeroVariant = "card" | "full";
@@ -108,7 +109,17 @@ export default function InnerPageLayout({
       {links && links.length > 0 && (
         <div className="mt-8 flex flex-wrap gap-3">
           {links.map((link) =>
-            link.external ? (
+            link.download ? (
+              <a
+                key={link.href}
+                href={link.href}
+                download={link.download}
+                className="inline-flex items-center gap-2 px-5 py-3 border border-border text-sm rounded-md hover:bg-surface-elevated transition-colors duration-300 active:scale-[0.98]"
+              >
+                {link.label}
+                <ArrowUpRight size={15} weight="regular" />
+              </a>
+            ) : link.external ? (
               <a
                 key={link.href}
                 href={link.href}
@@ -284,7 +295,17 @@ export default function InnerPageLayout({
                   {section.links && section.links.length > 0 && (
                     <div className="flex flex-wrap gap-3 pt-2">
                       {section.links.map((link) =>
-                        link.external || link.href.startsWith("mailto:") ? (
+                        link.download ? (
+                          <a
+                            key={link.href}
+                            href={link.href}
+                            download={link.download}
+                            className="inline-flex items-center gap-2 px-5 py-3 border border-border text-sm rounded-md hover:bg-surface-elevated transition-colors duration-300 active:scale-[0.98]"
+                          >
+                            {link.label}
+                            <ArrowUpRight size={15} weight="regular" />
+                          </a>
+                        ) : link.external || link.href.startsWith("mailto:") ? (
                           <a
                             key={link.href}
                             href={link.href}

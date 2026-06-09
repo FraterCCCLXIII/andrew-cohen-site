@@ -3,7 +3,8 @@
 import Image from "@/components/FadeInImage";
 import Link from "next/link";
 import { motion, useReducedMotion } from "motion/react";
-import { ArrowUpRight } from "@phosphor-icons/react";
+import { ArrowUpRight, DownloadSimple } from "@phosphor-icons/react";
+import { teachingModels } from "@/data/teachingModels";
 
 interface TeachingLink {
   title: string;
@@ -72,6 +73,12 @@ const groups: TeachingGroup[] = [
         href: "/teaching/the-triple-gem",
       },
     ],
+  },
+  {
+    label: "Models",
+    blurb:
+      "Visual maps from Being & Becoming — the Authentic Self and the ego as complementary models of Being and Becoming.",
+    items: [],
   },
   {
     label: "The Practice",
@@ -235,40 +242,107 @@ export default function TeachingIndexPage() {
                 </p>
               </motion.div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-1">
-                {group.items.map((item, i) => (
-                  <motion.div
-                    key={item.href}
-                    initial={reduce ? false : { opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.15 }}
-                    transition={{
-                      duration: 0.5,
-                      delay: reduce ? 0 : i * 0.05 + gi * 0.02,
-                      ease: [0.16, 1, 0.3, 1],
-                    }}
-                  >
-                    <Link
-                      href={item.href}
-                      className="group flex items-start justify-between gap-4 border border-border p-8 h-full hover:bg-surface-elevated transition-colors duration-300"
+              {group.label === "Models" ? (
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                  {teachingModels.map((model, i) => (
+                    <motion.article
+                      key={model.id}
+                      initial={reduce ? false : { opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true, amount: 0.15 }}
+                      transition={{
+                        duration: 0.5,
+                        delay: reduce ? 0 : i * 0.08,
+                        ease: [0.16, 1, 0.3, 1],
+                      }}
+                      className="border border-border bg-surface overflow-hidden"
                     >
-                      <div className="min-w-0">
-                        <h3 className="text-lg font-medium tracking-tight mb-2 text-foreground">
-                          {item.title}
-                        </h3>
-                        <p className="text-sm text-muted leading-relaxed">
-                          {item.description}
-                        </p>
+                      <Link
+                        href={model.href}
+                        className="group block hover:bg-surface-elevated transition-colors duration-300"
+                      >
+                        <div className="relative aspect-[4/3] border-b border-border bg-background">
+                          <Image
+                            src={model.image}
+                            alt={model.imageAlt}
+                            fill
+                            sizes="(max-width: 1024px) 100vw, 50vw"
+                            className="object-contain p-4"
+                          />
+                        </div>
+                        <div className="p-8">
+                          <p className="text-xs uppercase tracking-[0.14em] text-muted font-mono mb-2">
+                            {model.subtitle}
+                          </p>
+                          <div className="flex items-start justify-between gap-4">
+                            <div className="min-w-0">
+                              <h3 className="text-lg font-medium tracking-tight mb-2 text-foreground">
+                                {model.title}
+                              </h3>
+                              <p className="text-sm text-muted leading-relaxed">
+                                {model.description}
+                              </p>
+                              <p className="mt-3 text-xs text-muted/70 font-mono">
+                                {model.source}
+                              </p>
+                            </div>
+                            <ArrowUpRight
+                              size={18}
+                              weight="regular"
+                              className="flex-shrink-0 text-muted group-hover:text-accent transition-colors duration-300"
+                            />
+                          </div>
+                        </div>
+                      </Link>
+                      <div className="px-8 pb-8 -mt-2">
+                        <a
+                          href={model.pdfHref}
+                          download={model.pdfDownloadName}
+                          className="inline-flex items-center gap-2 text-sm text-muted hover:text-foreground transition-colors duration-200"
+                        >
+                          <DownloadSimple size={16} weight="regular" />
+                          Download PDF
+                        </a>
                       </div>
-                      <ArrowUpRight
-                        size={18}
-                        weight="regular"
-                        className="flex-shrink-0 text-muted group-hover:text-accent transition-colors duration-300"
-                      />
-                    </Link>
-                  </motion.div>
-                ))}
-              </div>
+                    </motion.article>
+                  ))}
+                </div>
+              ) : (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-1">
+                  {group.items.map((item, i) => (
+                    <motion.div
+                      key={item.href}
+                      initial={reduce ? false : { opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true, amount: 0.15 }}
+                      transition={{
+                        duration: 0.5,
+                        delay: reduce ? 0 : i * 0.05 + gi * 0.02,
+                        ease: [0.16, 1, 0.3, 1],
+                      }}
+                    >
+                      <Link
+                        href={item.href}
+                        className="group flex items-start justify-between gap-4 border border-border p-8 h-full hover:bg-surface-elevated transition-colors duration-300"
+                      >
+                        <div className="min-w-0">
+                          <h3 className="text-lg font-medium tracking-tight mb-2 text-foreground">
+                            {item.title}
+                          </h3>
+                          <p className="text-sm text-muted leading-relaxed">
+                            {item.description}
+                          </p>
+                        </div>
+                        <ArrowUpRight
+                          size={18}
+                          weight="regular"
+                          className="flex-shrink-0 text-muted group-hover:text-accent transition-colors duration-300"
+                        />
+                      </Link>
+                    </motion.div>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
         </div>

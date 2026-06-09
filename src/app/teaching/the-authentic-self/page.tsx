@@ -1,4 +1,7 @@
 import InnerPageLayout from "@/components/InnerPageLayout";
+import { getTeachingModel } from "@/data/teachingModels";
+
+const authenticSelfModel = getTeachingModel("authentic-self")!;
 
 const sections = [
   {
@@ -55,6 +58,17 @@ export default function TheAuthenticSelfPage() {
       sections={sections}
       quotes={quotes}
       bookSource="Evolutionary Enlightenment (2011)"
+      heroImage={authenticSelfModel.image}
+      heroImageAlt={authenticSelfModel.imageAlt}
+      heroImageFit="contain"
+      heroImageCaption={`${authenticSelfModel.title} — ${authenticSelfModel.subtitle}. From ${authenticSelfModel.source}.`}
+      links={[
+        {
+          label: "Download PDF",
+          href: authenticSelfModel.pdfHref,
+          download: authenticSelfModel.pdfDownloadName,
+        },
+      ]}
     />
   );
 }
