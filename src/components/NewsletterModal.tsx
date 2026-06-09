@@ -156,7 +156,7 @@ export default function NewsletterModal({
         aria-modal="true"
         aria-labelledby={titleId}
         aria-describedby={descriptionId}
-        className="relative w-full max-w-md overflow-hidden rounded-lg border border-border bg-surface shadow-2xl"
+        className="relative z-10 w-full max-w-md overflow-hidden rounded-lg border border-border bg-surface shadow-2xl"
       >
         <div className="pointer-events-none absolute inset-0" aria-hidden="true">
           <Image
@@ -173,7 +173,7 @@ export default function NewsletterModal({
         <button
           type="button"
           onClick={handleDismiss}
-          className="absolute right-4 top-4 z-10 inline-flex h-9 w-9 items-center justify-center rounded-md text-foreground/80 transition-colors hover:bg-background/40 hover:text-foreground"
+          className="absolute right-4 top-4 z-20 inline-flex h-9 w-9 items-center justify-center rounded-md text-foreground/80 transition-colors hover:bg-background/40 hover:text-foreground"
           aria-label={NEWSLETTER_COPY.close}
         >
           <X size={18} weight="regular" />

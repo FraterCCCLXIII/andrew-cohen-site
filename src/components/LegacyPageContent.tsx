@@ -127,9 +127,10 @@ export default function LegacyPageContent() {
                   <h2 className="text-2xl md:text-3xl font-sans font-medium tracking-tight text-foreground mb-4">
                     {profile.names}
                   </h2>
-                  <p className="text-base text-muted leading-[1.8] max-w-3xl mb-8">
-                    {profile.bio}
-                  </p>
+                  <p
+                    className="text-base text-muted leading-[1.8] max-w-3xl mb-8 [&_em]:italic [&_em]:text-foreground/90"
+                    dangerouslySetInnerHTML={{ __html: profile.bio }}
+                  />
 
                   <div
                     className={`grid gap-5 ${

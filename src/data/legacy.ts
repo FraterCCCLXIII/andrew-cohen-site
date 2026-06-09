@@ -157,8 +157,8 @@ export const legacyProfiles: LegacyProfile[] = [
   },
   {
     id: "elizabeth-debold-tom-steininger",
-    names: "Elizabeth Debold & Tom Steininger",
-    bio: "Elizabeth Debold, a founding editor of EnlightenNext (What Is Enlightenment?), and Tom Steininger, co-founder of evolve, carry forward a dialogical approach to cultural transformation — making visible the movements of conscious change across philosophy, politics, art, and psychology.",
+    names: "Dr. Elizabeth Debold & Dr. Thomas Steininger",
+    bio: "Elizabeth Debold, a former senior editor of EnlightenNext (<em>née What Is Enlightenment?</em>) magazine, having long worked alongside her partner, the late Thomas Steininger, former editor-in-chief of Evolve magazine in Germany, continues to carry forward a dialogical approach to cultural transformation — making visible the movements of conscious change across philosophy, politics, art, and psychology.",
     projects: [
       {
         id: "evolve-magazin",
@@ -196,7 +196,7 @@ export const legacyProfiles: LegacyProfile[] = [
   {
     id: "tom-huston",
     names: "Tom Huston",
-    bio: "A professional writer and longtime practitioner of integral spirituality, Tom Huston served as an editor of Andrew Cohen's award-winning magazine What Is Enlightenment? and as a founding member of Ken Wilber's Integral Institute. Through Tantrika, he teaches courses in integral psychospiritual development for embodying the freedom of one's authentic self.",
+    bio: "A student of Andrew Cohen's teachings since 1998, Tom Huston served as an editor of Cohen's award-winning magazine EnlightenNext (<em>née What Is Enlightenment?</em>) and was a founding member of Ken Wilber's Integral Institute. Through Tantrika, he teaches courses in Evolutionary Nonduality for embodying the dynamic freedom of one's authentic self.",
     portrait: "/images/legacy/tom-huston.jpg",
     portraitAlt: "Tom Huston",
     projects: [
@@ -315,7 +315,7 @@ export const legacyProfiles: LegacyProfile[] = [
   {
     id: "carter-phipps",
     names: "Carter Phipps",
-    bio: "A visionary writer, business futurist, and longtime student of Andrew Cohen since 1991, Carter Phipps served as Executive Editor of What Is Enlightenment? and EnlightenNext magazine from 1999 to 2011. His award-winning journalism and books have helped articulate the emerging conversation at the intersection of evolution, consciousness, and culture.",
+    bio: "A visionary writer, thought-leader, and student of Andrew Cohen from 1991–2013, Carter Phipps served as a senior editor of EnlightenNext (<em>née What Is Enlightenment?</em>) magazine from 1999 to 2011. His award-winning journalism and books have helped articulate the emerging conversation at the intersection of evolution, consciousness, and culture.",
     projects: [
       {
         id: "carter-phipps",
@@ -364,7 +364,7 @@ export const legacyProfiles: LegacyProfile[] = [
   {
     id: "amy-edelstein",
     names: "Amy Edelstein",
-    bio: "A transformative educator, author, and longtime student of Andrew Cohen's Evolutionary Enlightenment since 1986, Amy Edelstein served as a senior editor of What Is Enlightenment? magazine and Communications Director for EnlightenNext. She now directs her work toward youth and education — founding Inner Strength Education and co-founding Emergence Education Press.",
+    bio: "A transformative educator, author, and close student of Andrew Cohen from 1986–2013, Amy Edelstein served as a senior editor of What Is Enlightenment? magazine and Communications Director for EnlightenNext. She now directs her work toward youth and education as the founder of Inner Strength Education and cofounder of Emergence Education Press.",
     projects: [
       {
         id: "amy-edelstein",
