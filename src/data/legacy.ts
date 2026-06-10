@@ -139,6 +139,63 @@ export const legacyProfiles: LegacyProfile[] = [
     ],
   },
   {
+    id: "tom-huston",
+    names: "Tom Huston",
+    bio: "Tom Huston began practicing Andrew Cohen's teachings in 1998. He served as an editor of Cohen's award-winning magazine EnlightenNext (<em>née What Is Enlightenment?</em>) and was a founding member of Ken Wilber's Integral Institute. Encouraged by Andrew to teach in 2023, Tom now works with students one-on-one and leads courses through Tantrika, a platform for actualizing the dynamic freedom of enlightened consciousness in every dimension of life.",
+    portrait: "/images/legacy/tom-huston.jpg",
+    portraitAlt: "Tom Huston",
+    projects: [
+      {
+        id: "tantrika",
+        title: "Tantrika",
+        description:
+          "Teaching programs in Integral Nonduality for those called to awaken, realize their soul's purpose, and express ever-greater goodness, truth, and beauty in the world.",
+        url: "https://tantrika.life/",
+        image: "/images/legacy/tantrika-logo.png",
+        imageAlt: "Tantrika logo",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
+    ],
+  },
+  {
+    id: "paul-bloch",
+    names: "Paul Bloch",
+    bio: "A student of Andrew Cohen's teaching and a builder of cultural infrastructure — creating platforms that connect evolutionary spirituality with community, media, and the sacred landscape of Tiruvannamalai.",
+    projects: [
+      {
+        id: "icon",
+        title: "ICON",
+        description:
+          "A global initiative at the intersection of consciousness, culture, and collective evolution — convening practitioners and visionaries around the work of awakening in the twenty-first century.",
+        url: "https://weareicon.org/",
+        image: "/images/legacy/icon-logo.png",
+        imageAlt: "ICON — Integral Conference of North America",
+        imageFit: "contain",
+      },
+      {
+        id: "tiru-fm",
+        title: "Tiru.fm",
+        description:
+          "A radio and media platform rooted in Tiruvannamalai — sharing sound, culture, and the living spirit of the sacred mountain.",
+        url: "https://tiru.fm",
+        image: "/images/legacy/tiru-fm-icon.svg",
+        imageAlt: "Tiru.fm",
+        imageFit: "contain",
+      },
+      {
+        id: "nondualize",
+        title: "Nondualize.com",
+        description:
+          "Meditation and spiritual teachings with Andrew Cohen — a platform for awakening, offering guided practice and dharma drawn from Evolutionary Enlightenment.",
+        url: "https://nondualize.com/",
+        image: "/images/legacy/nondualize-icon.png",
+        imageAlt: "Nondualize.com",
+        imageFit: "contain",
+      },
+    ],
+  },
+  {
     id: "steve-brett-mary-adams",
     names: "Steve Brett & Mary Adams",
     bio: "Longtime students of Andrew Cohen and contributors to EnlightenNext, Steve and Mary founded 3rd Space — a platform for new perspectives in critical times. Through articles, interviews, podcasts, and immersive journeys, they convene voices reshaping the future of consciousness and society.",
@@ -190,26 +247,6 @@ export const legacyProfiles: LegacyProfile[] = [
         image: "/images/legacy/interbeing-monastery.png",
         imageAlt: "Interbeing Monastery — a global online community of practice",
         imageFit: "cover",
-      },
-    ],
-  },
-  {
-    id: "tom-huston",
-    names: "Tom Huston",
-    bio: "A student of Andrew Cohen's teachings since 1998, Tom Huston served as an editor of Cohen's award-winning magazine EnlightenNext (<em>née What Is Enlightenment?</em>) and was a founding member of Ken Wilber's Integral Institute. Through Tantrika, he teaches courses in Evolutionary Nonduality for embodying the dynamic freedom of one's authentic self.",
-    portrait: "/images/legacy/tom-huston.jpg",
-    portraitAlt: "Tom Huston",
-    projects: [
-      {
-        id: "tantrika",
-        title: "Tantrika",
-        description:
-          "Programs in integral psychospiritual development — discovering the timeless, world-embracing way of nondual tantra through courses such as The Way of Advaya Tantra.",
-        url: "https://www.tantrika.life/",
-        image: "/images/legacy/tantrika-logo.png",
-        imageAlt: "Tantrika logo",
-        imageFit: "contain",
-        imageBackground: "white",
       },
     ],
   },
@@ -423,43 +460,6 @@ export const legacyProfiles: LegacyProfile[] = [
         image: "/images/legacy/gia-mantra-cover.png",
         imageAlt: "Gia Mantra Global Village",
         imageFit: "cover",
-      },
-    ],
-  },
-  {
-    id: "paul-bloch",
-    names: "Paul Bloch",
-    bio: "A student of Andrew Cohen's teaching and a builder of cultural infrastructure — creating platforms that connect evolutionary spirituality with community, media, and the sacred landscape of Tiruvannamalai.",
-    projects: [
-      {
-        id: "icon",
-        title: "ICON",
-        description:
-          "A global initiative at the intersection of consciousness, culture, and collective evolution — convening practitioners and visionaries around the work of awakening in the twenty-first century.",
-        url: "https://weareicon.org/",
-        image: "/images/legacy/icon-logo.png",
-        imageAlt: "ICON — Integral Conference of North America",
-        imageFit: "contain",
-      },
-      {
-        id: "tiru-fm",
-        title: "Tiru.fm",
-        description:
-          "A radio and media platform rooted in Tiruvannamalai — sharing sound, culture, and the living spirit of the sacred mountain.",
-        url: "https://tiru.fm",
-        image: "/images/legacy/tiru-fm-icon.svg",
-        imageAlt: "Tiru.fm",
-        imageFit: "contain",
-      },
-      {
-        id: "nondualize",
-        title: "Nondualize.com",
-        description:
-          "Meditation and spiritual teachings with Andrew Cohen — a platform for awakening, offering guided practice and dharma drawn from Evolutionary Enlightenment.",
-        url: "https://nondualize.com/",
-        image: "/images/legacy/nondualize-icon.png",
-        imageAlt: "Nondualize.com",
-        imageFit: "contain",
       },
     ],
   },
