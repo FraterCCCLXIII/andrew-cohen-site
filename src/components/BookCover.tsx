@@ -20,6 +20,7 @@ export default function BookCover({ book, className = "" }: BookCoverProps) {
           fill
           sizes="(max-width: 640px) 50vw, 220px"
           className="object-contain"
+          unoptimized
         />
       </div>
     );
