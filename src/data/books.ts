@@ -1,7 +1,8 @@
 export interface Book {
   slug: string;
   title: string;
-  year: string;
+  /** Publication year when known. */
+  year?: string;
   /** Short line shown in the carousel and on cards. */
   tagline: string;
   /** Longer description shown on the book detail page. */
@@ -77,7 +78,7 @@ export const books: Book[] = [
     year: "1997",
     tagline: "Liberation beyond the personal past.",
     description:
-      "A collection of teachings on the timeless nature of freedom — the recognition that genuine liberation is found beyond the weight and momentum of personal history.",
+      "A collection of teachings on the timeless nature of freedom — the recognition that genuine liberation is found beyond the weight and momentum of personal history. This Manifest Nirvana edition restores Cohen's 1997 Moksha Press classic.",
     cover: "/images/books/freedom-has-no-history.jpg",
   },
   {
@@ -162,6 +163,15 @@ export const books: Book[] = [
     description:
       "An unflinching exploration of the rise and fall of EnlightenNext, in which Cohen details his own responsibility for its failure and the lessons he learned — including the need to deal thoroughly with one's shadow for continued spiritual growth.",
     cover: "/images/books/when-shadow-meets-the-bodhisattva.png",
+  },
+  {
+    slug: "the-three-jewels-of-the-new-enlightenment",
+    title: "The Three Jewels of the New Enlightenment",
+    tagline: "Reimagining the Buddha, Dharma, and Sangha for the 21st century.",
+    description:
+      "Edited and compiled by Hans Plasqui, this book gathers Andrew Cohen's nondual teachings on reimagining the Buddha, Dharma, and Sangha — the Triple Gem — for evolutionary enlightenment, intersubjective nonduality, and the guru principle in the modern world.",
+    teachingHref: "/teaching/the-triple-gem",
+    cover: "/images/books/the-three-jewels-of-the-new-enlightenment.jpg",
   },
 ];
 

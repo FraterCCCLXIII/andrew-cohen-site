@@ -37,6 +37,26 @@ const downloads: Record<string, BookDownload> = {
     downloadName: "Evolutionary-Enlightenment.epub",
     format: "epub",
   },
+  "freedom-has-no-history": {
+    href: "/downloads/books/freedom-has-no-history.pdf",
+    downloadName: "Freedom-Has-No-History.pdf",
+    format: "pdf",
+  },
+  "living-enlightenment": {
+    href: "/downloads/books/living-enlightenment.pdf",
+    downloadName: "Living-Enlightenment.pdf",
+    format: "pdf",
+  },
+  "my-master-is-my-self": {
+    href: "/downloads/books/my-master-is-my-self.pdf",
+    downloadName: "My-Master-Is-My-Self.pdf",
+    format: "pdf",
+  },
+  "the-three-jewels-of-the-new-enlightenment": {
+    href: "/downloads/books/the-three-jewels-of-the-new-enlightenment.pdf",
+    downloadName: "The-Three-Jewels-of-the-New-Enlightenment.pdf",
+    format: "pdf",
+  },
 };
 
 export function getBookDownload(slug: string): BookDownload | undefined {

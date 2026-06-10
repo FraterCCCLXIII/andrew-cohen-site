@@ -53,9 +53,11 @@ export default function BooksIndexPage() {
                   className="transition-transform duration-300 group-hover:-translate-y-1"
                 />
                 <div className="mt-4">
-                  <p className="font-mono text-[11px] text-muted mb-1">
-                    {book.year}
-                  </p>
+                  {book.year && (
+                    <p className="font-mono text-[11px] text-muted mb-1">
+                      {book.year}
+                    </p>
+                  )}
                   <h2 className="text-sm font-medium tracking-tight text-foreground leading-snug">
                     {book.title}
                   </h2>

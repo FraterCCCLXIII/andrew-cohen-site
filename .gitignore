@@ -43,6 +43,9 @@ yarn-error.log*
 # staging area for incoming media — canonical copies live under public/archive/media/
 /archive/incoming/
 
+# YouTube mirror files exceed GitHub's 100MB limit — keep locally, not in git
+/public/archive/media/youtube/
+
 # vercel
 .vercel
 

@@ -1,7 +1,7 @@
 {
-  "scrapedAt": "2026-06-05T04:41:32Z",
+  "scrapedAt": "2026-06-10T20:23:20Z",
   "source": "https://andrewcohen.com/journal/",
-  "count": 55,
+  "count": 58,
   "articles": [
     {
       "slug": "obituary",
@@ -1057,6 +1057,69 @@
         "read"
       ],
       "thumbnail": "https://andrewcohen.com/wp-content/uploads/2017/04/Brazil-2015-05-12.jpg",
+      "hasContent": true
+    },
+    {
+      "slug": "the-ever-unreasonable-nature-of-spirit",
+      "title": "The Ever-Unreasonable Nature of Spirit",
+      "author": "Andrew Cohen",
+      "postedAt": "2010-05-31T12:00:00",
+      "date": "31/05/2010",
+      "sourceUrl": "/downloads/articles/the-ever-unreasonable-nature-of-spirit.pdf",
+      "excerpt": "Dear Integrales Forum,",
+      "categories": [
+        "read",
+        "archive"
+      ],
+      "tags": [
+        "article",
+        "journal",
+        "read",
+        "archive"
+      ],
+      "thumbnail": null,
+      "hasContent": true
+    },
+    {
+      "slug": "i-just-called-to-say-i-love-you",
+      "title": "I Just Called to Say I Love You",
+      "author": "Andrew Cohen",
+      "postedAt": "2010-01-01T12:00:00",
+      "date": "01/01/2010",
+      "sourceUrl": "/downloads/articles/i-just-called-to-say-i-love-you.pdf",
+      "excerpt": "Love is a very difficult thing to talk about. And that is because it’s a word that means many different things to many different people. In my work as a spiritual teacher, this subject arises constantly. And one thing is…",
+      "categories": [
+        "read",
+        "archive"
+      ],
+      "tags": [
+        "article",
+        "journal",
+        "read",
+        "archive"
+      ],
+      "thumbnail": null,
+      "hasContent": true
+    },
+    {
+      "slug": "declaration-of-integrity",
+      "title": "A Declaration of Integrity",
+      "author": "Andrew Cohen",
+      "postedAt": "2006-10-18T12:00:00",
+      "date": "18/10/2006",
+      "sourceUrl": "/downloads/articles/declaration-of-integrity.pdf",
+      "excerpt": "About seven years ago, I was giving a talk at a bookstore in Seattle. Afterwards, while signing books, I was taken aback when an unassuming young man came up to me, shook my hand, and said, quite unselfconsciously, with…",
+      "categories": [
+        "read",
+        "archive"
+      ],
+      "tags": [
+        "article",
+        "journal",
+        "read",
+        "archive"
+      ],
+      "thumbnail": null,
       "hasContent": true
     }
   ]

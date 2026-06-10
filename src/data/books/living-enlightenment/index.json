@@ -1,0 +1,150 @@
+{
+  "slug": "living-enlightenment",
+  "title": "Living Enlightenment",
+  "subtitle": "A Call for Evolution Beyond Ego",
+  "credits": "Copyright © 2002 by Moksha Press · ISBN 0-9653601-8-2",
+  "parts": [
+    {
+      "id": "front-matter",
+      "label": "Front Matter"
+    },
+    {
+      "id": "dialogues",
+      "label": "Dialogues"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "foreword",
+      "title": "Foreword by Ken Wilber",
+      "partId": "front-matter",
+      "contentFile": "chapters/foreword.json"
+    },
+    {
+      "id": "preface",
+      "title": "Preface",
+      "partId": "front-matter",
+      "contentFile": "chapters/preface.json"
+    },
+    {
+      "id": "chapter-1",
+      "title": "What Is Enlightenment?",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-1.json"
+    },
+    {
+      "id": "chapter-2",
+      "title": "That Which Was Never Born",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-2.json"
+    },
+    {
+      "id": "chapter-3",
+      "title": "The Perfect Response",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-3.json"
+    },
+    {
+      "id": "chapter-4",
+      "title": "One Without a Second",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-4.json"
+    },
+    {
+      "id": "chapter-5",
+      "title": "The Status Quo Cannot Contain It",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-5.json"
+    },
+    {
+      "id": "chapter-6",
+      "title": "Revelation and Awakening",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-6.json"
+    },
+    {
+      "id": "chapter-7",
+      "title": "To Cast No Shadow",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-7.json"
+    },
+    {
+      "id": "chapter-8",
+      "title": "The Ultimate Challenge",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-8.json"
+    },
+    {
+      "id": "chapter-9",
+      "title": "A Straight Line to the Absolute",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-9.json"
+    },
+    {
+      "id": "chapter-10",
+      "title": "Grace Is Not Enough",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-10.json"
+    },
+    {
+      "id": "chapter-11",
+      "title": "Mere Mortals",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-11.json"
+    },
+    {
+      "id": "chapter-12",
+      "title": "The End of Karma",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-12.json"
+    },
+    {
+      "id": "chapter-13",
+      "title": "True Conscience",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-13.json"
+    },
+    {
+      "id": "chapter-14",
+      "title": "The Only Obstacle",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-14.json"
+    },
+    {
+      "id": "chapter-15",
+      "title": "Liberation Beyond Gender",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-15.json"
+    },
+    {
+      "id": "chapter-16",
+      "title": "The Promise of Perfection",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-16.json"
+    },
+    {
+      "id": "chapter-17",
+      "title": "An Unbroken Universal Unfolding",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-17.json"
+    },
+    {
+      "id": "chapter-18",
+      "title": "Impersonal Enlightenment",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-18.json"
+    },
+    {
+      "id": "chapter-19",
+      "title": "The Complete Picture",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-19.json"
+    },
+    {
+      "id": "chapter-20",
+      "title": "The Imperative to Evolve",
+      "partId": "dialogues",
+      "contentFile": "chapters/chapter-20.json"
+    }
+  ]
+}

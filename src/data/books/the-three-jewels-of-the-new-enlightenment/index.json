@@ -1,0 +1,138 @@
+{
+  "slug": "the-three-jewels-of-the-new-enlightenment",
+  "title": "The Three Jewels of the New Enlightenment",
+  "subtitle": "Reimagining the Buddha, Dharma, and Sangha for the 21st Century",
+  "credits": "By Andrew Cohen and Hans Plasqui · Edited and compiled by Hans Plasqui",
+  "parts": [
+    {
+      "id": "triple-gem",
+      "label": "The Power of the Triple Gem"
+    },
+    {
+      "id": "dharma",
+      "label": "The Dharma — Evolutionary Enlightenment"
+    },
+    {
+      "id": "sangha",
+      "label": "The Sangha — Intersubjective Nonduality"
+    },
+    {
+      "id": "buddha",
+      "label": "The Buddha — Portal to Your Own True Self"
+    },
+    {
+      "id": "manifest-nirvana",
+      "label": "Co-creating Manifest Nirvana"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "seductive-allure",
+      "title": "The Seductive Allure of Spiritual Awakening",
+      "partId": "triple-gem",
+      "contentFile": "chapters/seductive-allure.json"
+    },
+    {
+      "id": "sacred-synergy",
+      "title": "The Sacred Synergy",
+      "partId": "triple-gem",
+      "contentFile": "chapters/sacred-synergy.json"
+    },
+    {
+      "id": "brahman-is-the-world",
+      "title": "Brahman is the World",
+      "partId": "dharma",
+      "contentFile": "chapters/brahman-is-the-world.json"
+    },
+    {
+      "id": "evolutionary-enlightenment-is-the-new-enlightenment",
+      "title": "Evolutionary Enlightenment is the New Enlightenment",
+      "partId": "dharma",
+      "contentFile": "chapters/evolutionary-enlightenment-is-the-new-enlightenment.json"
+    },
+    {
+      "id": "god-evolves-through-us",
+      "title": "God Evolves Through Us",
+      "partId": "dharma",
+      "contentFile": "chapters/god-evolves-through-us.json"
+    },
+    {
+      "id": "how-shall-i-live",
+      "title": "How Shall I Live? — Awakening Your Authentic Self",
+      "partId": "dharma",
+      "contentFile": "chapters/how-shall-i-live.json"
+    },
+    {
+      "id": "being-evolutionarily-enlightened",
+      "title": "Being Evolutionarily Enlightened: What Does it Really Mean?",
+      "partId": "dharma",
+      "contentFile": "chapters/being-evolutionarily-enlightened.json"
+    },
+    {
+      "id": "whole-of-the-holy-life",
+      "title": "The Whole of the Holy Life",
+      "partId": "sangha",
+      "contentFile": "chapters/whole-of-the-holy-life.json"
+    },
+    {
+      "id": "living-awakening-relationally",
+      "title": "Living Awakening Relationally",
+      "partId": "sangha",
+      "contentFile": "chapters/living-awakening-relationally.json"
+    },
+    {
+      "id": "delight-intersubjective-dialogue",
+      "title": "The Delight of Intersubjective Dialogue",
+      "partId": "sangha",
+      "contentFile": "chapters/delight-intersubjective-dialogue.json"
+    },
+    {
+      "id": "power-enlightened-communication",
+      "title": "The Power of Enlightened Communication in our World in Crisis",
+      "partId": "sangha",
+      "contentFile": "chapters/power-enlightened-communication.json"
+    },
+    {
+      "id": "unique-role-of-the-guru",
+      "title": "The Unique Role of the Guru",
+      "partId": "buddha",
+      "contentFile": "chapters/unique-role-of-the-guru.json"
+    },
+    {
+      "id": "being-the-face-of-your-true-self",
+      "title": "Being the Face of your own True Self",
+      "partId": "buddha",
+      "contentFile": "chapters/being-the-face-of-your-true-self.json"
+    },
+    {
+      "id": "being-a-clear-mirror",
+      "title": "Being a clear mirror, reflecting all of who you are",
+      "partId": "buddha",
+      "contentFile": "chapters/being-a-clear-mirror.json"
+    },
+    {
+      "id": "shining-a-light",
+      "title": "Shining a light on where we least want to look…",
+      "partId": "buddha",
+      "contentFile": "chapters/shining-a-light.json"
+    },
+    {
+      "id": "transmitting-enlightened-awareness",
+      "title": "Transmitting enlightened awareness directly to you",
+      "partId": "buddha",
+      "contentFile": "chapters/transmitting-enlightened-awareness.json"
+    },
+    {
+      "id": "the-man-and-the-master",
+      "title": "The Man and the Master",
+      "partId": "buddha",
+      "contentFile": "chapters/the-man-and-the-master.json"
+    },
+    {
+      "id": "co-creating-manifest-nirvana",
+      "title": "Co-creating Manifest Nirvana",
+      "partId": "manifest-nirvana",
+      "contentFile": "chapters/co-creating-manifest-nirvana.json"
+    }
+  ]
+}

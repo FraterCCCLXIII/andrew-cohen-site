@@ -118,10 +118,27 @@ const beingAndBecoming: BookExtendedContent = {
   quotes: [],
 };
 
+const theThreeJewelsOfTheNewEnlightenment: BookExtendedContent = {
+  slug: "the-three-jewels-of-the-new-enlightenment",
+  subtitle:
+    "The Nondual Teachings of Reimagining the Buddha, Dharma, and Sangha for the 21st Century",
+  credits: "By Andrew Cohen and Hans Plasqui · Edited and compiled by Hans Plasqui",
+  sections: [
+    {
+      title: "About the Book",
+      body: `The Three Jewels of the New Enlightenment gathers Andrew Cohen's teachings on the Buddha, Dharma, and Sangha — the Triple Gem — reimagined for the twenty-first century.
+
+The book moves from the seductive allure of spiritual awakening through the Dharma of Evolutionary Enlightenment, the Sangha of intersubjective nonduality, and the Buddha as portal to one's own True Self, culminating in a vision of co-creating Manifest Nirvana.`,
+    },
+  ],
+  quotes: [],
+};
+
 const bookContentBySlug: Record<string, BookExtendedContent> = {
   [beingAndBecoming.slug]: beingAndBecoming,
   [lettersOfLove.slug]: lettersOfLove,
   [whenShadowMeetsTheBodhisattva.slug]: whenShadowMeetsTheBodhisattva,
+  [theThreeJewelsOfTheNewEnlightenment.slug]: theThreeJewelsOfTheNewEnlightenment,
 };
 
 export function getBookContent(slug: string): BookExtendedContent | undefined {

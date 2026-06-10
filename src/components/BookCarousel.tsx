@@ -85,7 +85,9 @@ export default function BookCarousel() {
                 <h3 className="text-sm font-medium tracking-tight text-foreground group-hover:text-accent transition-colors duration-200">
                   {book.title}
                 </h3>
-                <p className="mt-1 font-mono text-xs text-muted">{book.year}</p>
+                {book.year && (
+                  <p className="mt-1 font-mono text-xs text-muted">{book.year}</p>
+                )}
                 <p className="mt-2 text-sm leading-relaxed text-muted">
                   {book.tagline}
                 </p>

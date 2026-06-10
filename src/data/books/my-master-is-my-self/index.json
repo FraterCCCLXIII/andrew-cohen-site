@@ -1,0 +1,60 @@
+{
+  "slug": "my-master-is-my-self",
+  "title": "My Master Is My Self",
+  "subtitle": "The Birth of a Spiritual Teacher",
+  "credits": "Copyright © 1989, 1995 by Moksha Foundation, Inc. · ISBN 1-883929-07-5",
+  "parts": [
+    {
+      "id": "front-matter",
+      "label": "Front Matter"
+    },
+    {
+      "id": "part-one",
+      "label": "Part One"
+    },
+    {
+      "id": "part-two",
+      "label": "Part Two"
+    },
+    {
+      "id": "part-three",
+      "label": "Part Three"
+    },
+    {
+      "id": "part-four",
+      "label": "Part Four"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "editors-foreword-and-introduction",
+      "title": "Editor's Foreword and Introduction",
+      "partId": "front-matter",
+      "contentFile": "chapters/editors-foreword-and-introduction.json"
+    },
+    {
+      "id": "part-one",
+      "title": "Part One · Diary March 25 – April 14, 1986",
+      "partId": "part-one",
+      "contentFile": "chapters/part-one.json"
+    },
+    {
+      "id": "part-two",
+      "title": "Part Two · Diary and Letters April – May 1986",
+      "partId": "part-two",
+      "contentFile": "chapters/part-two.json"
+    },
+    {
+      "id": "part-three",
+      "title": "Part Three · Letters May – July 1986",
+      "partId": "part-three",
+      "contentFile": "chapters/part-three.json"
+    },
+    {
+      "id": "part-four",
+      "title": "Part Four · Letters between Andrew and H.W.L. Poonja",
+      "partId": "part-four",
+      "contentFile": "chapters/part-four.json"
+    }
+  ]
+}

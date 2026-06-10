@@ -16,7 +16,7 @@ export default function BookCover({ book, className = "" }: BookCoverProps) {
       >
         <Image
           src={book.cover}
-          alt={`Cover of ${book.title} (${book.year}) by Andrew Cohen`}
+          alt={`Cover of ${book.title}${book.year ? ` (${book.year})` : ""} by Andrew Cohen`}
           fill
           sizes="(max-width: 640px) 50vw, 220px"
           className="object-contain"
@@ -29,7 +29,7 @@ export default function BookCover({ book, className = "" }: BookCoverProps) {
     <div
       className={`relative aspect-[2/3] w-full overflow-hidden rounded-md border border-border bg-surface-elevated ${className}`}
       role="img"
-      aria-label={`Placeholder cover for ${book.title} (${book.year})`}
+      aria-label={`Placeholder cover for ${book.title}${book.year ? ` (${book.year})` : ""}`}
     >
       {/* Spine accent */}
       <div className="absolute inset-y-0 left-0 w-[6px] bg-accent/70" />
@@ -52,7 +52,9 @@ export default function BookCover({ book, className = "" }: BookCoverProps) {
           {book.title}
         </p>
 
-        <p className="font-mono text-[11px] text-muted">{book.year}</p>
+        {book.year && (
+          <p className="font-mono text-[11px] text-muted">{book.year}</p>
+        )}
       </div>
     </div>
   );

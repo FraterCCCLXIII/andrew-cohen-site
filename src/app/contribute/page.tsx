@@ -1,6 +1,10 @@
 import InnerPageLayout from "@/components/InnerPageLayout";
 
 const archiveEmail = "andrewcohenarchive@gmail.com";
+const githubIssuesUrl =
+  "https://github.com/FraterCCCLXIII/andrew-cohen-site/issues";
+const githubNewIssueUrl =
+  "https://github.com/FraterCCCLXIII/andrew-cohen-site/issues/new";
 
 const sections = [
   {
@@ -114,6 +118,31 @@ If you have skills in any of these areas — or simply a meticulous love for the
     ],
   },
   {
+    id: "site-feedback",
+    title: "Report Bugs & Suggest Improvements",
+    body: `This site is open source and actively maintained. If something is broken, hard to find, or missing — or if you have an idea for how the archive could work better — you can open an issue on GitHub.
+
+Use GitHub issues for site bugs (broken links, display problems, search not working), usability feedback, and ideas for new features or content organization. For archive materials, personal stories, or volunteer time, email us instead — issues are best suited to technical and design improvements to the site itself.
+
+You do not need to be a developer to file an issue. A clear description of what you expected, what happened instead, and which page you were on is enough.`,
+    links: [
+      {
+        label: "Open an issue",
+        href: githubNewIssueUrl,
+        external: true,
+      },
+      {
+        label: "View existing issues",
+        href: githubIssuesUrl,
+        external: true,
+      },
+      {
+        label: "Site roadmap",
+        href: "/roadmap",
+      },
+    ],
+  },
+  {
     id: "donate",
     title: "Support the Archive",
     body: `This archive is maintained as a public resource — free to explore, without paywalls or subscriptions. That openness depends on ongoing support for hosting, storage, bandwidth, and the human time required to ingest, verify, and publish new material.
@@ -160,6 +189,11 @@ export default function ContributePage() {
         {
           label: "Volunteer",
           href: "#volunteer",
+        },
+        {
+          label: "Report a bug",
+          href: githubNewIssueUrl,
+          external: true,
         },
         {
           label: "Donate",

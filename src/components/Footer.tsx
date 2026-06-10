@@ -49,6 +49,7 @@ export default function Footer() {
             { label: "Archive", href: "/archive" },
             { label: "Ashram", href: "/ashram" },
             { label: "Quotes", href: "/quotes" },
+            { label: "Roadmap", href: "/roadmap" },
           ].map(({ label, href }) => (
             <a
               key={label}

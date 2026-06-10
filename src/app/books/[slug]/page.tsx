@@ -67,7 +67,7 @@ export default async function BookDetailPage({
 
           <div>
             <p className="text-sm uppercase tracking-[0.18em] text-muted font-mono mb-4">
-              Book · {book.year}
+              Book{book.year ? ` · ${book.year}` : ""}
             </p>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif tracking-tight leading-[1.1] text-foreground mb-4">
               {book.title}

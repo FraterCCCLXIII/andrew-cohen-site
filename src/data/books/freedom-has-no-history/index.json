@@ -1,0 +1,186 @@
+{
+  "slug": "freedom-has-no-history",
+  "title": "Freedom Has No History",
+  "subtitle": "A Call to Awaken",
+  "credits": "Copyright © 2024 by Andrew Cohen · First Edition 1997 · ISBN 1-883929-17-2 · Published by Manifest Nirvana",
+  "parts": [
+    {
+      "id": "front-matter",
+      "label": "Front Matter"
+    },
+    {
+      "id": "teachings",
+      "label": "Teachings"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "foreword",
+      "title": "Foreword",
+      "partId": "front-matter",
+      "contentFile": "chapters/foreword.json"
+    },
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "partId": "front-matter",
+      "contentFile": "chapters/introduction.json"
+    },
+    {
+      "id": "preface",
+      "title": "Preface",
+      "partId": "front-matter",
+      "contentFile": "chapters/preface.json"
+    },
+    {
+      "id": "chapter-1",
+      "title": "An Overwhelming Passion",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-1.json"
+    },
+    {
+      "id": "chapter-2",
+      "title": "One without a Second",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-2.json"
+    },
+    {
+      "id": "chapter-3",
+      "title": "A Stand That Is Immovable",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-3.json"
+    },
+    {
+      "id": "chapter-4",
+      "title": "Abandon the Future",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-4.json"
+    },
+    {
+      "id": "chapter-5",
+      "title": "Cynicism",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-5.json"
+    },
+    {
+      "id": "chapter-6",
+      "title": "What Am I Doing?",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-6.json"
+    },
+    {
+      "id": "chapter-7",
+      "title": "An Absolute Choice",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-7.json"
+    },
+    {
+      "id": "chapter-8",
+      "title": "A Perfect Relationship with Thought",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-8.json"
+    },
+    {
+      "id": "chapter-9",
+      "title": "Stop Struggling",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-9.json"
+    },
+    {
+      "id": "chapter-10",
+      "title": "Hold onto Nothing",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-10.json"
+    },
+    {
+      "id": "chapter-11",
+      "title": "The Impersonal View",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-11.json"
+    },
+    {
+      "id": "chapter-12",
+      "title": "True Finders Are Few",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-12.json"
+    },
+    {
+      "id": "chapter-13",
+      "title": "The Edge",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-13.json"
+    },
+    {
+      "id": "chapter-14",
+      "title": "Like a Twig in a Hurricane",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-14.json"
+    },
+    {
+      "id": "chapter-15",
+      "title": "Perfect Aloneness",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-15.json"
+    },
+    {
+      "id": "chapter-16",
+      "title": "A Trust That Is Absolute",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-16.json"
+    },
+    {
+      "id": "chapter-17",
+      "title": "Integrity Is Multidimensional",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-17.json"
+    },
+    {
+      "id": "chapter-18",
+      "title": "Spiritual Conscience",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-18.json"
+    },
+    {
+      "id": "chapter-19",
+      "title": "This Mysterious Secret",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-19.json"
+    },
+    {
+      "id": "chapter-20",
+      "title": "The Personalization of Feeling",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-20.json"
+    },
+    {
+      "id": "chapter-21",
+      "title": "A Love So Great",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-21.json"
+    },
+    {
+      "id": "chapter-22",
+      "title": "Ecstatic Intimacy",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-22.json"
+    },
+    {
+      "id": "chapter-23",
+      "title": "An Immaculate Condition",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-23.json"
+    },
+    {
+      "id": "chapter-24",
+      "title": "Final Purity",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-24.json"
+    },
+    {
+      "id": "chapter-25",
+      "title": "What Would You Do?",
+      "partId": "teachings",
+      "contentFile": "chapters/chapter-25.json"
+    }
+  ]
+}
