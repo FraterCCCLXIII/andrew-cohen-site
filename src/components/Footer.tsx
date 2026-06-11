@@ -49,7 +49,6 @@ export default function Footer() {
             { label: "Archive", href: "/archive" },
             { label: "Ashram", href: "/ashram" },
             { label: "Quotes", href: "/quotes" },
-            { label: "Responding to Critics", href: "/responding-to-critics" },
             { label: "Roadmap", href: "/roadmap" },
           ].map(({ label, href }) => (
             <a
