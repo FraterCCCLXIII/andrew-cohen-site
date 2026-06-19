@@ -4,11 +4,14 @@
 This directory contains force-aligned caption files for each audio track. The captions are synchronized with the audio playback and provide a burn-in effect for accessibility.
 
 ## File Structure
-- `track-1-captions.json` - Captions for "What is Ego Death?"
-- `track-2-captions.json` - Captions for "What is Non-Duality?"
-- `track-3-captions.json` - Captions for "The Four Selves with Andrew Cohen"
-- `track-7-captions.srt` - Captions for "Realigning the Soul" (SRT format)
-- etc.
+- `Transcript-What-is-Nonduality-mp3.srt` - Track 0: "What is Non-Duality?"
+- `Transcript-What-is-Ego-Death-mp3.srt` - Track 1: "What is Ego Death?"
+- `Transcript-The-Four-Selves-mp3.srt` - Track 2: "The Four Selves"
+- `Transcript-Rational-Idealism-mp3.srt` - Track 3: "Rational Idealism"
+- `Transcript-Realization-and-Transformation-mp3.srt` - Track 4: "Realisation and Transformation"
+- `Transcript-Realigning-the-Soul-mp3.srt` - Track 5: "Realigning the Soul"
+- `Transcript-The-Evolution-of-Nonduality-mp3.srt` - Track 6: "The Evolution of Nonduality"
+- `Transcript-The-Edge-of-Evolution-mp3.srt` - Track 7: "The Edge of Evolution"
 
 ## Caption File Format
 Each caption file should be a JSON array with the following structure:
