@@ -31,7 +31,7 @@ export const magazineIssues: MagazineIssue[] = [
     date: "July 2011",
     tagline:
       "It's a New Era at EnlightenNext — A Message from Founder Andrew Cohen; Genius Is Collaborative; Evolutionary Enlightenment: The Book.",
-    pdf: "/downloads/magazine/issue-47-magalog.pdf",
+    pdf: "https://s3.eu-central-1.amazonaws.com/wieoldissues/wie_en_weboptimized/EN_issue_47.pdf",
     cover: "/images/magazine/issue-47-cover-832x1024.png",
   },
   {
