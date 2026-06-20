@@ -70,7 +70,7 @@ This does not excuse every action or every moment of excess. It does mean that m
     title: "The Wikipedia Problem",
     body: `Andrew Cohen's Wikipedia entry has become a focal point for the critical narrative. It draws heavily on secondary sources — books by disaffected former students, media coverage from periods of organizational crisis, and forum discussions — while giving comparatively little weight to Cohen's own writings, the testimony of long-term practitioners, or the arc of his teaching after 2016.
 
-Wikipedia's editorial standards favor verifiable published criticism over the lived complexity of a four-decade teaching career. The result is an article that reads as comprehensive while omitting much of what would be required for a fair portrait: the breakthroughs students reported, the philosophical depth of Evolutionary Enlightenment, Cohen's own reckoning with failure, and the community that continues his work today at Manifest Nirvana.
+Wikipedia's editorial standards favor verifiable published criticism over the lived complexity of a four-decade teaching career. The result is an article that reads as comprehensive while omitting much of what would be required for a fair portrait: the genuine breakthroughs students reported, the philosophical depth of Evolutionary Enlightenment, the cultural impact and prestige of EnlightenNext's award-winning magazine, Cohen's own transparent reckoning with failure, and the students who continue his legacy today through Manifest Nirvana and other initiatives around the globe.
 
 We do not ask anyone to accept Andrew Cohen uncritically. We do ask readers to treat a Wikipedia summary as a starting point rather than a verdict — and to weigh it against primary sources.`,
     links: [
@@ -267,7 +267,7 @@ That does not mean every intervention was wise, proportionate, or free of shadow
 
 "Cult" in popular usage has become a label applied to virtually any spiritual community with a charismatic teacher, hierarchical structure, and demanding practice — criteria that would encompass Tibetan Buddhism, Catholic monasticism, and most ashrams in India. It tells us more about postmodern suspicion of authority than about what actually occurred in Lenox or at retreats worldwide.
 
-EnlightenNext was a registered non-profit. Its finances, publications, and public teachings were visible. Students came and went freely — including many who left without grievance and some who left with bitter ones. Andrew took a public sabbatical in 2013 when his closest students confronted him, published a candid Statement about his failures, and spent years in therapy and introspection before returning. That is not the typical behavior of a cult leader insulated from accountability.
+EnlightenNext was a registered non-profit. Its finances, publications, and public teachings were visible. Students came and went freely — including many who left without grievance and some who left with bitter ones. In 2013, when his closest students confronted him, Andrew took a public sabbatical. He published a candid Statement about his failures and spent years in therapy and introspection before returning. That is not the typical behavior of a cult leader insulated from accountability.
 
 Reasonable people can disagree about whether the guru-disciple model itself is suited to the twenty-first century. Conflating that structural debate with criminal "cult" accusations obscures more than it clarifies.`,
     links: [

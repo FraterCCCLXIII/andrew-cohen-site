@@ -618,4 +618,122 @@ export const legacyProfiles: LegacyProfile[] = [
       },
     ],
   },
+  {
+    id: "peter-mitchell",
+    names: "Peter Mitchell",
+    bio: "Peter Mitchell is a writer and teacher inviting inquiry into presence, nonduality, and awakening in relationship. Through <em>Facets of the Diamond</em> — essays, poems, and audio — he explores what it means to wake up, stay awake, and be available. He co-founded the Between-Us initiative with Anne Sweet, including the book <em>The Space Between Us</em> and small facilitated groups where shared presence becomes ground for transformation.",
+    projects: [
+      {
+        id: "facets-of-the-diamond",
+        title: "Facets of the Diamond",
+        description:
+          "Writings revealed in the silence of presence — essays in The Heart of the Diamond, the poem series Refractions, the book The Space Between Us, and Between-Us Groups for shared inquiry and transformation.",
+        url: "https://www.petermitchell.life/",
+        image: "/images/legacy/peter-mitchell-diamond.png",
+        imageAlt: "Facets of the Diamond",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
+    ],
+  },
+  {
+    id: "anne-sweet",
+    names: "Anne Sweet",
+    bio: "Anne Sweet is an artist, writer, speaker, and spiritual innovator whose work bridges insight and real-world transformation. After twenty-five years of spiritual study — including seven years in a community devoted to collective and interpersonal awakening — she created <em>The End of Seeking</em>, a free self-study library for clarity and autonomy on the path; <em>Everyday Enlightened Living</em>, mentoring for integrated, fulfilling life now; and Between-Us Groups™, co-facilitated with Peter Mitchell, exploring awakening in the shared field of relationship.",
+    portrait: "/images/legacy/anne-sweet.jpg",
+    portraitAlt: "Anne Sweet",
+    projects: [
+      {
+        id: "anne-sweet",
+        title: "Anne Sweet",
+        description:
+          "Three pathways — personal, relational, and cultural transformation — through free resources, mentoring, and collective practice grounded in lived insight rather than ideology.",
+        url: "https://www.anne-sweet.com/",
+        image: "/images/legacy/anne-sweet-logo.png",
+        imageAlt: "Anne Sweet",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
+      {
+        id: "the-end-of-seeking",
+        title: "The End of Seeking",
+        description:
+          "A free, self-study library hub — a practical, dogma-free guide to self-knowledge that promotes autonomy and self-trust on the spiritual path.",
+        url: "https://www.anne-sweet.com/the-end-of-seeking",
+        image: "/images/legacy/the-end-of-seeking-cover.jpg",
+        imageAlt: "The End of Seeking",
+        imageFit: "cover",
+      },
+      {
+        id: "between-us-groups-anne",
+        title: "Between-Us Groups",
+        description:
+          "Small facilitated groups exploring the shared field of consciousness — where insight, intimacy, and transformation extend beyond the individual into collective awakening.",
+        url: "https://www.anne-sweet.com/",
+        image: "/images/legacy/anne-sweet.jpg",
+        imageAlt: "Between-Us Groups",
+        imageFit: "cover",
+      },
+    ],
+  },
+  {
+    id: "charlotte-jigen-juul",
+    names: "Charlotte Jigen Juul",
+    bio: "Charlotte Jigen Juul (Jigen Sensei) is a Zen teacher and somatic practitioner integrating direct awakening, psychological depth, and relational practice. She trained full-time within EnlightenNext under Andrew Cohen from 2000 to 2008, focusing on collective awakening, before encountering Zen through Genpo Roshi — receiving Dharma transmission in 2024. A certified Somatic Experiencing practitioner and Big Mind facilitator, she teaches with Kanzeon Big Mind and founded CoreWork, exploring how sangha and culture awaken beyond individual insight.",
+    portrait: "/images/legacy/charlotte-jigen-juul.png",
+    portraitAlt: "Charlotte Jigen Juul",
+    projects: [
+      {
+        id: "kanzeon-big-mind-jigen",
+        title: "Kanzeon Big Mind",
+        description:
+          "Teaching schedule and profile for Jigen Sensei — Zen practice, Big Mind facilitation, and inquiry into sangha awakening within the Kanzeon Big Mind community.",
+        url: "https://bigmind.org/Jigen-Sensei-Schedule",
+        image: "/images/legacy/kanzeon-big-mind-logo.png",
+        imageAlt: "Kanzeon Big Mind logo",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
+      {
+        id: "corework",
+        title: "CoreWork",
+        description:
+          "Integrative spiritual and psychological work — one-to-one Zen-CoreWork sessions, meditation instruction, and small retreats on the Oregon Coast.",
+        url: "https://corework.us/",
+        image: "/images/legacy/charlotte-jigen-juul.png",
+        imageAlt: "Charlotte Jigen Juul",
+        imageFit: "cover",
+      },
+    ],
+  },
+  {
+    id: "vidya-jacqueline-heisel",
+    names: "Vidya Jacqueline Heisel",
+    bio: "Vidya Jacqueline Heisel is a senior yoga teacher who studied with Andrew Cohen from 1993 to 2005 — thirteen years in his spiritual community in Lenox, Massachusetts, including years as one of the ashram cooks. Since leaving, she founded Frog Lotus Yoga (2002) and its international teacher-training programs, and created Suryalila — an award-winning retreat centre in Andalusia, Spain — where she directs retreats, trainings, and the Danyadara organic farm. Named OM Yoga's Favourite Yoga Teacher Trainer (2024), she has certified over 3,500 instructors worldwide.",
+    portrait: "/images/legacy/vidya-heisel.jpg",
+    portraitAlt: "Vidya Jacqueline Heisel",
+    projects: [
+      {
+        id: "suryalila",
+        title: "Suryalila",
+        description:
+          "An award-winning yoga retreat centre in the Andalusian hills — world-class yoga, organic vegetarian cuisine, holistic wellness, teacher trainings, and the Danyadara permaculture farm.",
+        url: "https://www.suryalila.com/",
+        image: "/images/legacy/suryalila-logo.png",
+        imageAlt: "Suryalila Yoga Retreat Centre",
+        imageFit: "contain",
+        imageBackground: "white",
+      },
+      {
+        id: "frog-lotus-yoga",
+        title: "Frog Lotus Yoga",
+        description:
+          "International yoga teacher training founded by Master Trainer Vidya Heisel — 200-hour and continuing-education programs that have certified over 3,500 instructors worldwide.",
+        url: "https://froglotusyogainternational.com/",
+        image: "/images/legacy/suryalila-retreat.jpg",
+        imageAlt: "Suryalila retreat centre",
+        imageFit: "cover",
+      },
+    ],
+  },
 ];
