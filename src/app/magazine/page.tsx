@@ -37,7 +37,7 @@ export default function MagazinePage() {
               two decades of dialogue and enquiry with some of the
               world&apos;s greatest thought leaders, it redefined spirituality
               for a whole generation of seekers. The complete back catalogue —
-              all 47 issues — is available to read free of charge.
+              all 48 issues — is available to read free of charge.
             </p>
           </motion.div>
         </div>
