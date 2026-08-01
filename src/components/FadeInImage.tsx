@@ -7,6 +7,7 @@ import { useCallback, useState } from "react";
 export default function FadeInImage({
   className,
   onLoad,
+  onError,
   style,
   ...props
 }: ImageProps) {
@@ -23,6 +24,15 @@ export default function FadeInImage({
       onLoad?.(event);
     },
     [markLoaded, onLoad]
+  );
+
+  const handleError = useCallback(
+    (event: React.SyntheticEvent<HTMLImageElement, Event>) => {
+      // Don't leave failed images permanently invisible.
+      markLoaded();
+      onError?.(event);
+    },
+    [markLoaded, onError]
   );
 
   const handleRef = useCallback(
@@ -46,6 +56,7 @@ export default function FadeInImage({
       className={[transitionClass, fadeClass, className].filter(Boolean).join(" ")}
       style={style}
       onLoad={handleLoad}
+      onError={handleError}
     />
   );
 }

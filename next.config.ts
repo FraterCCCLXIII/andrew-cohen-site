@@ -9,6 +9,10 @@ const nextConfig: NextConfig = {
     },
   },
   images: {
+    // Vercel Image Optimization is returning 402
+    // OPTIMIZED_IMAGE_REQUEST_PAYMENT_REQUIRED on this project.
+    // Serve originals directly until optimization is re-enabled.
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
